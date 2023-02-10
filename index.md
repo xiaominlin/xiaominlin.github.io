@@ -82,7 +82,11 @@ pubs:
 
 {% include image.html url="images/photo.png" caption="" max_width="3px" align="right" %}
 
-Xiaomin was born in [Wenzhou](https://en.wikipedia.org/wiki/Wenzhou), China. Xiaomin's robotics journey truly set out when he was an undergrad, worked with [Dr. Temesguen Messay](https://udayton.edu/directory/engineering/electrical_and_computer/kebede_temesguen.php){:target="_blank"}  at  [Motoman Robotics Lab](https://udayton.edu/engineering/research/research-labs/robotics_lab/index.php){:target="_blank"}. After that, Xiaomin went to University of Maryland- College Park and had a delighted Master life with his advisor [Prof. Gilmer Blankenship](https://mti.umd.edu/clark/faculty/366/Gilmer-L-Blankenship){:target="_blank"}. Recently, Xiaomin becomes a Ph.D. candidate, working with [Prof. Yiannis Aloimonos](http://users.umiacs.umd.edu/~yiannis/){:target="_blank"} and [Dr. Cornelia Fermüller](https://isr.umd.edu/clark/faculty/1168/Cornelia-Ferm%C3%BCller){:target="_blank"} in the [Perception & Robotics Group](http://prg.cs.umd.edu/){:target="_blank"}, at the University of Maryland, College Park.
+Xiaomin was born in [Wenzhou](https://en.wikipedia.org/wiki/Wenzhou), China. Xiaomin's robotics journey truly set out when he was an undergrad, worked with [Dr. Temesguen Messay](https://udayton.edu/directory/engineering/electrical_and_computer/kebede_temesguen.php){:target="_blank"}  at  [Motoman Robotics Lab](https://udayton.edu/engineering/research/research-labs/robotics_lab/index.php){:target="_blank"}.
+
+After that, Xiaomin went to University of Maryland- College Park and had a delighted Master life with his advisor [Prof. Gilmer Blankenship](https://mti.umd.edu/clark/faculty/366/Gilmer-L-Blankenship){:target="_blank"}.
+
+Recently, Xiaomin becomes a Ph.D. candidate, working with [Prof. Yiannis Aloimonos](http://users.umiacs.umd.edu/~yiannis/){:target="_blank"} and [Dr. Cornelia Fermüller](https://isr.umd.edu/clark/faculty/1168/Cornelia-Ferm%C3%BCller){:target="_blank"} in the [Perception & Robotics Group](http://prg.cs.umd.edu/){:target="_blank"}, at the University of Maryland, College Park.
 
 Research Interest:
 
