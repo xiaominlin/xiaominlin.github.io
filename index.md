@@ -12,7 +12,7 @@ pubs:
       media:
         - name: "Demo Video"
           url:  "https://bit.ly/3fAVxoc"
-  
+
     - title:   "Learning from Ambiguous Demonstrations with Self-Explanation Guided Reinforcement Learning"
       author:  "Yantian Zha, Lin Guan, Subbarao Kambhampati"
       journal: "AAAI-22 Workshop on Reinforcement Learning in Games 2022."
@@ -22,12 +22,12 @@ pubs:
           url:  "https://youtu.be/w5nGYOdVMiA"
         - name: "Poster"
           url:  "https://drive.google.com/file/d/1YDNQ97OPOd4Dq0mVmm1-MbOmAisFZofY/view?usp=sharing"
-      
+
     - title:   "Symbols as a Lingua Franca for Bridging Human-AI Chasm for Explainable and Advisable AI Systems"
       author:  "Subbarao Kambhampati, Sarath Sreedharan, Mudit Verma, Yantian Zha, Lin Guan"
       journal: "AAAI Blue Sky Paper (Senior Member Presentation Track) 2022."
       url:     "https://arxiv.org/pdf/2109.09904.pdf"
-      
+
     - title:   "Contrastively Learning Visual Attention as Affordance Cues from Demonstrations for Robotic Grasping"
       author:  "Yantian Zha, Siddhant Bhambri, and Lin Guan"
       journal: "The IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2021."
@@ -59,7 +59,7 @@ pubs:
         - name: "Poster"
           url: https://drive.google.com/open?id=1suKUc865_NNMMnSSXEqJIA7gmjAKlOb2
 
-  
+
     - title:   "Discovering Underlying Plans Based on Shallow Models"
       author:  "Hankz Hankui Zhuo, Yantian Zha, Subbarao Kambhampati, and Xin Tian"
       journal: "In Proceedings of ACM Transactions on Intelligent Systems and Technology (ACM-TIST) 2019."
@@ -104,7 +104,7 @@ Please feel free to contact Yantian via [ytzha at umd dot edu](mailto:ytzha@umd.
 
 03/2020 - 08/2020: Worked as a robotics research intern at ABB, Raleigh advised by Dr. Jianjun Wang.
 
-# <a name="publications"></a>Publications 
+# <a name="publications"></a>Publications
 
 {% for pub in page.pubs %}
 [**{{pub.title}}**]({% if pub.internal %}{{pub.url | prepend: site.baseurl}}{% else %}{{pub.url}}{% endif %}){:target="_blank"}<br />
