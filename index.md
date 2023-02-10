@@ -94,12 +94,19 @@ Xiaomin is interested in Cognitive Robotics -- robotics, computer vision, and ge
 
 Teaching Experience:
 Spring 2021 ENEE350: Computer Organization
+
 [Fall2020 CMSC 426: Computer Vision](http://prg.cs.umd.edu/cmsc426-fall2020){:target="_blank"}
+
 Spring 2020 ENEE350: Computer Organization
+
 Fall 2019 ENEE303(H): Analog and Digital Electronics
+
 Fall 2019 ENEE408I: Capstone Design Project: Autonomous Control of Interacting Robots
+
 Spring 2019 ENEE350: Computer Organization
+
 Fall 2018 ENEE408I: Capstone Design Project: Autonomous Control of Interacting Robots
+
 Fall 2018 ENEE380: Electromagnetic Theory
 
 
