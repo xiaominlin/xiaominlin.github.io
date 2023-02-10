@@ -1,0 +1,30 @@
+<ul class="menu">
+    {% for menu_item in site.data.menu %}
+    {% if menu_item.subcategories != null %}
+    <li><a href="{{ menu_item.href | prepend: site.baseurl }}" class="page-link">{{ menu_item.title }}</a>
+    <ul class="sub-menu">
+    {% for subcategory in menu_item.subcategories %}
+    <li><a href="{{ subcategory.subhref | prepend: site.baseurl }}">{{ subcategory.subtitle }}</a></li>
+    {% endfor %}
+    </ul>
+    {% else %}
+    {% if menu_item.identifier %} 
+    <li><a href="{{ menu_item.href | prepend: site.baseurl }}" id="{{ menu_item.identifier }}" class="page-link">{{ menu_item.title }}</a>
+    <script
+    src="https://code.jquery.com/jquery-1.12.4.js"
+    integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="
+        crossorigin="anonymous"></script>
+    <script>
+    $("#publications-header").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#publications").offset().top
+        }, 1000);
+    });
+    </script>
+    {% else %}
+    <li><a href="{{ menu_item.href | prepend: site.baseurl }}" id="{{ menu_item.identifier }}" target="_blank" class="page-link">{{ menu_item.title }}</a>
+    {% endif %}
+    {% endif %}
+    </li>
+    {% endfor %}
+</ul>

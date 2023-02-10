@@ -1,0 +1,18 @@
+current directory: /home/local/ASUAD/yzha3/research/YantianZha.github.io/vendor/bundle/ruby/2.4.0/gems/eventmachine-1.2.7/ext/fastfilereader
+/usr/bin/ruby2.4 -I /usr/local/lib/site_ruby/2.4.0 -r ./siteconf20200127-5852-1pfukm4.rb extconf.rb
+/usr/lib/ruby/vendor_ruby/rubygems/defaults/operating_system.rb:10: warning: constant Gem::ConfigMap is deprecated
+/usr/lib/ruby/vendor_ruby/rubygems/defaults/operating_system.rb:10: warning: constant Gem::ConfigMap is deprecated
+creating Makefile
+
+current directory: /home/local/ASUAD/yzha3/research/YantianZha.github.io/vendor/bundle/ruby/2.4.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR=" clean
+
+current directory: /home/local/ASUAD/yzha3/research/YantianZha.github.io/vendor/bundle/ruby/2.4.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR="
+compiling mapper.cpp
+compiling rubymain.cpp
+linking shared-object fastfilereaderext.so
+
+current directory: /home/local/ASUAD/yzha3/research/YantianZha.github.io/vendor/bundle/ruby/2.4.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 fastfilereaderext.so ./.gem.20200127-5852-114i1qr

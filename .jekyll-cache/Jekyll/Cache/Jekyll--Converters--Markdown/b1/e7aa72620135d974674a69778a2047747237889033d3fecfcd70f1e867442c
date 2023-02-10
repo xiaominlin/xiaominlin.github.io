@@ -1,0 +1,37 @@
+I"Ý<div class="captioned-img alignright">
+    <a href="images/photo.png">
+    
+    <img src="images/photo.png" height="" />
+    </a>
+</div>
+
+<p>Yantian is a PhD student working in the <a href="https://yochan-lab.github.io/home/" target="_blank">Yochan</a> research group directed by <a href="http://rakaposhi.eas.asu.edu/" target="_blank">Prof. Subbarao Kambhampati</a>, at <a href="http://www.asu.edu" target="_blank">Arizona State University</a>. Prior to joining Yochan Lab in 2015, he worked with <a href="https://automation.seu.edu.cn/2019/0528/c24505a275234/page.htm" target="_blank">Prof. Xudong Ma</a>, and <a href="https://automation.seu.edu.cn/2019/0528/c24504a275190/page.htm" target="_blank">Dr. Kun Qian</a> in the Institute of Intelligent Robotics and Intelligent Control at Southeast University.</p>
+
+<p>Yantian is interested in planning, vision, and their applications in robotics.</p>
+
+<p>Yantian is also an amateur pianist who received his <a href="https://drive.google.com/file/d/0BzFSKJBTOGjKRExJZENGajlCVG8/view" target="_blank">Level 10 Piano Certificate</a> when he was a boy.</p>
+
+<p>Please feel free to contact Yantian via <a href="mailto:yzha3@asu.edu">yzha3 at asu dot edu</a> or <a href="https://www.linkedin.com/in/ytzha" target="_blank">LinkedIn</a>.</p>
+
+<h1 id="publications"><a name="publications"></a>Publications</h1>
+
+<p><a href="https://arxiv.org/abs/1812.00301" target="_blank"><strong>Plan-Recognition-Driven Attention Modeling for Visual Recognition</strong></a><br />
+Zha, Yantian, Yikang Li, Tianshu Yu, Subbarao Kambhampati and Baoxin Li<br />
+<em>AAAI 2019 Workshop on Plan, Activity, and Intent Recognition (PAIR).</em></p>
+
+<p><a href="https://dl.acm.org/citation.cfm?id=3238103" target="_blank"><strong>Recognizing plans by learning embeddings from observed action distributions</strong></a><br />
+Zha, Yantian, Yikang Li, Sriram Gopalakrishnan, Baoxin Li, and Subbarao Kambhampati<br />
+<em>In Precendings of International Conference on Autonomous Agents and Multiagent Systems (AAMAS) 2018 as an Extended Abstract.</em>
+<br />Media: [<a href="https://arxiv.org/abs/1712.01949" target="_blank">Full Paper</a>] [<a href="https://github.com/YantianZha/Distr2Vec" target="_blank">Code</a>] [<a href="https://drive.google.com/open?id=19dSk2Qk2vEqwJXBzbN1XoQJIa-YdMGdY" target="_blank">Slides</a>] [<a href="https://drive.google.com/open?id=1suKUc865_NNMMnSSXEqJIA7gmjAKlOb2" target="_blank">Poster</a>]</p>
+
+<p><a href="https://yochan-lab.github.io/papers/files/papers/hankz_tist_19.pdf" target="_blank"><strong>Discovering Underlying Plans Based on Shallow Models</strong></a><br />
+Zhuo, Hankz Hankui, Zha, Yantian, Kambhampati, Subbarao, and Tian, Xin<br />
+<em>In Proceedings of ACM Transactions on Intelligent Systems and Technology (ACM-TIST) 2019.</em>
+<br />Media: [<a href="https://github.com/YantianZha/Discovering-Underlying-Plans-Based-on-Shallow-Models" target="_blank">Code</a>]</p>
+
+<p><a href="https://yochan-lab.github.io/papers/files/papers/anagha-aamas-2019.pdf" target="_blank"><strong>Explicability as Minimizing Distance from Expected Behavior</strong></a><br />
+Kulkarni, Anagha, Zha, Yantian, Chakraborti, Tathagata, Vadlamudi, Satya Gautam, Zhang, Yu and Kambhampati, Subbarao<br />
+<em>In Precendings of International Conference on Autonomous Agents and Multiagent Systems (AAMAS) 2019 as an Extended Abstract.</em>
+<br />Media: [<a href="https://arxiv.org/abs/1611.05497" target="_blank">Full Paper</a>] [<a href="https://youtu.be/iLG-ANQtYms" target="_blank">Demo Video</a>]</p>
+
+:ET
