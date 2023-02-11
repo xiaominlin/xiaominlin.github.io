@@ -32,23 +32,13 @@ pubs:
           url: "https://youtu.be/AKng8L0Vccs"
 
 
-    - title:   "Discovering Underlying Plans Based on Shallow Models"
-      author:  "Hankz Hankui Zhuo, Xiaomin Zha, Subbarao Kambhampati, and Xin Tian"
-      journal: "In Proceedings of ACM Transactions on Intelligent Systems and Technology (ACM-TIST) 2019."
-      url:     "https://yochan-lab.github.io/papers/files/papers/hankz_tist_19.pdf"
+    - title:   "Following instructions by imagining and reaching visual goals"
+      author:  "John Kanu, Eadom Dessalene, Xiaomin Lin, Cornelia Fermuller, Yiannis Aloimonos"
+      journal: ""
+      url:     "https://arxiv.org/pdf/2001.09373.pdf"
       media:
-        - name: "Code"
-          url: "https://github.com/XiaominZha/Discovering-Underlying-Plans-Based-on-Shallow-Models"
-
-    - title:   "Explicability as Minimizing Distance from Expected Behavior"
-      author:  "Anagha Kulkarni, Xiaomin Zha, Tathagata Chakraborti, Satya Gautam Vadlamudi, Yu Zhang and Subbarao Kambhampati"
-      journal: "In Proceedings of International Conference on Autonomous Agents and Multiagent Systems (AAMAS) 2019."
-      url:     "https://yochan-lab.github.io/papers/files/papers/anagha-aamas-2019.pdf"
-      media:
-        - name: "Full Paper"
-          url: https://arxiv.org/abs/1611.05497
-        - name: "Demo Video"
-          url:  "https://youtu.be/iLG-ANQtYms"
+        - name: "Paper"
+          url: "https://arxiv.org/pdf/2001.09373.pdf"
 
 ---
 
@@ -82,13 +72,11 @@ Please feel free to contact Xiaomin via [xlin01 at umd dot edu](mailto:xlin01@um
 
 <span style="color:red">News!</span>
 
-03/2023: We submiited a paper to  [Maryland Robotics Center Postdoctoral Fellowship](https://robotics.umd.edu/education/postdoctoral-fellowship-program-0) at the Institute for Systems Research (ISR), University of Maryland, 2022-2023.
+02/10/2023: We submiited a paper to  [Robotics: Science and Systems Jul 10 – Jul 14, 2023, Daegu, Republic of Koreap](https://roboticsconference.org/). Details of the paper will be avaiable soon.
 
-06/30/2021: Our paper <span style="color:red">[Contrastively Learning Visual Attention as Affordance Cues from Demonstrations for Robotic Grasping](https://arxiv.org/abs/2104.00878){:target="_blank"}</span> is accecped by IROS 2021. Thanks to my collaborators!
+1/16/2023: Our paper <span style="color:red">[Oysternet: Enhanced oyster detection using simulation](https://arxiv.org/pdf/2209.08176.pdf){:target="_blank"}</span> is accecped by ICRA 2023. Thanks to my collaborators!
 
-04/30/2021: I am awarded the CIDSE Doctoral Fellowship by ASU.  
-
-03/2020 - 08/2020: Worked as a robotics research intern at ABB, Raleigh advised by Dr. Jianjun Wang.
+11/15/202: Our paper <span style="color:red">[SeaDroneSim: Simulation of Aerial Images for Detection of Objects Above Water](https://openaccess.thecvf.com/content/WACV2023W/MaCVi/papers/Lin_SeaDroneSim_Simulation_of_Aerial_Images_for_Detection_of_Objects_Above_WACVW_2023_paper.pdf){:target="_blank"}</span> is accecped by WACV 2023. Thanks to my collaborators!
 
 # <a name="publications"></a>Publications
 
