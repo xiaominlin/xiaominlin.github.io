@@ -70,7 +70,7 @@ ENEE380: Electromagnetic Theory (Fall 2018) <br>
 
 Please feel free to contact Xiaomin via [xlin01 at umd dot edu](mailto:xlin01@umd.edu) or [LinkedIn](https://www.linkedin.com/in/xiaomin-lin-42482085/){:target="_blank"}.
 
- <font size="+2"><span style="color:red">News!</span></font>
+ <font size="+3"><span style="color:red">News!</span></font>
 
 02/10/2023: We submitted a paper to  [Robotics: Science and Systems Jul 10 – Jul 14, 2023, Daegu, Republic of Koreap](https://roboticsconference.org/). Details of the paper will be available soon.
 
