@@ -5,23 +5,23 @@ permalink: /
 
 pubs:
 
-    - title:   "NatSGD: A Dataset with <ins>S</ins>peech, <ins>G</ins>estures, and <ins>D</ins>emonstrations for Robot Learning in <ins>Nat</ins>ural Human-Robot Interaction"
-      author:  "Snehesh Shrestha, Xiaomin Zha, Ge Gao, Cornelia Fermuller, and Yiannis Aloimonos"
-      journal: "AAAI-23 Workshop on User-Centric Artificial Intelligence for Assistance in At-Home Tasks."
-      url: "https://drive.google.com/file/d/1xlOF-4GEbCu7TxpM6ELK3TFefAGbzLex/view?usp=share_link"
+    - title:   "Oysternet: Enhanced oyster detection using simulation"
+      author:  "Xiaomin Lin, Nitin J Sanket, Nare Karapetyan, Yiannis Aloimonos"
+      journal: "2023 IEEE International Conference on Robotics and Automation (ICRA)"
+      url: "https://arxiv.org/pdf/2209.08176.pdf"
       media:
         - name: "Demo Video"
-          url:  "https://bit.ly/3fAVxoc"
+          url:  "https://www.youtube.com/watch?v=QCIsmINfXmA&t=3s&ab_channel=PRGUMD"
 
-    - title:   "Learning from Ambiguous Demonstrations with Self-Explanation Guided Reinforcement Learning"
-      author:  "Xiaomin Zha, Lin Guan, Subbarao Kambhampati"
-      journal: "AAAI-22 Workshop on Reinforcement Learning in Games 2022."
-      url:     "https://arxiv.org/pdf/2110.05286.pdf"
+    - title:   "SeaDroneSim: Simulation of Aerial Images for Detection of Objects Above Water"
+      author:  "Xiaomin Lin, Cheng Liu, Allen Pattillo, Miao Yu, Yiannis Aloimonous"
+      journal: "In Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision"
+      url:     "https://openaccess.thecvf.com/content/WACV2023W/MaCVi/papers/Lin_SeaDroneSim_Simulation_of_Aerial_Images_for_Detection_of_Objects_Above_WACVW_2023_paper.pdf"
       media:
         - name: "Demo Video"
-          url:  "https://youtu.be/w5nGYOdVMiA"
-        - name: "Poster"
-          url:  "https://drive.google.com/file/d/1YDNQ97OPOd4Dq0mVmm1-MbOmAisFZofY/view?usp=sharing"
+          url:  "https://www.youtube.com/watch?v=sljpH1RAtyc&ab_channel=PRGUMD"
+        <!-- - name: "Poster"
+          url:  "https://drive.google.com/file/d/1YDNQ97OPOd4Dq0mVmm1-MbOmAisFZofY/view?usp=sharing" -->
 
     - title:   "Symbols as a Lingua Franca for Bridging Human-AI Chasm for Explainable and Advisable AI Systems"
       author:  "Subbarao Kambhampati, Sarath Sreedharan, Mudit Verma, Xiaomin Zha, Lin Guan"
@@ -110,7 +110,7 @@ Please feel free to contact Xiaomin via [xlin01 at umd dot edu](mailto:xlin01@um
 
 <span style="color:red">News!</span>
 
-04/2022: I am a recipient of the [Maryland Robotics Center Postdoctoral Fellowship](https://robotics.umd.edu/education/postdoctoral-fellowship-program-0) at the Institute for Systems Research (ISR), University of Maryland, 2022-2023.
+03/2023: We submiited a paper to  [Maryland Robotics Center Postdoctoral Fellowship](https://robotics.umd.edu/education/postdoctoral-fellowship-program-0) at the Institute for Systems Research (ISR), University of Maryland, 2022-2023.
 
 06/30/2021: Our paper <span style="color:red">[Contrastively Learning Visual Attention as Affordance Cues from Demonstrations for Robotic Grasping](https://arxiv.org/abs/2104.00878){:target="_blank"}</span> is accecped by IROS 2021. Thanks to my collaborators!
 
