@@ -19,45 +19,17 @@ pubs:
       url:     "https://openaccess.thecvf.com/content/WACV2023W/MaCVi/papers/Lin_SeaDroneSim_Simulation_of_Aerial_Images_for_Detection_of_Objects_Above_WACVW_2023_paper.pdf"
       media:
         - name: "Demo Video"
-          url:  "https://www.youtube.com/watch?v=sljpH1RAtyc&ab_channel=PRGUMD"
-        <!-- - name: "Poster"
-          url:  "https://drive.google.com/file/d/1YDNQ97OPOd4Dq0mVmm1-MbOmAisFZofY/view?usp=sharing" -->
-
-    - title:   "Symbols as a Lingua Franca for Bridging Human-AI Chasm for Explainable and Advisable AI Systems"
-      author:  "Subbarao Kambhampati, Sarath Sreedharan, Mudit Verma, Xiaomin Zha, Lin Guan"
-      journal: "AAAI Blue Sky Paper (Senior Member Presentation Track) 2022."
-      url:     "https://arxiv.org/pdf/2109.09904.pdf"
-
-    - title:   "Contrastively Learning Visual Attention as Affordance Cues from Demonstrations for Robotic Grasping"
-      author:  "Xiaomin Zha, Siddhant Bhambri, and Lin Guan"
-      journal: "The IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2021."
-      url:     "https://arxiv.org/abs/2104.00878"
-      media:
-        - name: "Project"
-          url: https://sites.google.com/asu.edu/affordance-aware-imitation/project
-        - name: "IROS_Talk"
-          url: "https://www.youtube.com/watch?v=K71EAN5tNaI"
-        - name: "Slides"
-          url: https://docs.google.com/presentation/d/1BnLmf3-xW4GVohHwTTYLx0U0DUXFdZw5/edit?usp=sharing&ouid=113539223350183339196&rtpof=true&sd=true
-
-    - title:   "Plan-Recognition-Driven Attention Modeling for Visual Recognition"
-      author:  "Xiaomin Zha, Yikang Li, Tianshu Yu, Subbarao Kambhampati and Baoxin Li"
-      journal: "AAAI 2019 Workshop on Plan, Activity, and Intent Recognition (PAIR)."
-      url:     "https://arxiv.org/abs/1812.00301"
-
-    - title:   "Recognizing plans by learning embeddings from observed action distributions"
-      author:  "Xiaomin Zha, Yikang Li, Sriram Gopalakrishnan, Baoxin Li, and Subbarao Kambhampati"
-      journal: "In Proceedings of International Conference on Autonomous Agents and Multiagent Systems (AAMAS) 2018."
-      url:     "https://dl.acm.org/citation.cfm?id=3238103"
-      media:
-        - name: "Full Paper"
-          url: https://arxiv.org/abs/1712.01949
-        - name: "Code"
-          url: "https://github.com/XiaominZha/Distr2Vec"
-        - name: "Slides"
-          url: https://drive.google.com/open?id=19dSk2Qk2vEqwJXBzbN1XoQJIa-YdMGdY
+          url:  "https://youtu.be/sljpH1RAtyc"
         - name: "Poster"
-          url: https://drive.google.com/open?id=1suKUc865_NNMMnSSXEqJIA7gmjAKlOb2
+          url:  "https://drive.google.com/file/d/128Yfx8gDGtG2-py_1dXKUoKMEPK74F1J/view?usp=share_link"
+
+    - title:   "OysterSim: Underwater Simulation for Enhancing Oyster Reef Monitoring"
+      author:  "Xiaomin Lin, Nitesh Jha, Mayank Joshi, Nare Karapetyan, Yiannis Aloimonos, Miao Yu"
+      journal: "OCEANS 2022, Hampton Roads, VA, USA, 2022, pp. 1-6, doi: 10.1109/OCEANS47191.2022.9977233."
+      url:     "https://arxiv.org/pdf/2209.09395.pdf"
+      media:
+        - name: "Demo Video"
+          url: "https://youtu.be/AKng8L0Vccs"
 
 
     - title:   "Discovering Underlying Plans Based on Shallow Models"
@@ -94,14 +66,14 @@ Xiaomin is interested in Cognitive Robotics -- robotics, computer vision, and ge
 
 Teaching Experience:
 
-Spring 2021 ENEE350: Computer Organization
-[Fall2020 CMSC 426: Computer Vision](http://prg.cs.umd.edu/cmsc426-fall2020){:target="_blank"}
-Spring 2020 ENEE350: Computer Organization
-Fall 2019 ENEE303(H): Analog and Digital Electronics
-Fall 2019 ENEE408I: Capstone Design Project: Autonomous Control of Interacting Robots
-Spring 2019 ENEE350: Computer Organization
-Fall 2018 ENEE408I: Capstone Design Project: Autonomous Control of Interacting Robots
-Fall 2018 ENEE380: Electromagnetic Theory
+Spring 2021 ENEE350: Computer Organization <br>
+[Fall2020 CMSC 426: Computer Vision](http://prg.cs.umd.edu/cmsc426-fall2020){:target="_blank"} <br>
+Spring 2020 ENEE350: Computer Organization <br>
+Fall 2019 ENEE303(H): Analog and Digital Electronics <br>
+Fall 2019 ENEE408I: Capstone Design Project: Autonomous Control of Interacting Robots <br>
+Spring 2019 ENEE350: Computer Organization <br>
+Fall 2018 ENEE408I: Capstone Design Project: Autonomous Control of Interacting Robots <br>
+Fall 2018 ENEE380: Electromagnetic Theory <br>
 
 
 
