@@ -70,13 +70,13 @@ ENEE380: Electromagnetic Theory (Fall 2018) <br>
 
 Please feel free to contact Xiaomin via [xlin01 at umd dot edu](mailto:xlin01@umd.edu) or [LinkedIn](https://www.linkedin.com/in/xiaomin-lin-42482085/){:target="_blank"}.
 
-<span style="color:red">News!</span>
+ <font size="+2"><span style="color:red">News!</span></font>
 
-02/10/2023: We submiited a paper to  [Robotics: Science and Systems Jul 10 – Jul 14, 2023, Daegu, Republic of Koreap](https://roboticsconference.org/). Details of the paper will be avaiable soon.
+02/10/2023: We submitted a paper to  [Robotics: Science and Systems Jul 10 – Jul 14, 2023, Daegu, Republic of Koreap](https://roboticsconference.org/). Details of the paper will be available soon.
 
-1/16/2023: Our paper <span style="color:red">[Oysternet: Enhanced oyster detection using simulation](https://arxiv.org/pdf/2209.08176.pdf){:target="_blank"}</span> is accecped by ICRA 2023. Thanks to my collaborators!
+1/16/2023: Our paper <span style="color:red">[Oysternet: Enhanced oyster detection using simulation](https://arxiv.org/pdf/2209.08176.pdf){:target="_blank"}</span> is accepted by ICRA 2023. Thanks to my collaborators!
 
-11/15/202: Our paper <span style="color:red">[SeaDroneSim: Simulation of Aerial Images for Detection of Objects Above Water](https://openaccess.thecvf.com/content/WACV2023W/MaCVi/papers/Lin_SeaDroneSim_Simulation_of_Aerial_Images_for_Detection_of_Objects_Above_WACVW_2023_paper.pdf){:target="_blank"}</span> is accecped by WACV 2023. Thanks to my collaborators!
+11/15/202: Our paper <span style="color:red">[SeaDroneSim: Simulation of Aerial Images for Detection of Objects Above Water](https://openaccess.thecvf.com/content/WACV2023W/MaCVi/papers/Lin_SeaDroneSim_Simulation_of_Aerial_Images_for_Detection_of_Objects_Above_WACVW_2023_paper.pdf){:target="_blank"}</span> is accepted by WACV 2023. Thanks to my collaborators!
 
 # <a name="publications"></a>Publications
 
