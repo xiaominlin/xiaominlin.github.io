@@ -7,10 +7,10 @@ pubs:
     - title:   "Simulation Based Oyster Detection"
       author:  "Xiaomin Lin, Allen Pattillo, Yiannis Aloimonos"
       journal: "Aquaculture America 2023, New Orleans, Louisiana USA"
-      url: <a href="https://github.com/xiaominlin/xiaominlin.github.io/blob/main/files/Aquaculture_American_2023_Simulation_based_Oyster_detection-compressed.pdf" target="_blank">PDF.</a>
+      url: "https://xiaominlin.github.io/files/Aquaculture_American_2023_Simulation_based_Oyster_detection-compressed.pdf"
       media:
         - name: "Abstract"
-          url:  <a href="https://github.com/xiaominlin/xiaominlin.github.io/blob/main/files/Aquaculture_American_2023_Simulation_based_Oyster_detection-compressed.pdf" target="_blank">PDF.</a>
+          url:  "https://xiaominlin.github.io/files/Aquaculture_American_2023_Simulation_based_Oyster_detection-compressed.pdf"  
 
     - title:   "Oysternet: Enhanced oyster detection using simulation"
       author:  "Xiaomin Lin, Nitin J Sanket, Nare Karapetyan, Yiannis Aloimonos"
