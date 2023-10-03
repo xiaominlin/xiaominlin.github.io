@@ -57,12 +57,14 @@ After that, Xiaomin went to University of Maryland- College Park and had a delig
 
 Recently, Xiaomin becomes a Ph.D. candidate, working with [Prof. Yiannis Aloimonos](http://users.umiacs.umd.edu/~yiannis/){:target="_blank"} and [Dr. Cornelia Fermüller](https://isr.umd.edu/clark/faculty/1168/Cornelia-Ferm%C3%BCller){:target="_blank"} in the [Perception & Robotics Group](http://prg.cs.umd.edu/){:target="_blank"}, at the University of Maryland, College Park.
 
-Research Interest:
+ <font size="+1"><span style="color:blue">Research Interest:</span></font>
+
 
 Xiaomin is interested in Cognitive Robotics -- robotics, computer vision, and general Artificial Intelligence. He is currently working on developing novel algorithms for underwater unmanned systems perception.
 
+Please feel free to contact Xiaomin via [xlin01 at umd dot edu](mailto:xlin01@umd.edu) or [LinkedIn](https://www.linkedin.com/in/xiaomin-lin-42482085/){:target="_blank"}.
 
- <font size="+3"><span style="color:blue">Teaching Experience:</span></font>
+ <font size="+1"><span style="color:blue">Teaching Experience:</span></font>
 
 ENEE350: Computer Organization (Spring 2021)<br>
 [CMSC 426: Computer Vision](http://prg.cs.umd.edu/cmsc426-fall2020){:target="_blank"} (Fall2020)<br>
@@ -73,11 +75,15 @@ ENEE408I: Capstone Design Project: Autonomous Control of Interacting Robots (Fal
 ENEE408I: Capstone Design Project: Autonomous Control of Interacting Robots (Fall 2018)<br>
 ENEE380: Electromagnetic Theory (Fall 2018) <br>
 
- <font size="+3"><span style="color:blue">Student Worked with</span></font>
- 
+ <font size="+1"><span style="color:blue">Talents Worked with</span></font>
+Krithika Govindaraj, Master Thesis: Object segmentation in Cluttered Environment, 2019. Now in Niatic Inc.
+Nitesh Jha, OysterSim: Underwater Simulation for Enhancing Oyster Reef Monitoring. Published in OCEANS 2022, Hampton Roads (pp. 1-6). IEEE. Now in Caterpillar Inc.
+Mayank Joshi, OysterSim: Underwater Simulation for Enhancing Oyster Reef Monitoring. Published in OCEANS 2022, Hampton Roads (pp. 1-6). IEEE. Now in Qualcomm Inc.
+Cheng Liu, SeaDroneSim: Simulation of Aerial Images for Detection of Objects Above Water. Published in IEEE/CVF Winter Conference on Applications of Computer Vision (pp. 216-223). Now in Kicks Robotics Inc.
+Akshaj Gaur, Whale Detection Enhancement through Synthetic Satellite Images. Published in OCEANS 2023, Gulf Coast(2023). University of Maryland.
+Aadi Palnitka, ChatSim: Underwater Simulation with Natural Language Prompting. Published in OCEANS 2023, Gulf Coast(2023).  University of Maryland.
+Yianni Karabatis, Detecting Olives with Synthetic or Real Data? Olive the Above. Published in IROS 2023, Detroit. University of Maryland.
 
-
-Please feel free to contact Xiaomin via [xlin01 at umd dot edu](mailto:xlin01@umd.edu) or [LinkedIn](https://www.linkedin.com/in/xiaomin-lin-42482085/){:target="_blank"}.
 
  <font size="+3"><span style="color:red">News!</span></font>
 02/26/2023: We are going to present our [Simulation Based Oyster Detection](https://github.com/xiaominlin/xiaominlin.github.io/blob/main/files/Aquaculture_American_2023_Simulation_based_Oyster_detection-compressed.pdf) at [Aquaculture America 2023](https://www.was.org/meeting), New Orleans, Louisiana USA
