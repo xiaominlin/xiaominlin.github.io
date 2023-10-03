@@ -61,7 +61,8 @@ Research Interest:
 
 Xiaomin is interested in Cognitive Robotics -- robotics, computer vision, and general Artificial Intelligence. He is currently working on developing novel algorithms for underwater unmanned systems perception.
 
-Teaching Experience:
+
+ <font size="+3"><span style="color:blue">Teaching Experience:</span></font>
 
 ENEE350: Computer Organization (Spring 2021)<br>
 [CMSC 426: Computer Vision](http://prg.cs.umd.edu/cmsc426-fall2020){:target="_blank"} (Fall2020)<br>
@@ -72,7 +73,8 @@ ENEE408I: Capstone Design Project: Autonomous Control of Interacting Robots (Fal
 ENEE408I: Capstone Design Project: Autonomous Control of Interacting Robots (Fall 2018)<br>
 ENEE380: Electromagnetic Theory (Fall 2018) <br>
 
-
+ <font size="+3"><span style="color:blue">Student Worked with</span></font>
+ 
 
 
 Please feel free to contact Xiaomin via [xlin01 at umd dot edu](mailto:xlin01@umd.edu) or [LinkedIn](https://www.linkedin.com/in/xiaomin-lin-42482085/){:target="_blank"}.
