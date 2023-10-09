@@ -76,13 +76,14 @@ ENEE408I: Capstone Design Project: Autonomous Control of Interacting Robots (Fal
 ENEE380: Electromagnetic Theory (Fall 2018) <br>
 
  <font size="+1"><span style="color:blue">Talents Worked with</span></font>
-Krithika Govindaraj, Master Thesis: Object segmentation in Cluttered Environment, 2019. Now in Niatic Inc.<br>
-Nitesh Jha, OysterSim: Underwater Simulation for Enhancing Oyster Reef Monitoring. Published in OCEANS 2022, Hampton Roads (pp. 1-6). IEEE. Now in Caterpillar Inc.<br>
-Mayank Joshi, OysterSim: Underwater Simulation for Enhancing Oyster Reef Monitoring. Published in OCEANS 2022, Hampton Roads (pp. 1-6). IEEE. Now in Qualcomm Inc.<br>
-Cheng Liu, SeaDroneSim: Simulation of Aerial Images for Detection of Objects Above Water. Published in IEEE/CVF WACF (pp. 216-223). Now in Kicks Robotics Inc.<br>
-Akshaj Gaur, Whale Detection Enhancement through Synthetic Satellite Images. Published in OCEANS 2023, Gulf Coast(2023). University of Maryland.<br>
-Aadi Palnitka, ChatSim: Underwater Simulation with Natural Language Prompting. Published in OCEANS 2023, Gulf Coast(2023).  University of Maryland.<br>
-Yianni Karabatis, Detecting Olives with Synthetic or Real Data? Olive the Above. Published in IROS 2023, Detroit. University of Maryland.<br>
+<b>Krithika Govindaraj<b>, Master Thesis: Object segmentation in Cluttered Environment, 2019. Now in Niatic Inc.<br>
+<b>Nitesh Jha<b>, OysterSim: Underwater Simulation for Enhancing Oyster Reef Monitoring. Published in OCEANS 2022, Hampton Roads (pp. 1-6). IEEE. Now in Caterpillar Inc.<br>
+<b>Mayank Joshi<b>, OysterSim: Underwater Simulation for Enhancing Oyster Reef Monitoring. Published in OCEANS 2022, Hampton Roads (pp. 1-6). IEEE. Now in Qualcomm Inc.<br>
+<b>Cheng Liu<b>, SeaDroneSim: Simulation of Aerial Images for Detection of Objects Above Water. Published in IEEE/CVF WACF (pp. 216-223). Now in Kicks Robotics Inc.<br>
+<b>Akshaj Gaur<b>, Whale Detection Enhancement through Synthetic Satellite Images. Published in OCEANS 2023, Gulf Coast(2023). Undergrad in University of Maryland.<br>
+<b>Aadi Palnitka<b>, ChatSim: Underwater Simulation with Natural Language Prompting. Published in OCEANS 2023, Gulf Coast(2023). Undergrad in University of Maryland.<br>
+<b>Rashmi Kapu<b>, ChatSim: Underwater Simulation with Natural Language Prompting. Published in OCEANS 2023, Gulf Coast(2023). Master student in University of Maryland.<br>
+<b>Yianni Karabatis<b>, Detecting Olives with Synthetic or Real Data? Olive the Above. Published in IROS 2023, Detroit. Ph.D. student in University of Maryland.<br>
 
 
  <font size="+3"><span style="color:red">News!</span></font>
