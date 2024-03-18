@@ -113,7 +113,9 @@ ENEE350: Computer Organization (Spring 2019)<br>
 ENEE408I: Capstone Design Project: Autonomous Control of Interacting Robots (Fall 2018)<br>
 ENEE380: Electromagnetic Theory (Fall 2018) <br>
 
-<font size="+1"><span style="color:blue">Talents Worked with</span></font>
+<font size="+1"><span style="color:blue">Talent Student Worked with</span></font>
+<b>Jiayi Wu</b>, Ph.D. student at the University of Maryland.
+MARVIS: Motion & Geometry Aware Real and Virtual Image Segmentation. Submitted to IROS 2024.
 
 <b>Yianni Karabatis</b>, Ph.D. student at the University of Maryland.
 Detecting Olives with Synthetic or Real Data? Olive the Above. Published in IROS 2023, Detroit.
@@ -140,7 +142,7 @@ ChatSim: Underwater Simulation with Natural Language Prompting. Published in OCE
 ChatSim: Underwater Simulation with Natural Language Prompting. Published in OCEANS 2023, Gulf Coast(2023).
 
  <font size="+3"><span style="color:red">News!</span></font>
-03/15/2024: We Submitted <span style="color:red">[MARVIS: Motion & Geometry Aware Real and Virtual Image Segmentation](https://arxiv.org/pdf/2403.09850.pdf){:target="_blank"}</span> to IROS 2024. 
+03/15/2024: We Submitted <span style="color:red">[MARVIS: Motion & Geometry Aware Real and Virtual Image Segmentation](https://arxiv.org/pdf/2403.09850.pdf){:target="_blank"}</span> to IROS 2024.
 
 01/29/2024: Our paper <span style="color:red">[UIVNAV: Underwater Information-driven Vision-based Navigation via Imitation Learning](https://arxiv.org/pdf/2309.08806.pdf){:target="_blank"}</span> is accepted to ICRA 2024, Japan. Thanks to all my collaborators!
 
