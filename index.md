@@ -79,27 +79,36 @@ ENEE350: Computer Organization (Spring 2021)<br>
 ENEE350: Computer Organization (Spring 2020)<br>
 ENEE303(H): Analog and Digital Electronics (Fall 2019)<br>
 ENEE408I: Capstone Design Project: Autonomous Control of Interacting Robots (Fall 2019)<br>
- ENEE350: Computer Organization (Spring 2019)<br>
+ENEE350: Computer Organization (Spring 2019)<br>
 ENEE408I: Capstone Design Project: Autonomous Control of Interacting Robots (Fall 2018)<br>
 ENEE380: Electromagnetic Theory (Fall 2018) <br>
 
- <font size="+1"><span style="color:blue">Talents Worked with</span></font>
-<b>Krithika Govindaraj<b>,
-Master Thesis: Object segmentation in Cluttered Environment, 2019. Now in Niatic Inc.<br>
-<b>Nitesh Jha<b>,
-OysterSim: Underwater Simulation for Enhancing Oyster Reef Monitoring. Published in OCEANS 2022, Hampton Roads (pp. 1-6). IEEE. Now in Caterpillar Inc.<br>
-<b>Mayank Joshi<b>,
-OysterSim: Underwater Simulation for Enhancing Oyster Reef Monitoring. Published in OCEANS 2022, Hampton Roads (pp. 1-6). IEEE. Now in Qualcomm Inc.<br>
-<b>Cheng Liu<b>,
-SeaDroneSim: Simulation of Aerial Images for Detection of Objects Above Water. Published in IEEE/CVF WACF (pp. 216-223). Now in Kicks Robotics Inc.<br>
-<b>Akshaj Gaur<b>, 
-Whale Detection Enhancement through Synthetic Satellite Images. Published in OCEANS 2023, Gulf Coast(2023). Undergrad in University of Maryland.<br>
-<b>Aadi Palnitka<b>,
-ChatSim: Underwater Simulation with Natural Language Prompting. Published in OCEANS 2023, Gulf Coast(2023). Undergrad in University of Maryland.<br>
-<b>Rashmi Kapu<b>,
-ChatSim: Underwater Simulation with Natural Language Prompting. Published in OCEANS 2023, Gulf Coast(2023). Master student in University of Maryland.<br>
-<b>Yianni Karabatis<b>,
-Detecting Olives with Synthetic or Real Data? Olive the Above. Published in IROS 2023, Detroit. Ph.D. student in University of Maryland.<br>
+<font size="+1"><span style="color:blue">Talents Worked with</span></font>
+
+<b>Krithika Govindaraj</b>, Now in Niatic Inc.
+Master Thesis: Object segmentation in Cluttered Environment, 2019.
+
+<b>Nitesh Jha</b>, Now in Caterpillar Inc.
+OysterSim: Underwater Simulation for Enhancing Oyster Reef Monitoring. Published in OCEANS 2022, Hampton Roads (pp. 1-6). IEEE.
+
+<b>Mayank Joshi</b>, Now in Qualcomm Inc.
+OysterSim: Underwater Simulation for Enhancing Oyster Reef Monitoring. Published in OCEANS 2022, Hampton Roads (pp. 1-6). IEEE.
+
+<b>Cheng Liu</b>, Now in Kicks Robotics Inc.
+SeaDroneSim: Simulation of Aerial Images for Detection of Objects Above Water. Published in IEEE/CVF WACF (pp. 216-223).
+
+<b>Akshaj Gaur</b>
+Whale Detection Enhancement through Synthetic Satellite Images. Published in OCEANS 2023, Gulf Coast(2023). Undergrad at the University of Maryland.
+
+<b>Aadi Palnitka</b>
+ChatSim: Underwater Simulation with Natural Language Prompting. Published in OCEANS 2023, Gulf Coast(2023). Undergrad at the University of Maryland.
+
+<b>Rashmi Kapu</b>
+ChatSim: Underwater Simulation with Natural Language Prompting. Published in OCEANS 2023, Gulf Coast(2023). Master's student at the University of Maryland.
+
+<b>Yianni Karabatis</b>
+Detecting Olives with Synthetic or Real Data? Olive the Above. Published in IROS 2023, Detroit. Ph.D. student at the University of Maryland.
+
 
 
  <font size="+3"><span style="color:red">News!</span></font>
