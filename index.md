@@ -50,17 +50,11 @@ pubs:
 ---
 
 {% include image.html url="images/photo.png" caption="" max_width="3px" align="right" %}
-
-Xiaomin was born in [Wenzhou](https://en.wikipedia.org/wiki/Wenzhou), China. Xiaomin's robotics journey truly set out when he was an undergrad, worked with [Dr. Temesguen Messay](https://udayton.edu/directory/engineering/electrical_and_computer/kebede_temesguen.php){:target="_blank"}  at  [Motoman Robotics Lab](https://udayton.edu/engineering/research/research-labs/robotics_lab/index.php){:target="_blank"}.
-
-After that, Xiaomin went to University of Maryland- College Park and had a delighted Master life with his advisor [Prof. Gilmer Blankenship](https://mti.umd.edu/clark/faculty/366/Gilmer-L-Blankenship){:target="_blank"}.
-
-Recently, Xiaomin becomes a Ph.D. candidate, working with [Prof. Yiannis Aloimonos](http://users.umiacs.umd.edu/~yiannis/){:target="_blank"} and [Dr. Cornelia Fermüller](https://isr.umd.edu/clark/faculty/1168/Cornelia-Ferm%C3%BCller){:target="_blank"} in the [Perception & Robotics Group](http://prg.cs.umd.edu/){:target="_blank"}, at the University of Maryland, College Park.
+I am currently a Ph.D. candidate advised by [Prof. Yiannis Aloimonos](http://users.umiacs.umd.edu/~yiannis/){:target="_blank"} and [Dr. Cornelia Fermüller](https://isr.umd.edu/clark/faculty/1168/Cornelia-Ferm%C3%BCller){:target="_blank"} in the [Perception & Robotics Group](http://prg.cs.umd.edu/){:target="_blank"}, at the University of Maryland, College Park. PRG is associated with the University of Maryland Institute of Advanced Computer Science Studies ([UMIACS](https://www.umiacs.umd.edu/){:target="_blank"}).
 
  <font size="+1"><span style="color:blue">Research Interest:</span></font>
 
-
-Xiaomin is interested in Cognitive Robotics -- robotics, computer vision, and general Artificial Intelligence. He is currently working on developing novel algorithms for underwater unmanned systems perception.
+My work is focused on developing novel Perception for marine robotics. My work lies at the intersection of robotics, computer vision, artificial intelligence and computational imaging.
 
 Please feel free to contact Xiaomin via [xlin01 at umd dot edu](mailto:xlin01@umd.edu) or [LinkedIn](https://www.linkedin.com/in/xiaomin-lin-42482085/){:target="_blank"}.
 
@@ -87,9 +81,10 @@ ENEE380: Electromagnetic Theory (Fall 2018) <br>
 
 
  <font size="+3"><span style="color:red">News!</span></font>
+24/09/2023: We are going to present two papers in [OCEANS 2023, Gulf Coast](https://gulfcoast23.oceansconference.org/).
+
 02/26/2023: We are going to present our [Simulation Based Oyster Detection](https://github.com/xiaominlin/xiaominlin.github.io/blob/main/files/Aquaculture_American_2023_Simulation_based_Oyster_detection-compressed.pdf) at [Aquaculture America 2023](https://www.was.org/meeting), New Orleans, Louisiana USA
 
-02/10/2023: We submitted a paper to  [Robotics: Science and Systems Jul 10 – Jul 14, 2023, Daegu, Republic of Koreap](https://roboticsconference.org/). Details of the paper will be available soon.
 
 1/16/2023: Our paper <span style="color:red">[Oysternet: Enhanced oyster detection using simulation](https://arxiv.org/pdf/2209.08176.pdf){:target="_blank"}</span> is accepted by ICRA 2023. Thanks to my collaborators!
 
