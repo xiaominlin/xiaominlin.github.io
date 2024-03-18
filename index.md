@@ -4,6 +4,29 @@ title:
 permalink: /
 
 pubs:
+    - title:   " MARVIS: Motion & Geometry Aware Real and Virtual Image Segmentation"
+      author:  "Jiayi Wu, Xiaomin Lin, Shahriar Negahdaripour, Cornelia Fermuller,Yiannis Aloimonos"
+      journal: "Submitted to 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE."
+      url: "https://arxiv.org/pdf/2403.09850.pdf"
+      media:
+        - name: "Paper Openaccess"
+          url:  "https://arxiv.org/pdf/2403.09850.pdf"
+        - name: "Github"
+          url:  "https://github.com/jiayi-wu-umd/MARVIS."
+    - title:   "UIVNAV: Underwater Information-driven Vision-based Navigation via Imitation Learning"
+      author:  "Xiaomin Lin, Nare Karapetyan, Kaustubh Joshi, Tianchen Liu, Nikhil Chopra, Miao Yu, Pratap Tokekar, Yiannis Aloimonos"
+      journal: "In Proceedings of 2024 IEEE International Conference on Robotics and Automation (ICRA)"
+      url: "https://arxiv.org/pdf/2309.08806.pdf"
+      media:
+        - name: "Paper Openaccess"
+          url:  "https://arxiv.org/pdf/2309.08806.pdf"
+    - title:   "Detecting Olives with Synthetic or Real Data? Olive the Above"
+      author:  "Yianni Karabatis, Xiaomin Lin, Nitin J. Sanket, Michail G. Lagoudakis, Yiannis Aloimonos"
+      journal: "2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) (pp. 4242-4249). IEEE."
+      url: "https://ieeexplore.ieee.org/document/10341765"
+      media:
+        - name: "Paper Openaccess"
+          url:  "https://arxiv.org/pdf/2308.08271.pdf"
     - title:   "Whale Detection Enhancement through Synthetic Satellite Images"
       author:  "Akshaj Gaur, Cheng Liu, Xiaomin Lin, Nare Karapetyan, Yiannis Aloimonos"
       journal: "OCEANS 2023-MTS/IEEE US Gulf Coast (pp. 1-7). IEEE"
@@ -28,8 +51,8 @@ pubs:
 
     - title:   "Oysternet: Enhanced oyster detection using simulation"
       author:  "Xiaomin Lin, Nitin J Sanket, Nare Karapetyan, Yiannis Aloimonos"
-      journal: "2023 IEEE International Conference on Robotics and Automation (ICRA)"
-      url: "https://arxiv.org/pdf/2209.08176.pdf"
+      journal: "2023 IEEE International Conference on Robotics and Automation (ICRA) (pp. 5170-5176). IEEE"
+      url: "https://ieeexplore.ieee.org/document/10160830"
       media:
         - name: "Demo Video"
           url:  "https://www.youtube.com/watch?v=QCIsmINfXmA&t=3s&ab_channel=PRGUMD"
@@ -85,6 +108,9 @@ ENEE380: Electromagnetic Theory (Fall 2018) <br>
 
 <font size="+1"><span style="color:blue">Talents Worked with</span></font>
 
+<b>Yianni Karabatis</b>, Ph.D. student at the University of Maryland.
+Detecting Olives with Synthetic or Real Data? Olive the Above. Published in IROS 2023, Detroit.
+
 <b>Krithika Govindaraj</b>, Now in Niatic Inc.
 Master Thesis: Object segmentation in Cluttered Environment, 2019.
 
@@ -97,23 +123,18 @@ OysterSim: Underwater Simulation for Enhancing Oyster Reef Monitoring. Published
 <b>Cheng Liu</b>, Now in Kicks Robotics Inc.
 SeaDroneSim: Simulation of Aerial Images for Detection of Objects Above Water. Published in IEEE/CVF WACF (pp. 216-223).
 
-<b>Akshaj Gaur</b>
-Whale Detection Enhancement through Synthetic Satellite Images. Published in OCEANS 2023, Gulf Coast(2023). Undergrad at the University of Maryland.
+<b>Akshaj Gaur</b>, Undergrad at the University of Maryland.
+Whale Detection Enhancement through Synthetic Satellite Images. Published in OCEANS 2023, Gulf Coast(2023).
 
-<b>Aadi Palnitka</b>
-ChatSim: Underwater Simulation with Natural Language Prompting. Published in OCEANS 2023, Gulf Coast(2023). Undergrad at the University of Maryland.
+<b>Aadi Palnitka</b>, Undergrad at the University of Maryland.
+ChatSim: Underwater Simulation with Natural Language Prompting. Published in OCEANS 2023, Gulf Coast(2023).
 
-<b>Rashmi Kapu</b>
-ChatSim: Underwater Simulation with Natural Language Prompting. Published in OCEANS 2023, Gulf Coast(2023). Master's student at the University of Maryland.
-
-<b>Yianni Karabatis</b>
-Detecting Olives with Synthetic or Real Data? Olive the Above. Published in IROS 2023, Detroit. Ph.D. student at the University of Maryland.
-
-
+<b>Rashmi Kapu</b>, Master's student at the University of Maryland.
+ChatSim: Underwater Simulation with Natural Language Prompting. Published in OCEANS 2023, Gulf Coast(2023).
 
  <font size="+3"><span style="color:red">News!</span></font>
 
-09/24/2023: We are going to present two papers in [OCEANS 2023, Gulf Coast](https://gulfcoast23.oceansconference.org/).
+09/24/2023: We are going to present two papers[Whale Detection Enhancement through Synthetic Satellite Images](https://ieeexplore.ieee.org/abstract/document/10337400){:target="_blank"} and [ChatSim: Underwater Simulation with Natural Language Prompting](https://ieeexplore.ieee.org/abstract/document/10337406){:target="_blank"} in [OCEANS 2023, Gulf Coast](https://gulfcoast23.oceansconference.org/).
 
 02/26/2023: We are going to present our [Simulation Based Oyster Detection](https://github.com/xiaominlin/xiaominlin.github.io/blob/main/files/Aquaculture_American_2023_Simulation_based_Oyster_detection-compressed.pdf) at [Aquaculture America 2023](https://www.was.org/meeting), New Orleans, Louisiana USA
 
