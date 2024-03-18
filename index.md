@@ -4,7 +4,7 @@ title:
 permalink: /
 
 pubs:
-    - title:   " MARVIS: Motion & Geometry Aware Real and Virtual Image Segmentation"
+    - title:   "MARVIS: Motion & Geometry Aware Real and Virtual Image Segmentation"
       author:  "Jiayi Wu, Xiaomin Lin, Shahriar Negahdaripour, Cornelia Fermuller,Yiannis Aloimonos"
       journal: "Submitted to 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE."
       url: "https://arxiv.org/pdf/2403.09850.pdf"
@@ -27,6 +27,13 @@ pubs:
       media:
         - name: "Paper Openaccess"
           url:  "https://arxiv.org/pdf/2308.08271.pdf"
+    - title:   "Agrifood Detection Enhancement with Synthetic Data"
+      author:  "Yianni Karabatis, Xiaomin Lin, Miao Yu, Yiannis Aloimonos, John Reid"
+      journal: "Robotics in Agriculture Workshop in IROS 2023, Detroit, Michigan USA"
+      url: "https://xiaominlin.github.io/files/IROS2023_Poster.pdf"
+      media:
+        - name: "Poster"
+          url:  "https://xiaominlin.github.io/files/IROS2023_Poster.pdf"
     - title:   "Whale Detection Enhancement through Synthetic Satellite Images"
       author:  "Akshaj Gaur, Cheng Liu, Xiaomin Lin, Nare Karapetyan, Yiannis Aloimonos"
       journal: "OCEANS 2023-MTS/IEEE US Gulf Coast (pp. 1-7). IEEE"
@@ -133,10 +140,19 @@ ChatSim: Underwater Simulation with Natural Language Prompting. Published in OCE
 ChatSim: Underwater Simulation with Natural Language Prompting. Published in OCEANS 2023, Gulf Coast(2023).
 
  <font size="+3"><span style="color:red">News!</span></font>
+03/15/2024: We Submitted <span style="color:red">[MARVIS: Motion & Geometry Aware Real and Virtual Image Segmentation](https://arxiv.org/pdf/2403.09850.pdf){:target="_blank"}</span> to IROS 2024. 
 
-09/24/2023: We are going to present two papers[Whale Detection Enhancement through Synthetic Satellite Images](https://ieeexplore.ieee.org/abstract/document/10337400){:target="_blank"} and [ChatSim: Underwater Simulation with Natural Language Prompting](https://ieeexplore.ieee.org/abstract/document/10337406){:target="_blank"} in [OCEANS 2023, Gulf Coast](https://gulfcoast23.oceansconference.org/).
+01/29/2024: Our paper <span style="color:red">[UIVNAV: Underwater Information-driven Vision-based Navigation via Imitation Learning](https://arxiv.org/pdf/2309.08806.pdf){:target="_blank"}</span> is accepted to ICRA 2024, Japan. Thanks to all my collaborators!
 
-02/26/2023: We are going to present our [Simulation Based Oyster Detection](https://github.com/xiaominlin/xiaominlin.github.io/blob/main/files/Aquaculture_American_2023_Simulation_based_Oyster_detection-compressed.pdf) at [Aquaculture America 2023](https://www.was.org/meeting), New Orleans, Louisiana USA
+10/05/2023: Our poster <span style="color:red">[Agrifood Detection Enhancement with Synthetic Data](https://xiaominlin.github.io/files/IROS2023_Poster.pdf){:target="_blank"}</span> is presented in [Workshop on Robotics in Agriculture](https://sites.google.com/view/agrobotics){:target="_blank"} IROS 2023, Detroit, Michigan. Thanks to my collaborators!
+
+10/01/2023: Our paper <span style="color:red">[Detecting Olives with Synthetic or Real Data? Olive the Above](https://ieeexplore.ieee.org/document/10341765){:target="_blank"}</span> is presented in IROS 2023, Detroit. Thanks to my collaborators!
+
+10/01/2023: Our paper <span style="color:red">[Detecting Olives with Synthetic or Real Data? Olive the Above](https://ieeexplore.ieee.org/document/10341765){:target="_blank"}</span> is presented in IROS 2023, Detroit. Thanks to my collaborators!
+
+09/24/2023: We presented two papers[Whale Detection Enhancement through Synthetic Satellite Images](https://ieeexplore.ieee.org/abstract/document/10337400){:target="_blank"} and [ChatSim: Underwater Simulation with Natural Language Prompting](https://ieeexplore.ieee.org/abstract/document/10337406){:target="_blank"} in [OCEANS 2023, Gulf Coast](https://gulfcoast23.oceansconference.org/).
+
+02/26/2023: We presented our [Simulation Based Oyster Detection](https://github.com/xiaominlin/xiaominlin.github.io/blob/main/files/Aquaculture_American_2023_Simulation_based_Oyster_detection-compressed.pdf) at [Aquaculture America 2023](https://www.was.org/meeting), New Orleans, Louisiana USA
 
 
 1/16/2023: Our paper <span style="color:red">[Oysternet: Enhanced oyster detection using simulation](https://arxiv.org/pdf/2209.08176.pdf){:target="_blank"}</span> is accepted by ICRA 2023. Thanks to my collaborators!
