@@ -4,6 +4,20 @@ title:
 permalink: /
 
 pubs:
+    - title:   "Whale Detection Enhancement through Synthetic Satellite Images"
+      author:  "Akshaj Gaur, Cheng Liu, Xiaomin Lin, Nare Karapetyan, Yiannis Aloimonos"
+      journal: "OCEANS 2023-MTS/IEEE US Gulf Coast (pp. 1-7). IEEE"
+      url: "https://ieeexplore.ieee.org/abstract/document/10337400"
+      media:
+        - name: "Paper Openaccess"
+          url:  "https://arxiv.org/pdf/2308.07766.pdf"
+    - title:   "ChatSim: Underwater Simulation with Natural Language Prompting"
+      author:  " Aadi Palnitkar, Rashmi Kapu, Xiaomin Lin, Cheng Liu, Nare Karapetyan, Yiannis Aloimonos"
+      journal: "OCEANS 2023-MTS/IEEE US Gulf Coast (pp. 1-7). IEEE"
+      url: "https://ieeexplore.ieee.org/abstract/document/10337406"
+      media:
+        - name: "Paper Openaccess"
+          url:  "https://arxiv.org/pdf/2308.04029.pdf"
     - title:   "Simulation Based Oyster Detection"
       author:  "Xiaomin Lin, Allen Pattillo, Yiannis Aloimonos"
       journal: "Aquaculture America 2023, New Orleans, Louisiana USA"
@@ -70,18 +84,27 @@ ENEE408I: Capstone Design Project: Autonomous Control of Interacting Robots (Fal
 ENEE380: Electromagnetic Theory (Fall 2018) <br>
 
  <font size="+1"><span style="color:blue">Talents Worked with</span></font>
-<b>Krithika Govindaraj<b>, Master Thesis: Object segmentation in Cluttered Environment, 2019. Now in Niatic Inc.<br>
-<b>Nitesh Jha<b>, OysterSim: Underwater Simulation for Enhancing Oyster Reef Monitoring. Published in OCEANS 2022, Hampton Roads (pp. 1-6). IEEE. Now in Caterpillar Inc.<br>
-<b>Mayank Joshi<b>, OysterSim: Underwater Simulation for Enhancing Oyster Reef Monitoring. Published in OCEANS 2022, Hampton Roads (pp. 1-6). IEEE. Now in Qualcomm Inc.<br>
-<b>Cheng Liu<b>, SeaDroneSim: Simulation of Aerial Images for Detection of Objects Above Water. Published in IEEE/CVF WACF (pp. 216-223). Now in Kicks Robotics Inc.<br>
-<b>Akshaj Gaur<b>, Whale Detection Enhancement through Synthetic Satellite Images. Published in OCEANS 2023, Gulf Coast(2023). Undergrad in University of Maryland.<br>
-<b>Aadi Palnitka<b>, ChatSim: Underwater Simulation with Natural Language Prompting. Published in OCEANS 2023, Gulf Coast(2023). Undergrad in University of Maryland.<br>
-<b>Rashmi Kapu<b>, ChatSim: Underwater Simulation with Natural Language Prompting. Published in OCEANS 2023, Gulf Coast(2023). Master student in University of Maryland.<br>
-<b>Yianni Karabatis<b>, Detecting Olives with Synthetic or Real Data? Olive the Above. Published in IROS 2023, Detroit. Ph.D. student in University of Maryland.<br>
+<b>Krithika Govindaraj<b>,
+Master Thesis: Object segmentation in Cluttered Environment, 2019. Now in Niatic Inc.<br>
+<b>Nitesh Jha<b>,
+OysterSim: Underwater Simulation for Enhancing Oyster Reef Monitoring. Published in OCEANS 2022, Hampton Roads (pp. 1-6). IEEE. Now in Caterpillar Inc.<br>
+<b>Mayank Joshi<b>,
+OysterSim: Underwater Simulation for Enhancing Oyster Reef Monitoring. Published in OCEANS 2022, Hampton Roads (pp. 1-6). IEEE. Now in Qualcomm Inc.<br>
+<b>Cheng Liu<b>,
+SeaDroneSim: Simulation of Aerial Images for Detection of Objects Above Water. Published in IEEE/CVF WACF (pp. 216-223). Now in Kicks Robotics Inc.<br>
+<b>Akshaj Gaur<b>, 
+Whale Detection Enhancement through Synthetic Satellite Images. Published in OCEANS 2023, Gulf Coast(2023). Undergrad in University of Maryland.<br>
+<b>Aadi Palnitka<b>,
+ChatSim: Underwater Simulation with Natural Language Prompting. Published in OCEANS 2023, Gulf Coast(2023). Undergrad in University of Maryland.<br>
+<b>Rashmi Kapu<b>,
+ChatSim: Underwater Simulation with Natural Language Prompting. Published in OCEANS 2023, Gulf Coast(2023). Master student in University of Maryland.<br>
+<b>Yianni Karabatis<b>,
+Detecting Olives with Synthetic or Real Data? Olive the Above. Published in IROS 2023, Detroit. Ph.D. student in University of Maryland.<br>
 
 
  <font size="+3"><span style="color:red">News!</span></font>
-24/09/2023: We are going to present two papers in [OCEANS 2023, Gulf Coast](https://gulfcoast23.oceansconference.org/).
+
+09/24/2023: We are going to present two papers in [OCEANS 2023, Gulf Coast](https://gulfcoast23.oceansconference.org/).
 
 02/26/2023: We are going to present our [Simulation Based Oyster Detection](https://github.com/xiaominlin/xiaominlin.github.io/blob/main/files/Aquaculture_American_2023_Simulation_based_Oyster_detection-compressed.pdf) at [Aquaculture America 2023](https://www.was.org/meeting), New Orleans, Louisiana USA
 
