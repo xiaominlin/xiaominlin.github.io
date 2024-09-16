@@ -4,9 +4,41 @@ title:
 permalink: /
 
 pubs:
+    - title:   "ViewActive: Active viewpoint optimization from a single image"
+      author:  "Jiayi Wu, Xiaomin Lin, Botao He, Cornelia Fermuller, Yiannis Aloimonos"
+      journal: "Submitted 2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE."
+      url: "https://arxiv.org/"
+      media:
+        - name: "Paper Openaccess"
+          url:  "https://arxiv.org/"
+        - name: "Github"
+          url:  "https://github.com/jiayi-wu-umd/ViewActive."
+    - title:   "ODYSSEE: Oyster Detection Yielded by Sensor Systems on Edge Electronics"
+      author:  "Xiaomin Lin, Vivek Mange, Arjun Suresh, Bernhard Neuberger, Aadi Palnitkar, Brendan Campbell, Alan Williams, Kleio Baxevani, Jeremy Mallette,Alhim Vera, Markus Vincze, Ioannis Rekleitis, Herbert G. Tanner, Yiannis Aloimonos"
+      journal: "Submitted 2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE."
+      url: "https://www.arxiv.org/abs/2409.07003"
+      media:
+        - name: "Paper Openaccess"
+          url:  "https://arxiv.org/pdf/2403.09850.pdf"
+        - name: "Github"
+          url:  "https://github.com/jiayi-wu-umd/MARVIS."
+    - title:   "Performance Assessment of Feature Detection Methods for 2-D FS Sonar Imagery"
+      author:  "Hitesh Kyatham, Shahriar Negahdaripour, Michael Xu, Xiaomin Lin, Miao Yu, Yiannis Aloimonos"
+      journal: "In Proceedings of OCEANS 2024-MTS/IEEE US Halifax. IEEE."
+      url: "https://arxiv.org/abs/2409.07004"
+      media:
+        - name: "Arxiv"
+          url:  "https://arxiv.org/abs/2409.07004"
+    - title:   "GoPro Modeling and Application in Opti-Acoustic Stereo Imaging"
+      author:  "Shahriar Negahdaripour, Hitesh Kyatham, Michael Xu, Xiaomin Lin, Yiannis Aloimonos, Miao Yu"
+      journal: "In Proceedings of OCEANS 2024-MTS/IEEE US Halifax. IEEE."
+      url: "https://arxiv.org/abs/"
+      media:
+        - name: "Arxiv"
+          url:  "https://arxiv.org/abs/"
     - title:   "MARVIS: Motion & Geometry Aware Real and Virtual Image Segmentation"
       author:  "Jiayi Wu, Xiaomin Lin, Shahriar Negahdaripour, Cornelia Fermuller,Yiannis Aloimonos"
-      journal: "Submitted to 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE."
+      journal: "In Proceedings of 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE."
       url: "https://arxiv.org/pdf/2403.09850.pdf"
       media:
         - name: "Paper Openaccess"
@@ -113,13 +145,29 @@ ENEE350: Computer Organization (Spring 2019)<br>
 ENEE408I: Capstone Design Project: Autonomous Control of Interacting Robots (Fall 2018)<br>
 ENEE380: Electromagnetic Theory (Fall 2018) <br>
 
-<font size="+1"><span style="color:blue">Talent Student Worked with</span></font>
+<font size="+1"><span style="color:blue">Collabrators Working Now</span></font>
 <b>Jiayi Wu</b>, Ph.D. student at the University of Maryland.
-MARVIS: Motion & Geometry Aware Real and Virtual Image Segmentation. Submitted to IROS 2024.
+MARVIS: Motion & Geometry Aware Real and Virtual Image Segmentation. Published to IROS 2024.
+ViewActive: Active viewpoint optimization from a single image
 
 <b>Yianni Karabatis</b>, Ph.D. student at the University of Maryland.
 Detecting Olives with Synthetic or Real Data? Olive the Above. Published in IROS 2023, Detroit.
 
+<b>Hitesh Kyatham</b>, Ms Emg student  at the University of Maryland.
+Performance Assessment of Feature Detection Methods for 2-D FS Sonar Imagery, accepted in OCNEAS 2024, Halifax(2024)
+GoPro Modeling and Application in Opti-Acoustic Stereo Imaging, accepted in OCNEAS 2024, Halifax(2024)
+
+<b>K.A.V PUNEETH SARMA</b>, Ms Emg student  at the University of Maryland.
+
+<b>Aadi Palnitka</b>, Undergrad at the University of Maryland.
+ChatSim: Underwater Simulation with Natural Language Prompting. Published in OCEANS 2023, Gulf Coast(2023).
+ODYSSEE: Oyster Detection Yielded by Sensor Systems on Edge Electronics, submitted to ICRA 2025
+
+<b>Arjun Suresh</b>, Undergrad at the University of Maryland.
+ODYSSEE: Oyster Detection Yielded by Sensor Systems on Edge Electronics, submitted to ICRA 2025
+
+
+<font size="+1"><span style="color:blue">Talent Student Worked with</span></font>
 <b>Krithika Govindaraj</b>, Now in Niatic Inc.
 Master Thesis: Object segmentation in Cluttered Environment, 2019.
 
@@ -129,14 +177,11 @@ OysterSim: Underwater Simulation for Enhancing Oyster Reef Monitoring. Published
 <b>Mayank Joshi</b>, Now in Qualcomm Inc.
 OysterSim: Underwater Simulation for Enhancing Oyster Reef Monitoring. Published in OCEANS 2022, Hampton Roads (pp. 1-6). IEEE.
 
-<b>Cheng Liu</b>, Now in Kicks Robotics Inc.
+<b>Cheng Liu</b>, Ph.D. in Geroge washington University.
 SeaDroneSim: Simulation of Aerial Images for Detection of Objects Above Water. Published in IEEE/CVF WACF (pp. 216-223).
-
+ 
 <b>Akshaj Gaur</b>, Undergrad at the University of Maryland.
 Whale Detection Enhancement through Synthetic Satellite Images. Published in OCEANS 2023, Gulf Coast(2023).
-
-<b>Aadi Palnitka</b>, Undergrad at the University of Maryland.
-ChatSim: Underwater Simulation with Natural Language Prompting. Published in OCEANS 2023, Gulf Coast(2023).
 
 <b>Rashmi Kapu</b>, Master's student at the University of Maryland.
 ChatSim: Underwater Simulation with Natural Language Prompting. Published in OCEANS 2023, Gulf Coast(2023).
