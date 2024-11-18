@@ -24,5 +24,5 @@ main:
   - title: "Students Advised"
     url: "/students-advised/"
 
- - title: "CV"
+  - title: "CV"
     url: "https://xiaominlin.github.io/files/Academic_CV.pdf"

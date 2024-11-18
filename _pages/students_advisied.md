@@ -1,7 +1,7 @@
 ---
 permalink: /students-advised/
 title: "Students Advisied"
-layout: default
+layout: about_layout
 author_profile: true
 ---
 # 👨‍🏫 Mentoring and Advising

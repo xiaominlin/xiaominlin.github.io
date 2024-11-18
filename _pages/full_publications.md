@@ -1,7 +1,7 @@
 ---
 permalink: /full_publications/
 title: "Full Publications"
-layout: default
+layout: about_layout
 author_profile: true
 ---
 
