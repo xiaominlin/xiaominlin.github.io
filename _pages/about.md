@@ -31,9 +31,9 @@ My application package: Research Statement [pdf](https://xiaominlin.github.io/fi
 
 # 📝 Selected Publications 
 For full publications: Go to [Full Publications](/full_publications/)  
-
-- **X. Lin**, et al. "MARVIS: Motion & Geometry Aware Real and Virtual Image Segmentation," IROS 2024. [Link](https://doi.org/10.1109/IROS55552.2023.103417650)
-- **X. Lin**, et al. "Uivnav: Underwater information-driven vision-based navigation via imitation learning," ICRA 2024. [Link](https://doi.org/10.1109/ICRA57147.2024.10611203)
+- **X. Lin**, et al. "ViewActive : Active viewpoint optimization from a single image", ICRA 2025[Link](https://doi.org/10.48550/arXiv.2409.09997)
+- **X. Lin**, et al. "MARVIS: Motion & Geometry Aware Real and Virtual Image Segmentation," IROS 2024. [Link](https://doi.org/10.48550/arXiv.2403.09850)
+- **X. Lin**, et al. "Uivnav: Underwater information-driven vision-based navigation via imitation learning," ICRA 2024. [Link](https://doi.org/10.48550/arXiv.2309.08806)
 - **X. Lin**, et al. "Oysternet: Enhanced oyster detection using simulation," ICRA 2023. [Link](https://doi.org/10.1109/ICRA48891.2023.10160830)
 
 # 🎖 Honors and Awards
