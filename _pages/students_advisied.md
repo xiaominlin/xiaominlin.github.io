@@ -1,7 +1,7 @@
 ---
 permalink: /students-advised/
 title: "Students Advisied"
-excerpt: "Specializing in autonomous underwater systems, oceanic robot learning, and perception"
+layout: default
 author_profile: true
 ---
 # 👨‍🏫 Mentoring and Advising
