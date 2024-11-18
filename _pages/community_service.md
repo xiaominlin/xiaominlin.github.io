@@ -2,10 +2,8 @@
 permalink: /community-service/
 title: "Community Service"
 excerpt: "Specializing in autonomous underwater systems, oceanic robot learning, and perception"
+layout: default  # or 'page' if using a specific page layout
 author_profile: true
-redirect_from: 
-  - /community-service/
-  - /community-service.html
 ---
 
 # 🌍 Community Service

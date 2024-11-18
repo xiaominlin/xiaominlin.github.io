@@ -27,7 +27,9 @@ My work has been presented at conferences like IROS and ICRA, with press coverag
 - *2024.10*: 🎉 Received the award for the best control framework in autonomous navigation and control at the IROS workshop, Abu Dhabi.
 - *2023.05*: 🏆 Best Poster Award at the Maryland Robotics Center Research Symposium.
 
-# 📝 Publications 
+# 📝 Selected Publications 
+For full publications: Go to 
+
 - **X. Lin**, et al. "MARVIS: Motion & Geometry Aware Real and Virtual Image Segmentation," IROS 2024. [Link](https://doi.org/10.1109/IROS55552.2023.103417650)
 - **X. Lin**, et al. "Uivnav: Underwater information-driven vision-based navigation via imitation learning," ICRA 2024. [Link](https://doi.org/10.1109/ICRA57147.2024.10611203)
 - **X. Lin**, et al. "Oysternet: Enhanced oyster detection using simulation," ICRA 2023. [Link](https://doi.org/10.1109/ICRA48891.2023.10160830)
