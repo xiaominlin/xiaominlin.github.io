@@ -28,7 +28,7 @@ My work has been presented at conferences like IROS and ICRA, with press coverag
 - *2023.05*: 🏆 Best Poster Award at the Maryland Robotics Center Research Symposium.
 
 # 📝 Selected Publications 
-For full publications: Go to 
+For full publications: Go to [Full Publications](/full_publications/)  
 
 - **X. Lin**, et al. "MARVIS: Motion & Geometry Aware Real and Virtual Image Segmentation," IROS 2024. [Link](https://doi.org/10.1109/IROS55552.2023.103417650)
 - **X. Lin**, et al. "Uivnav: Underwater information-driven vision-based navigation via imitation learning," ICRA 2024. [Link](https://doi.org/10.1109/ICRA57147.2024.10611203)
@@ -38,7 +38,7 @@ For full publications: Go to
 - *2024.10* Best Control Framework for Autonomous Navigation, IROS Workshop, Abu Dhabi
 - *2023.05* Best Poster Award, Maryland Robotics Center Research Symposium
 
-# 📖 Education
+# 📖 Educations
 - **University of Maryland, College Park**  
   *Ph.D. in Electrical and Computer Engineering (2018 - 2024)*  
   Thesis: "Towards Efficient Oceanic Robot Learning with Simulation"  
