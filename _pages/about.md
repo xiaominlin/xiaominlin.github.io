@@ -30,7 +30,7 @@ My application package: Research Statement [pdf](https://xiaominlin.github.io/fi
 - *2023.05*: 🏆 Best Poster Award at the Maryland Robotics Center Research Symposium.
 
 # 📝 Selected Publications 
-For full publications: Go to [Full Publications](/full_publications/)  
+For full publications: Go to [Full Publications](/full-publications/)  
 - **X. Lin**, et al. "ViewActive : Active viewpoint optimization from a single image", ICRA 2025[Link](https://doi.org/10.48550/arXiv.2409.09997)
 - **X. Lin**, et al. "MARVIS: Motion & Geometry Aware Real and Virtual Image Segmentation," IROS 2024. [Link](https://doi.org/10.48550/arXiv.2403.09850)
 - **X. Lin**, et al. "Uivnav: Underwater information-driven vision-based navigation via imitation learning," ICRA 2024. [Link](https://doi.org/10.48550/arXiv.2309.08806)
