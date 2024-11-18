@@ -1,13 +1,11 @@
 ---
-permalink: /community_service/
+permalink: /community-service/
 title: "Community Service"
-excerpt: "Specializing in autonomous underwater systems, oceanic robot learning, and perception"
-layout: default  # or 'page' if using a specific page layout
+layout: default
 author_profile: true
 ---
 
-<span class='anchor' id='community-service'></span>
-# 🌍 
+# 🌍 Community Service
 
 - **AI4ALL, University of Maryland Summer Camp** (Instructor, Summer 2019)  
   Taught AI concepts to high school students to increase diversity in AI.
