@@ -23,3 +23,6 @@ main:
 
   - title: "Students Advised"
     url: "/students-advised/"
+
+  - title: "Publications"
+    url: "/full-publications"
