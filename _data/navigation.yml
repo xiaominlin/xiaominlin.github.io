@@ -7,7 +7,7 @@ main:
     url: "/#-news"
 
   - title: "Publications"
-    url: "/#-publications"
+    url: "/full-publications/"
 
   - title: "Honors and Awards"
     url: "/#-honors-and-awards"
@@ -23,9 +23,6 @@ main:
 
   - title: "Students Advised"
     url: "/students-advised/"
-
-  - title: "Publications"
-    url: "/full-publications/"
 
  - title: "CV"
     url: "https://xiaominlin.github.io/files/Academic_CV.pdf"
