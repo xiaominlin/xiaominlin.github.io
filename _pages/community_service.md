@@ -1,5 +1,5 @@
 ---
-permalink: /community-service/
+permalink: /community_service/
 title: "Community Service"
 excerpt: "Specializing in autonomous underwater systems, oceanic robot learning, and perception"
 layout: default  # or 'page' if using a specific page layout

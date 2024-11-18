@@ -19,7 +19,7 @@ main:
     url: "/#-invited-talks"
 
   - title: "Community Service"
-    url: "/community-service/"
+    url: "/community_service/"
 
   - title: "Students Advised"
-    url: "/students-advised/"
+    url: "/students_advised/"
