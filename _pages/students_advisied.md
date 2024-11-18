@@ -1,3 +1,12 @@
+---
+permalink: /students_advisied/
+title: "Students Advisied"
+excerpt: "Specializing in autonomous underwater systems, oceanic robot learning, and perception"
+author_profile: true
+redirect_from: 
+  - /students_advisied/
+  - /students_advisied.html
+---
 # 👨‍🏫 Mentoring and Advising
 
 ## Students Mentored
