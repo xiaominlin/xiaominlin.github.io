@@ -1,5 +1,5 @@
 ---
-permalink: /students_advisied/
+permalink: /students_advised/
 title: "Students Advisied"
 excerpt: "Specializing in autonomous underwater systems, oceanic robot learning, and perception"
 author_profile: true
