@@ -17,10 +17,9 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am Xiaomin Lin, a recent Ph.D. graduate in Electrical and Computer Engineering from the University of Maryland, where I focused on advancing autonomous systems for underwater exploration. My research lies at the intersection of robotics, perception, and computer vision, enabling robots to operate autonomously in complex underwater environments. I am particularly interested in enhancing underwater vehicle localization, object detection, and mapping using synthetic data and multi-modal sensor integration.
+I am Xiaomin Lin, a recent graduated Ph.D. in Electrical and Computer Engineering from the University of Maryland, where I focused on advancing autonomous systems for underwater exploration. My research lies at the intersection of robotics, perception, and computer vision, enabling robots to operate autonomously in complex underwater environments. I am particularly interested in enhancing underwater vehicle localization, object detection, and mapping using synthetic data and multi-modal sensor integration.
 
-
-🚀🚀🚀 I will be on the academic job market for the 2024-2025 cycle. If you are aware of any openings for Tenure-Track Assistant Professor positions, I would appreciate any information or referrals! 🚀🚀🚀🚀🚀🚀 I will be on the academic job market for the 2024-2025 cycle. If you are aware of any openings for Tenure-Track Assistant Professor positions, I would appreciate any information or referrals! 🚀🚀🚀
+<span style="color:red;">🚀🚀🚀 I will be on the academic job market for the 2024-2025 cycle. If you are aware of any openings for Tenure-Track Assistant Professor positions, I would appreciate any information or referrals! 🚀🚀🚀</span>
 My work has been presented at conferences like IROS and ICRA, with press coverage from organizations such as the Maryland Robotics Center.
 
 # 🔥 News
