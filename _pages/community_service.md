@@ -1,7 +1,7 @@
 ---
 permalink: /community-service/
 title: "Community Service"
-layout: about_layout
+layout: default
 author_profile: true
 ---
 
