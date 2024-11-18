@@ -5,8 +5,8 @@ excerpt: "Specializing in autonomous underwater systems, oceanic robot learning,
 layout: default  # or 'page' if using a specific page layout
 author_profile: true
 ---
-
-# 🌍 Community Service
+<span class='anchor' id='Community Service></span>
+<!-- # 🌍  -->
 
 - **AI4ALL, University of Maryland Summer Camp** (Instructor, Summer 2019)  
   Taught AI concepts to high school students to increase diversity in AI.
