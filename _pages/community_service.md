@@ -1,3 +1,12 @@
+---
+permalink: /community-service/
+title: "Community Service"
+layout: about_layout
+author_profile: true
+redirect_from: 
+  - /community-service/
+  - /community-service.html
+---
 # 🌍 Community Service
 
 ## Volunteering Service
