@@ -1,6 +1,6 @@
 ---
-permalink: /community-service/
-title: "Community Service"
+permalink: /outreach/
+title: "Outreach"
 layout: about_layout
 author_profile: true
 ---
