@@ -1,7 +1,7 @@
 ---
 permalink: /outreach/
+layout: default
 title: "Outreach"
-layout: about_layout
 author_profile: true
 ---
 # 🌍 Community Service
