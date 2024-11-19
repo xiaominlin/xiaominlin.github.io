@@ -32,6 +32,7 @@ I also have had the honor to work with experts in Maryland, such as ecophysiolog
 For more details, see my [CV](https://xiaominlin.github.io/files/Academic_CV.pdf).
 
 <span style="color:red;">🚀🚀🚀 I will be on the academic job market for the 2024-2025 cycle. If you are aware of any openings for Tenure-Track Assistant Professor positions, I would appreciate any information or referrals! 🚀🚀🚀</span>
+
 My application package: Research Statement [pdf](https://xiaominlin.github.io/files/research_statement_general.pdf), Teaching Statement [pdf](https://xiaominlin.github.io/files/teaching_statement_general.pdf), DEI Statement [pdf](https://xiaominlin.github.io/files/DEI_statement_general.pdf)
 
 # 🔥 News
