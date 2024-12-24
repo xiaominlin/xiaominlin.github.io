@@ -18,6 +18,8 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 # 🔥 About Me
+I am excited to join the  [Energy-Efficient High-Performance Computing Lab (EEHPC)](https://eehpc.ece.jhu.edu/) at Johns Hopkins University ad a postdoc, working with [Dr. Tinoosh Mohsenin](https://engineering.jhu.edu/faculty/tinoosh-mohsenin/). There, I aim to integrate Large Language Models (LLMs) with knowledge graphs for advanced reasoning and decision-making while designing efficient algorithms and frameworks for deploying AI solutions on edge devices and robotics.
+
 I am Xiaomin Lin, a recent graduated Ph.D. in Electrical and Computer Engineering from the University of Maryland advised by [Prof. Yiannis Aloimonos](https://robotics.umd.edu/clark/faculty/350/Yiannis-Aloimonos). My research lies at the intersection of robotics and perception, with a focus on enhancing autonomous underwater systems. I work within a [perception lab](https://prg.cs.umd.edu/) to bring advanced perceptual capabilities to robots, enabling them to perform complex tasks in dynamic oceanic environments. I view robotics and perception as deeply interwoven: robots need to move to perceive their surroundings effectively, and active perception, in turn, aids them in executing tasks. Specifically, I develop frameworks for autonomous underwater vehicles (AUVs) to detect and map marine objects like oyster beds and coral reefs using both real and synthetic data. I leverage simulation-based techniques, data-driven decision-making, and multi-modal sensor integration to create robust systems that thrive in challenging conditions. My ultimate goal is to advance autonomous systems that support conservation, research, and sustainable marine ecosystem management.
 
 
@@ -36,6 +38,7 @@ For more details, see my [CV](https://xiaominlin.github.io/files/Academic_CV.pdf
 My application package: Research Statement [pdf](https://xiaominlin.github.io/files/research_statement_general.pdf), Teaching Statement [pdf](https://xiaominlin.github.io/files/teaching_statement_general.pdf), DEI Statement [pdf](https://xiaominlin.github.io/files/DEI_statement_general.pdf)
 
 # 🔥 News
+- *2024.12*: 🚀 Joining the Energy-Efficient High-Performance Computing Lab (EEHPC) at Johns Hopkins University to work with Dr. Tinoosh Mohsenin.
 - *2024.10*: 🎉 Received the award for the best control framework in autonomous navigation and control at the IROS workshop, Abu Dhabi.
 - *2023.05*: 🏆 Best Poster Award at the Maryland Robotics Center Research Symposium.
 
