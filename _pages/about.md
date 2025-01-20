@@ -38,6 +38,8 @@ For more details, see my [CV](https://xiaominlin.github.io/files/Academic_CV.pdf
 My application package: Research Statement [pdf](https://xiaominlin.github.io/files/research_statement_general.pdf), Teaching Statement [pdf](https://xiaominlin.github.io/files/teaching_statement_general.pdf), DEI Statement [pdf](https://xiaominlin.github.io/files/DEI_statement_general.pdf)
 
 # 🔥 News
+- *2025.2*: 🚀 Confirmed Job talk in Virgina Tech. 
+- *2025.1*: 🎉 Joining as Program Committee for [AAAI 2025 Spring Symposium Series](https://sites.google.com/view/gen-ai-edge)
 - *2024.12*: 🚀 Joining the Energy-Efficient High-Performance Computing Lab (EEHPC) at Johns Hopkins University to work with Dr. Tinoosh Mohsenin.
 - *2024.10*: 🎉 Received the award for the best control framework in autonomous navigation and control at the IROS workshop, Abu Dhabi.
 - *2023.05*: 🏆 Best Poster Award at the Maryland Robotics Center Research Symposium.
@@ -67,10 +69,16 @@ For full publications: Go to [Full Publications](/full-publications/)
   Magna Cum Laude
 
 # 💬 Invited Talks
+- *2025.2*: "The Future of Marine Robotics", Virginia Tech, Confirmed On-Site Job Talk.
+- *2025.2*: "AI for Robotics", Catholic University of America, Confirmed On-Site Talk.
+- *2025.1*: "Robotics for Marine", Worcester Polytechnic Institute(WPI), Confirmed On-Site Talk.
 - *2022.11*: "Where is my Oyster," S3AM webinar.
 - *2023.05*: Presentation at the Maryland Robotics Center Research Symposium.
 
 # 💻 Professional Experience
+- **Postdoc Researcher, Johns Hopkins University**  
+  *Baltimore, MD (Dec 2025 -  Present)*  
+  Research for GenAI on Edge devices. LLM for planning.
 - **Machine Learning Engineer, Budy.bot**  
   *Palo Alto, CA (May 2024 - July 2024)*  
   Developed LLMs for enterprise software using Retrieval-Augmented Generation (RAG) and fine-tuned LLama3 for SaaS tasks.
