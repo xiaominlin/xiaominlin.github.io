@@ -42,11 +42,11 @@ For more details, see my [CV](https://xiaominlin.github.io/files/Academic_CV.pdf
 My application package: Research Statement [pdf](https://xiaominlin.github.io/files/research_statement_general.pdf), Teaching Statement [pdf](https://xiaominlin.github.io/files/teaching_statement_general.pdf), DEI Statement [pdf](https://xiaominlin.github.io/files/DEI_statement_general.pdf)
 
 # 🔥 News
-
-- *2025.2.27*: 🎉 Going to give a talk in University of South Florida Department of Electrical and Engineering. 
-- *2025.2.24*: 🚀 Going to give a talk in Virgina Tech Department of Aerospace and Ocean Engineering. 
-- *2025.2.21*: 🎉 Giving a talk in The Catholic University of America Department of Electrical Engineering and Computer Science. hosted by [Dr.Hieu Bui](https://engineering.catholic.edu/research-and-faculty/faculty-profiles/eecs/hieu-bui/index.html) and [Dr. Nader M Namazi](https://engineering.catholic.edu/research-and-faculty/faculty-profiles/eecs/namazi-nader/index.html). 
-- *2025.2.19*: 🚀 Giving a talk in UMBC Department of EECS, hosted by [Dr.Tejas Gokhale](http://tejasgokhale.com/). 
+- *2025.2.24*: 🚀 Gave a talk in "AI for Engineering and Scientific Discoveries([AAAI Spring SYmposium serios](https://sites.google.com/view/aaai-ss25-ai4science/home))"
+- *2025.2.27*: 🎉 Gave a talk in University of South Florida Department of Electrical and Engineering. 
+- *2025.2.24*: 🚀 Presented in Virgina Tech Department of Aerospace and Ocean Engineering. 
+- *2025.2.21*: 🎉 Gave a talk in The Catholic University of America Department of Electrical Engineering and Computer Science. hosted by [Dr.Hieu Bui](https://engineering.catholic.edu/research-and-faculty/faculty-profiles/eecs/hieu-bui/index.html) and [Dr. Nader M Namazi](https://engineering.catholic.edu/research-and-faculty/faculty-profiles/eecs/namazi-nader/index.html). 
+- *2025.2.19*: 🚀 Gave a talk in UMBC Department of EECS, hosted by [Dr.Tejas Gokhale](http://tejasgokhale.com/). 
 - *2025.1*: 🎉 Joined as Program Committee for [AAAI 2025 Spring Symposium Series](https://sites.google.com/view/gen-ai-edge)
 - *2024.12*: 🚀 Joining the Energy-Efficient High-Performance Computing Lab (EEHPC) at Johns Hopkins University to work with Dr. Tinoosh Mohsenin.
 - *2024.10*: 🎉 Received the award for the best control framework in autonomous navigation and control at the IROS workshop, Abu Dhabi.
