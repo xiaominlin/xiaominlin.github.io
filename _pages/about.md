@@ -26,9 +26,7 @@ Starting **Fall 2025**, I will be joining the **Department of Electrical Enginee
 
 <span style="color:green;">🌱🌟 **I’m actively recruiting Ph.D. students** to join my lab starting **Fall 2025** and **Spring 2026**. I'm also open to collaborations with researchers working in **robotics**, **AI**, **edge computing**, or **medical/underwater applications**.</span>  
 
-📬 If you're interested or know someone who might be a great fit, please **reach out via email** with the subject line: **`[Interested in Joining RoManTic Lab USF]`**  to my email. 
-
-My Research Statement [pdf](https://xiaominlin.github.io/files/research_statement_general.pdf)
+📬 If you're interested or know someone who might be a great fit, please **reach out via email** after reading My Research Statement [pdf](https://xiaominlin.github.io/files/research_statement_general.pdf) with the subject line: **`[Interested in Joining RoManTic Lab USF]`**  to my email. 
 
 I am working in [Energy-Efficient High-Performance Computing Lab (EEHPC)](https://eehpc.ece.jhu.edu/) at Johns Hopkins University as a postdoc, working with [Dr. Tinoosh Mohsenin](https://engineering.jhu.edu/faculty/tinoosh-mohsenin/). Here, I aim to integrate Large Language Models (LLMs) with knowledge graphs for advanced reasoning and decision-making while designing efficient algorithms and frameworks for deploying AI solutions on edge devices and robotics
  <!-- collaborating with reearches such as [Dr. Chuchu Fan](http://chuchufan.info/), [Dr. Nicholas Waytowich](https://nicholaswaytowich.com/), [Dr. Wyatt Mackey](https://github.com/mackeynations), [Mariela, Perez-Cabarcas](https://www.linkedin.com/in/mariela-perez-cabarcas-66b1aa1a1/) -->
