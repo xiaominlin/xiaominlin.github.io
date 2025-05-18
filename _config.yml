@@ -23,13 +23,13 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Xiaomin Lin"
-  avatar           : "images/img.jpg"
-  bio              : "Postdoc in Johns Hopkins University, Ph.D. in Electrical and Computer Engineering, University of Maryland"
+  avatar           : "images/headshot_2025.jpg"
+  bio              : "Incoming Assitant Professor in USF. Currently Postdoc in Johns Hopkins University, Ph.D. in Electrical and Computer Engineering, University of Maryland"
   location         : "Baltimore, MD, USA"
   employer         : "Johns Hopkins University"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=nudP80UAAAAJ&hl=en"
-  email            : "xlin52@jhu.edu"
+  email            : "xiaominlin01@gmail.com"
   researchgate     : "https://www.researchgate.net/profile/Xiaomin-Lin-3"
   uri              : "https://xiaominlin.github.io/"
   bitbucket        :

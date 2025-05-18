@@ -90,7 +90,7 @@ For full publications: Go to [Full Publications](/full-publications/)
 
 # 💻 Professional Experience
 - **Postdoc Researcher, Johns Hopkins University**  
-  *Baltimore, MD (Dec 2025 -  Present)*  
+  *Baltimore, MD (Jan 2025 -  Present)*  
   Research for GenAI on Edge devices. LLM for planning.
 - **Machine Learning Engineer, Budy.bot**  
   *Palo Alto, CA (May 2024 - July 2024)*  
