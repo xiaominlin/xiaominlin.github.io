@@ -74,7 +74,7 @@ For more details, see my [CV](https://xiaominlin.github.io/files/Academic_CV.pdf
 
 # 📝 Selected Publications 
 For full publications: Go to [Full Publications](/full-publications/)  
-- **X. Lin**, et al. "ViewActive : Active viewpoint optimization from a single image", ICRA 2025. [Link](https://doi.org/10.48550/arXiv.2409.09997)
+- **X. Lin**, et al. "ViewActive : Active viewpoint optimization from a single image", IROS 2025. [Link](https://doi.org/10.48550/arXiv.2409.09997)
 - **X. Lin**, et al. "MARVIS: Motion & Geometry Aware Real and Virtual Image Segmentation," IROS 2024. [Link](https://doi.org/10.48550/arXiv.2403.09850)
 - **X. Lin**, et al. "Uivnav: Underwater information-driven vision-based navigation via imitation learning," ICRA 2024. [Link](https://doi.org/10.48550/arXiv.2309.08806)
 - **X. Lin**, et al. "Oysternet: Enhanced oyster detection using simulation," ICRA 2023. [Link](https://doi.org/10.1109/ICRA48891.2023.10160830)
