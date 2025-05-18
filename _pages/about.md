@@ -46,6 +46,7 @@ My Research Statement [pdf](https://xiaominlin.github.io/files/research_statemen
 # 🔥 News
 - *2025.8*: 🎉 I will be joining the University of South Florida (USF) as a Tenure-Track Assistant Professor in Electrical Engineering!
 - *2025.5.19-24*: 🤖 I will be attending ICRA 2025 — feel free to connect if you're around!
+- *2025.5.5*: Gave a talk in University of Central Florida Department of Computer Sciend and Electrical and Computer Engineering!
 - *2025.4.2*: 🚀 Gave a talk in "AI for Engineering and Scientific Discoveries([2025 AAAI Spring Symposium Series](https://sites.google.com/view/aaai-ss25-ai4science/home))"
 - *2025.2.27*: 🎉 Gave a talk in University of South Florida Department of Electrical and Engineering. 
 - *2025.2.24*: 🚀 Presented in Virgina Tech Department of Aerospace and Ocean Engineering. 
