@@ -18,7 +18,23 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 # 🔥 About Me
-Starting Fall 2025, I will also be joining the Department of Electrical Engineering at the University of South Florida (USF) as a tenure-track Assistant Professor. At USF, I look forward to expanding my research in edge AI, perception-enabled robotics, and intelligent systems for challenging environments, including underwater, agricultural, and healthcare domains.
+# 🔥 About Me
+
+Starting **Fall 2025**, I will be joining the **Department of Electrical Engineering at the University of South Florida (USF)** as a **Tenure-Track Assistant Professor**. At USF, I look forward to expanding my research in **Edge AI**, **perception-enabled robotics**, and **intelligent systems** for **challenging environments**, including **underwater**, **agricultural**, and **healthcare** domains.
+
+💡 I'm especially excited to lead the new **RoManTic Lab** (Robotics, Multimodal perception, and AI for Challenging environments) at USF.
+
+---
+
+<span style="color:green;">🌱🌟 **I’m actively recruiting Ph.D. students** to join my lab starting **Fall 2025** and **Spring 2026**. I'm also open to collaborations with researchers working in **robotics**, **AI**, **edge computing**, or **medical/underwater applications**.</span>  
+
+📬 If you're interested or know someone who might be a great fit, please **reach out via email** with the subject line:
+
+**`[Interested in Joining RoManTic Lab USF]`**  
+📧 xiaominlin01@google+email  
+🌊🤖📡
+
+My Research Statement [pdf](https://xiaominlin.github.io/files/research_statement_general.pdf)
 
 I am working in [Energy-Efficient High-Performance Computing Lab (EEHPC)](https://eehpc.ece.jhu.edu/) at Johns Hopkins University as a postdoc, working with [Dr. Tinoosh Mohsenin](https://engineering.jhu.edu/faculty/tinoosh-mohsenin/). Here, I aim to integrate Large Language Models (LLMs) with knowledge graphs for advanced reasoning and decision-making while designing efficient algorithms and frameworks for deploying AI solutions on edge devices and robotics collaborating with reearches such as [Dr. Chuchu Fan](http://chuchufan.info/), [Dr. Nicholas Waytowich](https://nicholaswaytowich.com/), [Dr. Wyatt Mackey](https://github.com/mackeynations), [Mariela, Perez-Cabarcas](https://www.linkedin.com/in/mariela-perez-cabarcas-66b1aa1a1/)
 
@@ -39,9 +55,7 @@ I am Xiaomin Lin, a recent graduated Ph.D. in Electrical and Computer Engineerin
 
 For more details, see my [CV](https://xiaominlin.github.io/files/Academic_CV.pdf).
 
-<span style="color:green;">🌱🌟 I will be joining the University of South Florida (USF) as a Tenure-Track Assistant Professor in Electrical Engineering starting Fall 2025! I’m actively looking to hire Ph.D. students and collaborate with researchers working in robotics, AI, edge computing, and medical or underwater applications. If you’re interested or know someone who might be a great fit, feel free to reach out with subject[Interested in Joining RoManTic Lab USF] @xiaominlin01@google+email 🌊🤖📡</span>
 
-My Research Statement [pdf](https://xiaominlin.github.io/files/research_statement_general.pdf)
 
 # 🔥 News
 - *2025.8*: 🎉 I will be joining the University of South Florida (USF) as a Tenure-Track Assistant Professor in Electrical Engineering!
