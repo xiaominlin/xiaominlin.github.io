@@ -16,8 +16,6 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
-
-# 🔥 About Me
 # 🔥 About Me
 
 Starting **Fall 2025**, I will be joining the **Department of Electrical Engineering at the University of South Florida (USF)** as a **Tenure-Track Assistant Professor**. At USF, I look forward to expanding my research in **Edge AI**, **perception-enabled robotics**, and **intelligent systems** for **challenging environments**, including **underwater**, **agricultural**, and **healthcare** domains.
@@ -28,11 +26,7 @@ Starting **Fall 2025**, I will be joining the **Department of Electrical Enginee
 
 <span style="color:green;">🌱🌟 **I’m actively recruiting Ph.D. students** to join my lab starting **Fall 2025** and **Spring 2026**. I'm also open to collaborations with researchers working in **robotics**, **AI**, **edge computing**, or **medical/underwater applications**.</span>  
 
-📬 If you're interested or know someone who might be a great fit, please **reach out via email** with the subject line:
-
-**`[Interested in Joining RoManTic Lab USF]`**  
-📧 xiaominlin01@google+email  
-🌊🤖📡
+📬 If you're interested or know someone who might be a great fit, please **reach out via email** with the subject line: **`[Interested in Joining RoManTic Lab USF]`**  to my email. 
 
 My Research Statement [pdf](https://xiaominlin.github.io/files/research_statement_general.pdf)
 
