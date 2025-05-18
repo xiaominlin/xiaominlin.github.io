@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Xiaomin Lin"
-description              : "Researcher in robotics and computer vision, focusing on autonomous underwater systems."
+description              : "Robotics and AI researcher at USF, building intelligent systems for complex real-world environments using Edge AI and multimodal perception."
 repository               : "RayeRen/acad-homepage.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -24,9 +24,9 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Xiaomin Lin"
   avatar           : "images/headshot_2025.jpg"
-  bio              : "Incoming Assitant Professor in USF. Currently Postdoc in Johns Hopkins University, Ph.D. in Electrical and Computer Engineering, University of Maryland"
-  location         : "Baltimore, MD, USA"
-  employer         : "Johns Hopkins University"
+  bio              : "Incoming Assitant Professor "
+  location         : "Tampa, FL, USA"
+  employer         : "University of South Florida"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=nudP80UAAAAJ&hl=en"
   email            : "xiaominlin01@gmail.com"
