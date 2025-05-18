@@ -39,7 +39,7 @@ I am Xiaomin Lin, a recent graduated Ph.D. in Electrical and Computer Engineerin
 
 For more details, see my [CV](https://xiaominlin.github.io/files/Academic_CV.pdf).
 
-<span style="color:green;">🌱🌟 I will be joining the University of South Florida (USF) as a Tenure-Track Assistant Professor in Electrical Engineering starting Fall 2025! I’m actively looking to hire Ph.D. students and collaborate with researchers working in robotics, AI, edge computing, and medical or underwater applications. If you’re interested or know someone who might be a great fit, feel free to reach out! 🌊🤖📡</span>
+<span style="color:green;">🌱🌟 I will be joining the University of South Florida (USF) as a Tenure-Track Assistant Professor in Electrical Engineering starting Fall 2025! I’m actively looking to hire Ph.D. students and collaborate with researchers working in robotics, AI, edge computing, and medical or underwater applications. If you’re interested or know someone who might be a great fit, feel free to reach out with subject[Interested in Joining RoManTic Lab USF] @xiaominlin01@google+email 🌊🤖📡</span>
 
 My Research Statement [pdf](https://xiaominlin.github.io/files/research_statement_general.pdf)
 
