@@ -41,10 +41,12 @@ For more details, see my [CV](https://xiaominlin.github.io/files/Academic_CV.pdf
 
 <span style="color:green;">🌱🌟 I will be joining the University of South Florida (USF) as a Tenure-Track Assistant Professor in Electrical Engineering starting Fall 2025! I’m actively looking to hire Ph.D. students and collaborate with researchers working in robotics, AI, edge computing, and medical or underwater applications. If you’re interested or know someone who might be a great fit, feel free to reach out! 🌊🤖📡</span>
 
-My application package: Research Statement [pdf](https://xiaominlin.github.io/files/research_statement_general.pdf), Teaching Statement [pdf](https://xiaominlin.github.io/files/teaching_statement_general.pdf), DEI Statement [pdf](https://xiaominlin.github.io/files/DEI_statement_general.pdf)
+My Research Statement [pdf](https://xiaominlin.github.io/files/research_statement_general.pdf)
 
 # 🔥 News
-- *2025.2.24*: 🚀 Gave a talk in "AI for Engineering and Scientific Discoveries([2025 AAAI Spring Symposium Series](https://sites.google.com/view/aaai-ss25-ai4science/home))"
+- *2025.8*: 🎉 I will be joining the University of South Florida (USF) as a Tenure-Track Assistant Professor in Electrical Engineering!
+- *2025.5.19-24*: 🤖 I will be attending ICRA 2025 — feel free to connect if you're around!
+- *2025.4.2*: 🚀 Gave a talk in "AI for Engineering and Scientific Discoveries([2025 AAAI Spring Symposium Series](https://sites.google.com/view/aaai-ss25-ai4science/home))"
 - *2025.2.27*: 🎉 Gave a talk in University of South Florida Department of Electrical and Engineering. 
 - *2025.2.24*: 🚀 Presented in Virgina Tech Department of Aerospace and Ocean Engineering. 
 - *2025.2.21*: 🎉 Gave a talk in The Catholic University of America Department of Electrical Engineering and Computer Science. hosted by [Dr.Hieu Bui](https://engineering.catholic.edu/research-and-faculty/faculty-profiles/eecs/hieu-bui/index.html) and [Dr. Nader M Namazi](https://engineering.catholic.edu/research-and-faculty/faculty-profiles/eecs/namazi-nader/index.html). 
