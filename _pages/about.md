@@ -51,6 +51,8 @@ For more details, see my [CV](https://xiaominlin.github.io/files/Academic_CV.pdf
 
 
 # 🔥 News
+
+- *2025.5.21* 🎓 Honored by the [Institute for Systems Research (ISR)](https://isr.umd.edu/news/story/isr-honors-2025-graduate-achievements) for my Ph.D. achievements and contributions to robotics and underwater ecosystem monitoring.
 - *2025.8*: 🎉 I will be joining the University of South Florida (USF) as a Tenure-Track Assistant Professor in Electrical Engineering!
 - *2025.5.19-24*: 🤖 I will be attending ICRA 2025 — feel free to connect if you're around!
 - *2025.5.5*: Gave a talk in University of Central Florida Department of Computer Sciend and Electrical and Computer Engineering!
