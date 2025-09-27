@@ -1,100 +1,114 @@
-- group: Graduate Students working with now
+- group: Graduate Students
   people:
+    - name: Zhenqi Wu
+      title: Graduate Student, University of South Florida (2025–current)
+      url: "https://www.linkedin.com/in/mingyang-mao-061b28197/"
+      pic: "/images/members/placeholder.png"
+    - name: Utkarsh Grover
+      title: Graduate Student, University of South Florida (2025–current)
+      url: "https://www.linkedin.com/in/mingyang-mao-061b28197/"
+      pic: "/images/members/placeholder.png"
     - name: Mingyang Mao
       title: Graduate Student, University of South Florida (2025–current)
       url: "https://www.linkedin.com/in/mingyang-mao-061b28197/"
-      pic: "/images/members/placeholder.jpg"
+      pic: "/images/members/placeholder.png"
     - name: Edward Humes
       title: PhD Student, Johns Hopkins University (2025–current)
       url: "https://www.linkedin.com/in/edward-humes-830b7217a/"
-      pic: "/images/members/placeholder.jpg"
-    - name: Hitesh Kyatham
-      title: Graduate Student, University of Maryland (2023–current)
-      url: "https://www.linkedin.com/in/hitesh-kyatham/"
-      pic: "/images/members/placeholder.jpg"
-    - name: Vivek Mange
-      title: Graduate Student, University of Delaware (2024–current)
-      url: "https://www.linkedin.com/in/vivek-mange/"
-      pic: "/images/members/placeholder.jpg"
+      pic: "/images/members/placeholder.png"
     - name: Yihong Feng
       title: Graduate Student, University of Arkansas (2024–current)
       url: "https://sfelab.uark.edu/about/"
-      pic: "/images/members/placeholder.jpg"
-
+      pic: "/images/members/placeholder.png"
 - group: Undergraduate Students
   people:
     - name: Arjun Suresh
       title: Undergraduate Student, University of Maryland (2022–current)
       url: "https://www.linkedin.com/in/arjun-suresh-4bb96b28a/"
-      pic: "/images/members/placeholder.jpg"
-- group: Graduate Students mentored
-  people:
-    - name: Akshaj Gaur
-      title: Graduate Student, University of Maryland (2021–2024)
-      url: "https://www.linkedin.com/in/akshajgaur/"
-      pic: "/images/members/placeholder.jpg"
-    - name: Mayank Joshi
-      title: Software Engineer, Caterpillar Inc. (2021–2022)
-      url: "https://www.linkedin.com/in/mjoshi07/"
-      pic: "/images/members/placeholder.jpg"
-    - name: Nitesh Jha
-      title: Systems Engineer, Qualcomm Inc. (2021–2022)
-      url: "https://www.linkedin.com/in/nitesh-jha08/"
-      pic: "/images/members/placeholder.jpg"
-    - name: Krithika Govindaraj
-      title: Masters Thesis, University of Maryland (2019–2021)
-      url: "https://www.linkedin.com/in/krithika-govindaraj/"
-      pic: "/images/members/placeholder.jpg"
-    - name: Cheng Liu
-      title: PhD Student, George Washington University (2022–2024)
-      url: "https://www.linkedin.com/in/chengliu2023/"
-      pic: "/images/members/placeholder.jpg"
-- group: Graduate Students worked with
-  people:
-    - name: Abhinav Modi
-      title: Senior Computer Vision Engineer, Rivian (2024–current)
-      url: "https://www.linkedin.com/in/abhinavmodi16/"
-      pic: "/images/members/placeholder.jpg"
-    - name: Michael Xu
-      title: PhD Student, University of Maryland (2022–current)
-      url: "https://www.linkedin.com/in/michael-xu-39001b134/"
-      pic: "/images/members/placeholder.jpg"
-
-    - name: Yianni Karabatis
-      title: PhD Student, University of Maryland (2022–2024)
-      url: "https://www.linkedin.com/in/yianni-karabatis/"
-      pic: "/images/members/placeholder.jpg"
-    - name: Yashveer Jain
-      title: Graduate Student, University of Maryland (2023–2024)
-      url: "https://www.linkedin.com/in/yashveerjain/"
-      pic: "/images/members/placeholder.jpg"
-    - name: Adonai Vera
-      title: Graduate Student, University of Cincinnati (2023–2024)
-      url: "https://www.linkedin.com/in/adonai-vera/"
-      pic: "/images/members/placeholder.jpg"
-    - name: Abhinav Bhamidipati
-      title: Robotics Software Intern, Inception Robotics (2023–2024)
-      url: "https://www.linkedin.com/in/abhinav-bhamidipati/?originalSubdomain=in"
-      pic: "/images/members/placeholder.jpg"
-    - name: Rashmi Kapu
-      title: Masters Student, University of Maryland (2023)
-      url: "https://www.linkedin.com/in/rashmi-kapu/"
-      pic: "/images/members/placeholder.jpg"
-
+      pic: "/images/members/placeholder.png"
     - name: Taru Rustagi
       title: MS, Carnegie Mellon University (2020–2021)
       url: "https://www.linkedin.com/in/taru-rustagi/"
-      pic: "/images/members/placeholder.jpg"
+      pic: "/images/members/placeholder.png"
     - name: Hridoy Rozario
       title: Researcher (2020–2021)
       url: "https://www.linkedin.com/in/hridoy-r-764680107/"
-      pic: "/images/members/placeholder.jpg"
-
-- group: Undergrad Alumni
+      pic: "/images/members/placeholder.png"
+- group: Undergraduate Students mentored
   people:
-    # Add names here when you have former undergrads who finished
-    # Example:
-    # - name: Jane Doe
-    #   title: BS, University Name (2020–2023)
-    #   url: "https://example.com"
-    #   pic: "/images/members/placeholder.jpg"
+    - name: Arjun Suresh
+      title: Undergraduate Student, University of Maryland (2022–current)
+      url: "https://www.linkedin.com/in/arjun-suresh-4bb96b28a/"
+      pic: "/images/members/placeholder.png"
+    - name: Taru Rustagi
+      title: MS, Carnegie Mellon University (2020–2021)
+      url: "https://www.linkedin.com/in/taru-rustagi/"
+      pic: "/images/members/placeholder.png"
+    - name: Hridoy Rozario
+      title: Researcher (2020–2021)
+      url: "https://www.linkedin.com/in/hridoy-r-764680107/"
+      pic: "/images/members/placeholder.png"
+- group: Graduate Students mentored
+  people:
+    - name: Puneeth Sarma Kondamudi
+      title: Graduate Student, University of Maryland (2023–c2025)
+      url: "hhttps://www.linkedin.com/in/puneethk26/"
+      pic: "/images/members/placeholder.png"
+    - name: Hitesh Kyatham
+      title: Graduate Student, University of Maryland (2023–2025)
+      url: "https://www.linkedin.com/in/hitesh-kyatham/"
+      pic: "/images/members/placeholder.png"
+    - name: Vivek Mange
+      title: Graduate Student, University of Delaware (2024–2025)
+      url: "https://www.linkedin.com/in/vivek-mange/"
+      pic: "/images/members/placeholder.png"
+    - name: Akshaj Gaur
+      title: Graduate Student, University of Maryland (2021–2024)
+      url: "https://www.linkedin.com/in/akshajgaur/"
+      pic: "/images/members/placeholder.png"
+    - name: Mayank Joshi
+      title: Software Engineer, Caterpillar Inc. (2021–2022)
+      url: "https://www.linkedin.com/in/mjoshi07/"
+      pic: "/images/members/placeholder.png"
+    - name: Nitesh Jha
+      title: Systems Engineer, Qualcomm Inc. (2021–2022)
+      url: "https://www.linkedin.com/in/nitesh-jha08/"
+      pic: "/images/members/placeholder.png"
+    - name: Krithika Govindaraj
+      title: Masters Thesis, University of Maryland (2019–2021)
+      url: "https://www.linkedin.com/in/krithika-govindaraj/"
+      pic: "/images/members/placeholder.png"
+    - name: Cheng Liu
+      title: PhD Student, George Washington University (2022–2024)
+      url: "https://www.linkedin.com/in/chengliu2023/"
+      pic: "/images/members/placeholder.png"
+    - name: Yashveer Jain
+      title: Graduate Student, University of Maryland (2023–2024)
+      url: "https://www.linkedin.com/in/yashveerjain/"
+      pic: "/images/members/placeholder.png"
+    - name: Abhinav Modi
+      title: Senior Computer Vision Engineer, Rivian (2024–2025)
+      url: "https://www.linkedin.com/in/abhinavmodi16/"
+      pic: "/images/members/placeholder.png"
+    - name: Abhinav Bhamidipati
+      title: Robotics Software Intern, Inception Robotics (2023–2024)
+      url: "https://www.linkedin.com/in/abhinav-bhamidipati/?originalSubdomain=in"
+      pic: "/images/members/placeholder.png"
+    - name: Rashmi Kapu
+      title: Masters Student, University of Maryland (2023)
+      url: "https://www.linkedin.com/in/rashmi-kapu/"
+      pic: "/images/members/placeholder.png"
+- group: Graduate Students worked with
+  people:
+    - name: Michael Xu
+      title: PhD Student, University of Maryland (2022–2025)
+      url: "https://www.linkedin.com/in/michael-xu-39001b134/"
+      pic: "/images/members/placeholder.png"
+    - name: Yianni Karabatis
+      title: PhD Student, University of Maryland (2022–2024)
+      url: "https://www.linkedin.com/in/yianni-karabatis/"
+      pic: "/images/members/placeholder.png"
+    - name: Adonai Vera
+      title: Graduate Student, University of Cincinnati (2023–2024)
+      url: "https://www.linkedin.com/in/adonai-vera/"
+      pic: "/images/members/placeholder.png"
