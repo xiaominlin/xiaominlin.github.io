@@ -3,7 +3,7 @@
     - name: Zhenqi Wu
       title: Graduate Student, University of South Florida (2025–current)
       url: "https://www.linkedin.com/in/zhenqi-wu-55512122a/"
-      pic: "/images/members/Zhenqi_Wu.png"
+      pic: "/images/members/Zhenqi_Wu.jpeg"
     - name: Utkarsh Grover
       title: Graduate Student, University of South Florida (2025–current)
       url: "https://www.linkedin.com/in/utkarsh-grover-5561881a8/"
@@ -22,16 +22,16 @@
       pic: "/images/members/Edward Humes.jpeg"
     - name: Yuanjie Lu
       title: PhD Student, George Mason University (2025–current)
-      url: "https://scholar.google.com/citations?user=BVwGPdQAAAAJ&hl=en"
-      pic: "/images/members/placeholder.png"
+      url: "https://chais.gmu.edu/person/yuanjie-lu/"
+      pic: "/images/members/Yuanjie_Lu.jpg"
     - name: Boxun Hu 
       title: PhD Student, Johns Hopkins University (2025–current)
       url: "https://www.linkedin.com/in/boxun-hu-xxx4290325/"
-      pic: "/images/members/placeholder.png"
+      pic: "/images/members/Boxun.jpeg"
     - name: Yihong Feng
       title: Graduate Student, University of Arkansas (2024–current)
-      url: "https://sfelab.uark.edu/about/"
-      pic: "/images/members/placeholder.png"
+      url: "https://www.linkedin.com/in/yihong-feng-340221143/"
+      pic: "/images/members/Yihong.jpeg"
     - name: Mahima Beltur
       title: Graduate Student(MS), University of South Florida (2024–current)
       url: "https://www.linkedin.com/in/mahima-beltur/"
@@ -39,17 +39,17 @@
     - name: Lara Radovanovic
       title: Graduate Student(MS), University of South Florida (2025–current)
       url: "https://www.linkedin.com/in/lara-radovanovic/"
-      pic: "/images/members/placeholder.png"
+      pic: "/images/members/Lara Radovanovic.jpeg"
 - group: Undergraduate Students
   people:
     - name: Aadi Palnitkar
       title: Undergraduate Student, University of Maryland (2021–current)
       url: "https://www.linkedin.com/in/aadi-palnitkar/"
-      pic: "/images/members/placeholder.png"
+      pic: "/images/members/Aadi Palnitkar.jpeg"
     - name: Kushal Kapoor 
       title: Undergraduate Student, University of Maryland (2024–current)
       url: "https://www.linkedin.com/in/kushalkapoor25/"
-      pic: "/images/members/placeholder.png"
+      pic: "/images/members/kushal.png"
     - name: Vakul Raghavan
       title: Undergraduate Student, Rutgerts University (2023–current)
       url: "https://www.linkedin.com/in/vakul-raghavan-4b3b021b4/"
@@ -61,27 +61,27 @@
     - name: Sahasra Kondapalli
       title: Undergraduate Student, University of South Florida (2025–current)
       url: "https://www.linkedin.com/in/sahasra-kondapalli/"
-      pic: "/images/members/placeholder.png"
+      pic: "/images/members/Sahasra Kondapalli.png"
 - group: Undergraduate Students mentored
   people:
     - name: Arjun Suresh
       title: Undergraduate Student, University of Maryland (2022–current)
       url: "https://www.linkedin.com/in/arjun-suresh-4bb96b28a/"
-      pic: "/images/members/placeholder.png"
+      pic: "/images/members/Arjun.jpeg"
     - name: Taru Rustagi
       title: MS, Carnegie Mellon University (2020–2021)
       url: "https://www.linkedin.com/in/taru-rustagi/"
-      pic: "/images/members/placeholder.png"
+      pic: "/images/members/Taru.jpeg"
     - name: Hridoy Rozario
       title: Researcher (2020–2021)
-      url: "https://www.linkedin.com/in/hridoy-r-764680107/"
+      # url: "https://www.linkedin.com/in/hridoy-r-764680107/"
       pic: "/images/members/placeholder.png"
 - group: Graduate Students mentored
   people:
     - name: Puneeth Sarma Kondamudi
       title: Graduate Student, University of Maryland (2023–c2025)
       url: "hhttps://www.linkedin.com/in/puneethk26/"
-      pic: "/images/members/placeholder.png"
+      pic: "/images/members/Puneeth.jpeg"
     - name: Hitesh Kyatham
       title: Graduate Student, University of Maryland (2023–2025)
       url: "https://www.linkedin.com/in/hitesh-kyatham/"
