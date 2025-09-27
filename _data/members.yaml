@@ -35,7 +35,7 @@
     - name: Mahima Beltur
       title: Graduate Student(MS), University of South Florida (2024–current)
       url: "https://www.linkedin.com/in/mahima-beltur/"
-      pic: "/images/members/Mahima_Beltur.jpeg"
+      pic: "/images/members/Mahima Beltur.jpeg"
     - name: Lara Radovanovic
       title: Graduate Student(MS), University of South Florida (2025–current)
       url: "https://www.linkedin.com/in/lara-radovanovic/"
@@ -85,7 +85,11 @@
     - name: Hitesh Kyatham
       title: Graduate Student, University of Maryland (2023–2025)
       url: "https://www.linkedin.com/in/hitesh-kyatham/"
-      pic: "/images/members/placeholder.png"
+      pic: "/images/members/hitesh.html"
+    - name: Abhinav Modi
+      title: Senior Computer Vision Engineer, Rivian (2024–2025)
+      url: "https://www.linkedin.com/in/abhinavmodi16/"
+      pic: "/images/members/Abhinav.jpeg"
     - name: Vivek Mange
       title: Graduate Student, University of Delaware (2024–2025)
       url: "https://www.linkedin.com/in/vivek-mange/"
@@ -93,36 +97,32 @@
     - name: Akshaj Gaur
       title: Graduate Student, University of Maryland (2021–2024)
       url: "https://www.linkedin.com/in/akshajgaur/"
-      pic: "/images/members/placeholder.png"
+      pic: "/images/members/Akshaj.jpeg"
     - name: Mayank Joshi
       title: Software Engineer, Caterpillar Inc. (2021–2022)
       url: "https://www.linkedin.com/in/mjoshi07/"
-      pic: "/images/members/placeholder.png"
+      pic: "/images/members/Mayank.jpeg"
     - name: Nitesh Jha
       title: Systems Engineer, Qualcomm Inc. (2021–2022)
       url: "https://www.linkedin.com/in/nitesh-jha08/"
-      pic: "/images/members/placeholder.png"
+      pic: "/images/members/Nitesh.jpeg"
     - name: Krithika Govindaraj
       title: Masters Thesis, University of Maryland (2019–2021)
       url: "https://www.linkedin.com/in/krithika-govindaraj/"
-      pic: "/images/members/placeholder.png"
+      pic: "/images/members/Krithika.jpeg"
     - name: Cheng Liu
       title: PhD Student, George Washington University (2022–2024)
       url: "https://www.linkedin.com/in/chengliu2023/"
-      pic: "/images/members/placeholder.png"
+      pic: "/images/members/Cheng Liu.jpeg"
     - name: Yashveer Jain
       title: Graduate Student, University of Maryland (2023–2024)
       url: "https://www.linkedin.com/in/yashveerjain/"
-      pic: "/images/members/placeholder.png"
-    - name: Abhinav Modi
-      title: Senior Computer Vision Engineer, Rivian (2024–2025)
-      url: "https://www.linkedin.com/in/abhinavmodi16/"
-      pic: "/images/members/placeholder.png"
+      pic: "/images/members/Yashveer Jain.jpeg"
     - name: Abhinav Bhamidipati
       title: Robotics Software Intern, Inception Robotics (2023–2024)
       url: "https://www.linkedin.com/in/abhinav-bhamidipati/?originalSubdomain=in"
-      pic: "/images/members/placeholder.png"
+      pic: "/images/members/Abhinav Bhamidipati.jpeg"
     - name: Rashmi Kapu
       title: Masters Student, University of Maryland (2023)
       url: "https://www.linkedin.com/in/rashmi-kapu/"
-      pic: "/images/members/placeholder.png"
+      pic: "/images/members/Rashmi Kapu.jpeg"
