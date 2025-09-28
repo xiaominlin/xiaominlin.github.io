@@ -59,8 +59,8 @@
       pic: "/images/members/kushal.png"
     - name: Vakul Raghavan
       title: Undergraduate Student, Rutgerts University (2023–current)
-      url: "https://www.linkedin.com/in/vakul-raghavan-4b3b021b4/"
-      pic: "/images/members/placeholder.png"
+      # url: "https://www.linkedin.com/in/vakul-raghavan-4b3b021b4/"
+      pic: "/images/members/vakul.jpg"
     - name: Adam Carita 
       title: Undergraduate Student, University of Maryland (2025–current)
       url: "https://www.linkedin.com/in/adamcarita/"
