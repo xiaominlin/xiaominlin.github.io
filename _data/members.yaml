@@ -76,6 +76,10 @@
       title: Researcher (2020–2021)
       # url: "https://www.linkedin.com/in/hridoy-r-764680107/"
       pic: "/images/members/placeholder.png"
+    - name: Akshaj Gaur
+      title: Currently, Graduate Student, University of Maryland (2021–2024)
+      url: "https://www.linkedin.com/in/akshajgaur/"
+      pic: "/images/members/Akshaj.jpeg"
 - group: Graduate Students mentored
   people:
     - name: Puneeth Sarma Kondamudi
@@ -94,10 +98,6 @@
       title: Currently, Graduate Researcher in University of Maryland (2024–2025)
       url: "https://www.linkedin.com/in/vivek-mange/"
       pic: "/images/members/placeholder.png"
-    - name: Akshaj Gaur
-      title: Currently, Graduate Student, University of Maryland (2021–2024)
-      url: "https://www.linkedin.com/in/akshajgaur/"
-      pic: "/images/members/Akshaj.jpeg"
     - name: Mayank Joshi
       title: Currently, Software Engineer, Caterpillar Inc. (2021–2022)
       url: "https://www.linkedin.com/in/mjoshi07/"
