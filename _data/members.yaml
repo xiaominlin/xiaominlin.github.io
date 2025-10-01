@@ -35,10 +35,10 @@
       title: Ph.D. Studentt, University of Arkansas (2024–current)
       url: "https://www.linkedin.com/in/yihong-feng-340221143/"
       pic: "/images/members/Yihong.jpeg"
-    - name: Tamil Selvan Gurunathan
-      title: Ph.D. Student, University of Maryland- BC (2025–current)
-      url: "https://www.linkedin.com/in/tamilselvan-g/"
-      pic: "/images/members/Tamil.jpg"
+    # - name: Tamil Selvan Gurunathan
+    #   title: Ph.D. Student, University of Maryland- BC (2025–current)
+    #   url: "https://www.linkedin.com/in/tamilselvan-g/"
+    #   pic: "/images/members/Tamil.jpg"
     - name: Mahima Beltur
       title: Graduate Student(MS), University of Maryland (2024–current)
       url: "https://www.linkedin.com/in/mahima-beltur/"
@@ -64,7 +64,7 @@
     - name: Adam Carita 
       title: Undergraduate Student, University of Maryland (2025–current)
       url: "https://www.linkedin.com/in/adamcarita/"
-      pic: "/images/members/placeholder.png"
+      pic: "/images/members/Adam_Carita.jpg"
     - name: Sahasra Kondapalli
       title: Undergraduate Student, University of South Florida (2025–current)
       url: "https://www.linkedin.com/in/sahasra-kondapalli/"
