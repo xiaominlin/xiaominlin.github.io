@@ -16,6 +16,10 @@
       title: Graduate Student, University of South Florida (Incoming Fall 2026)
       url: "https://www.linkedin.com/in/trungdong28/"
       pic: "/images/members/Trung_Dong.jpg"
+    - name: Lara Radovanovic
+      title: Graduate Student(MS), University of South Florida (2025–current)
+      url: "https://www.linkedin.com/in/lara-radovanovic/"
+      pic: "/images/members/Lara Radovanovic.jpeg"
 - group: Graduate Students working with
   people:
     - name: Edward Humes
@@ -46,10 +50,6 @@
       title: Graduate Student(MS), University of Maryland (2024–current)
       url: "https://www.linkedin.com/in/mahima-beltur/"
       pic: "/images/members/Mahima Beltur.jpeg"
-    - name: Lara Radovanovic
-      title: Graduate Student(MS), University of South Florida (2025–current)
-      url: "https://www.linkedin.com/in/lara-radovanovic/"
-      pic: "/images/members/Lara Radovanovic.jpeg"
 - group: Undergraduate Students
   people:
     - name: Aadi Palnitkar
