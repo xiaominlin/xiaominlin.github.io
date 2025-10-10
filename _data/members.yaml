@@ -1,23 +1,23 @@
 - group: Graduate Students Mentoring(ERA Lab)
   people:
     - name: Zhenqi Wu
-      title: Graduate Student, University of South Florida (2025–current)
+      title: Ph.D. Student, University of South Florida (2025–current)
       url: "https://www.linkedin.com/in/zhenqi-wu-55512122a/"
       pic: "/images/members/Zhenqi_Wu.jpeg"
     - name: Utkarsh Grover
-      title: Graduate Student, University of South Florida (2025–current)
+      title: Ph.D. Student, University of South Florida (2025–current)
       url: "https://www.linkedin.com/in/utkarsh-grover-5561881a8/"
       pic: "/images/members/UG.jpg"
     - name: Mingyang Mao
-      title: Graduate Student, University of South Florida (2025–current)
+      title: Ph.D. Student, University of South Florida (2025–current)
       url: "https://www.linkedin.com/in/mingyang-mao-061b28197/"
       pic: "/images/members/Mingyang_Mao.jpg"
     - name: Trung Dong
-      title: Graduate Student, University of South Florida (Incoming Fall 2026)
+      title: Ph.D. Student, University of South Florida (Incoming Fall 2026)
       url: "https://www.linkedin.com/in/trungdong28/"
       pic: "/images/members/Trung_Dong.jpg"
     - name: Lara Radovanovic
-      title: Graduate Student(MS), University of South Florida (2025–current)
+      title: Master Student, University of South Florida (2025–current)
       url: "https://www.linkedin.com/in/lara-radovanovic/"
       pic: "/images/members/Lara Radovanovic.jpeg"
 - group: Graduate Students working with
@@ -42,12 +42,12 @@
       title: Ph.D. Studentt, University of Arkansas (2024–current)
       url: "https://www.linkedin.com/in/yihong-feng-340221143/"
       pic: "/images/members/Yihong.jpeg"
-    # - name: Tamil Selvan Gurunathan
-    #   title: Ph.D. Student, University of Maryland- BC (2025–current)
-    #   url: "https://www.linkedin.com/in/tamilselvan-g/"
-    #   pic: "/images/members/Tamil.jpg"
+    - name: Tamil Selvan Gurunathan
+      title: Ph.D. Student, University of Maryland- BC (2025–current)
+      url: "https://www.linkedin.com/in/tamilselvan-g/"
+      pic: "/images/members/Tamil.jpg"
     - name: Mahima Beltur
-      title: Graduate Student(MS), University of Maryland (2024–current)
+      title: Master Student, University of Maryland (2024–current)
       url: "https://www.linkedin.com/in/mahima-beltur/"
       pic: "/images/members/Mahima Beltur.jpeg"
 - group: Undergraduate Students
