@@ -22,6 +22,10 @@
       pic: "/images/members/Lara Radovanovic.jpeg"
 - group: Affiliated Ph.D. Students Graduate Students
   people:
+    - name: Ravi Ranjan
+      title: Ph.D. Studentt, FIU(2025–current)
+      url: "https://www.linkedin.com/in/rvranjan/"
+      pic: "/images/members/ravi.png"
     - name: Edward Humes
       title: Ph.D. Student, Johns Hopkins University (2025–current)
       url: "https://www.linkedin.com/in/edward-humes-830b7217a/"
@@ -46,18 +50,6 @@
       title: Ph.D. Studentt, University of Arkansas (2024–current)
       url: "https://www.linkedin.com/in/yihong-feng-340221143/"
       pic: "/images/members/Yihong.jpeg"
-    - name: Ravi Ranjan
-      title: Ph.D. Studentt, FIU(2025–current)
-      url: "https://www.linkedin.com/in/rvranjan/"
-      pic: "/images/members/ravi.png"
-    - name: Tamil Selvan Gurunathan
-      title: Ph.D. Student, University of Maryland- BC (2025–current)
-      url: "https://www.linkedin.com/in/tamilselvan-g/"
-      pic: "/images/members/Tamil.jpg"
-    - name: Mahima Beltur
-      title: Master Student, University of Maryland (2024–current)
-      url: "https://www.linkedin.com/in/mahima-beltur/"
-      pic: "/images/members/Mahima Beltur.jpeg"
 - group: Undergraduate Students
   people:
     - name: Aadi Palnitkar
@@ -108,6 +100,10 @@
       pic: "/images/members/Akshaj.jpeg"
 - group: Graduate Students mentored
   people:
+    - name: Mahima Beltur
+      title: Master Student, University of Maryland (2024–current)
+      url: "https://www.linkedin.com/in/mahima-beltur/"
+      pic: "/images/members/Mahima Beltur.jpeg"
     - name: Puneeth Sarma Kondamudi
       title: Currently, Software Engineer in Amazon (2023–c2025)
       url: "hhttps://www.linkedin.com/in/puneethk26/"
