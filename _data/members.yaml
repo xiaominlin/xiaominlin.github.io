@@ -16,14 +16,18 @@
       title: Ph.D. Student, University of South Florida (Incoming Fall 2026)
       url: "https://www.linkedin.com/in/trungdong28/"
       pic: "/images/members/Trung_Dong.jpg"
+    - name: Mohammed Ibrahim M
+      title: Ph.D. Student, University of South Florida (Incoming Fall 2026)
+      url: "https://www.linkedin.com/in/mohammed-ibrahim-m-123aa524b/"
+      pic: "/images/members/mohammed-ibrahim-m.jpeg"
     - name: Lara Radovanovic
       title: Master Student, University of South Florida (2025–current)
       url: "https://www.linkedin.com/in/lara-radovanovic/"
       pic: "/images/members/Lara Radovanovic.jpeg"
-    - name: Chi Phuong Diep
-      title: Master Student, Co-mentored with Prof. Tingting Zhang, University of South Florida (2025–current)
-      url: "https://www.linkedin.com/in/chi-diep/"
-      pic: "/images/members/chi_diep.jpg"
+    # - name: Chi Phuong Diep
+    #   title: Master Student, Co-mentored with Prof. Tingting Zhang, University of South Florida (2025–current)
+    #   url: "https://www.linkedin.com/in/chi-diep/"
+    #   pic: "/images/members/chi_diep.jpg"
     - name: Bhargav Rishi Medisetti
       title: Master Student, Co-mentored with Prof. Tingting Zhang,University of South Florida (2025–current)
       url: "https://www.linkedin.com/in/bhargav-rishi-medisetti/"
