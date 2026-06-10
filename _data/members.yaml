@@ -34,6 +34,10 @@
       pic: "/images/members/rishi.jpg"
 - group: Affiliated Ph.D. Students Graduate Students
   people:
+    - name: Aadi Palnitkar
+      title: Undergraduate Student, University of Maryland (2021–current)
+      url: "https://www.linkedin.com/in/aadi-palnitkar/"
+      pic: "/images/members/Aadi Palnitkar.jpeg"
     - name: Ravi Ranjan
       title: Ph.D. Studentt, FIU(2025–current)
       url: "https://www.linkedin.com/in/rvranjan/"
@@ -60,10 +64,6 @@
       pic: "/images/members/Boxun.jpeg"
 - group: Undergraduate Students
   people:
-    - name: Aadi Palnitkar
-      title: Undergraduate Student, University of Maryland (2021–current)
-      url: "https://www.linkedin.com/in/aadi-palnitkar/"
-      pic: "/images/members/Aadi Palnitkar.jpeg"
     - name: Micaiah Bartlett
       title: Undergraduate Student, University of South Florida (2025–current)
       url: "https://www.linkedin.com/in/micaiahbartlett/"
