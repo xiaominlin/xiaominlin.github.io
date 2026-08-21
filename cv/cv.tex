@@ -1,699 +1,1562 @@
-%%% A template to produce a nice-looking Curriculum Vitae.
-%%% Kieran Healy <kjhealy@gmail.com>
-%%% Most recent version is at http://kjhealy.github.com/kjh-vita
-%%%
-%%% ------------------------------------------------------------------------
-%%% Requirements (should be included in a modern tex distribution):
-%%% ------------------------------------------------------------------------
-%%% xelatex
-%%% fontspec.sty
-%%% hyperrref.sty
-%%% xunicode.sty
-%%% color.sty
-%%% url.sty
-%%% fancyhdr.sty
-%%%
-%%% ------------------------------------------------------------------------
-%%% Optional
-%%% ------------------------------------------------------------------------
-%%% git
-%%% vc.sty
-%%% revnum.sty
-%%% Fonts
-%%%
-%%% ------------------------------------------------------------------------
-%%% Note
-%%%------------------------------------------------------------------------
-%%% Because this is a hand-tweaked file, be on the look out for \medksip,
-%%% \bigskip and \newpage commands here and there, which are used to balance
-%%% the layout or avoid widows & orphans, etc. You should of course add or
-%%% remove these as needed.
-%%%------------------------------------------------------------------------
-
-\documentclass[10pt]{article}
-\renewcommand{\arraystretch}{1.3}
-
-%%%------------------------------------------------------------------------
-%%% Metadata
-%%%------------------------------------------------------------------------
-
-%% Change as needed. Or just add me as a coauthor. Only some of these are
-%% used below in the hyperref declaration and address banner section.
-\def\myauthor{Alexander Rush}
-\def\mytitle{Vita}
-\def\mycopyright{\myauthor}
-\def\mykeywords{}
-\def\mybibliostyle{plain}
-\def\mybibliocommand{}
-\def\mysubtitle{}
-\def\myaffiliation{cornell}
-\def\myaddress{Computer Science Department}
-\def\myemail{arush@cornell.edu}
-\def\myweb{http://rush-nlp.com}
-\def\myphone{(215) 317-8089}
-\def\myfax{srush\_nlp}
-\def\myversion{}
-\def\myrevision{}
+%
+%Academic CV LaTeX Template
+% Author: Dubasi Pavan Kumar
+% LinkedIn: https://www.linkedin.com/in/im-pavankumar/
+% License: MIT
+%
+% For errors, suggestions, or improvements, please contact:
+% Email: pavankumard.pg19.ma@nitp.ac.in
+%
 
 
-\def\myaffiliation{Cornell University}
-\def\myauthor{Alexander Rush}
-\date{} % not used (revision control instead)
-\def\mykeywords{Rush, Alexander, Alexander Rush, Vita, CV, Resume, Computer Science}
 
-%%%------------------------------------------------------------------------
-%%% Git version tracking
-%%%------------------------------------------------------------------------
+\documentclass[a4paper,11pt]{article}
 
-%% If you don't use git or the vc package (from CTAN), comment this out.
-%% If you comment it out, be sure to remove the \rfoot comment below, too.
-% \input{vc}
+% Package imports
+\usepackage{latexsym}
+\usepackage{xcolor}
+\usepackage{float}
+\usepackage{ragged2e}
+\usepackage[empty]{fullpage}
+\usepackage{wrapfig}
+\usepackage{lipsum}
+\usepackage{tabularx}
+\usepackage{titlesec}
+\usepackage{geometry}
+\usepackage{marvosym}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{cfr-lm}
+\usepackage[T1]{fontenc}
+\usepackage{fontawesome5}
 
-%%%------------------------------------------------------------------------
-%%% Required style files
-%%%------------------------------------------------------------------------
-\usepackage{url,fancyhdr}
-%%\usepackage{revnum} % for reverse-numbered publications (revnumerate environment) if needed.
+% Color definitions
+\definecolor{darkblue}{RGB}{0,0,139}
 
-%% needed for xelatex to work
-% \usepackage{fontspec}
-% \usepackage{xunicode}
+% Page layout
+\setlength{\multicolsep}{0pt} 
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\geometry{left=1.4cm, top=0.8cm, right=1.2cm, bottom=1cm}
+\setlength{\footskip}{5pt} % Addressing fancyhdr warning
 
-%% color for the links
-\usepackage[usenames,dvipsnames]{xcolor}
-\usepackage{palatino}
-%% hyperlinks
-\usepackage[
-colorlinks=true,
-	urlcolor=BlueViolet,
-	plainpages=false,
-  	pdfpagelabels,
-  	bookmarksnumbered,
-  	pdftitle={\mytitle},
-  	pagebackref,
-  	pdfauthor={\myauthor},
-  	pdfkeywords={\mykeywords}
-  	]{hyperref}
+% Hyperlink setup (moved after fancyhdr to address warning)
+\usepackage[hidelinks]{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=darkblue,
+    filecolor=darkblue,
+    urlcolor=darkblue,
+}
 
-%%%------------------------------------------------------------------------
-%%% Document
-%%%------------------------------------------------------------------------
+% Custom box settings
+\usepackage[most]{tcolorbox}
+\tcbset{
+    frame code={},
+    center title,
+    left=0pt,
+    right=0pt,
+    top=0pt,
+    bottom=0pt,
+    colback=gray!20,
+    colframe=white,
+    width=\dimexpr\textwidth\relax,
+    enlarge left by=-2mm,
+    boxsep=4pt,
+    arc=0pt,outer arc=0pt,
+}
+
+% URL style
+\urlstyle{same}
+
+% Text alignment
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Section formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-7pt}]
+
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item{
+    \textbf{#1}{\hspace{0.5mm}#2 \vspace{-0.5mm}}
+  }
+}
+\newcommand{\grantEntry}[4]{
+    \item \textbf{[#1] #2} \\ \textit{#3} \\ #4
+}
+
+\newcommand{\resumePOR}[3]{
+\vspace{0.5mm}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1}\hspace{0.3mm}#2 & \textit{\small{#3}} 
+    \end{tabular*}
+    \vspace{-2mm}
+}
+
+\newcommand{\resumeSubheading}[4]{
+\vspace{0.5mm}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \ifx&#4&\else \textit{\footnotesize{#4}} \fi \\
+        \ifx&#3&\else \textit{\footnotesize{#3}} \fi & \ifx&#2&\else \footnotesize{#2} \fi \\
+    \end{tabular*}
+    \vspace{-2.4mm}
+}
+
+\newcommand{\resumeSubheadingnew}[7]{
+\vspace{0.5mm}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \textit{\footnotesize{#4}} \\
+        \textit{\footnotesize{#3}} &  \footnotesize{#2} \\
+        \ifx&#5&\else \multicolumn{2}{l}{\textit{\footnotesize{#5}}} \\ \fi
+        \ifx&#6&\else \multicolumn{2}{l}{\textit{\footnotesize{#6}}} \\ \fi
+        \ifx&#7&\else \multicolumn{2}{l}{\footnotesize{\textbf{#7}}} \\ \fi
+    \end{tabular*}
+    \vspace{-2.4mm}
+}
+\newcommand{\resumeProject}[4]{
+\vspace{0.5mm}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \textit{\footnotesize{#3}} \\
+        \footnotesize{\textit{#2}} & \footnotesize{#4}
+    \end{tabular*}
+    \vspace{-2.4mm}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemi}{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand{\labelitemii}{$\vcenter{\hbox{\tiny$\circ$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*,labelsep=1mm]}
+\newcommand{\resumeHeadingSkillStart}{\begin{itemize}[leftmargin=*,itemsep=1.7mm, rightmargin=2ex]}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=*,labelsep=1mm,itemsep=0.5mm]}
+
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{2mm}}
+\newcommand{\resumeHeadingSkillEnd}{\end{itemize}\vspace{-2mm}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-2mm}}
+\newcommand{\cvsection}[1]{%
+\vspace{2mm}
+\begin{tcolorbox}
+    \textbf{\large #1}
+\end{tcolorbox}
+    \vspace{-4mm}
+}
+
+\newcolumntype{L}{>{\raggedright\arraybackslash}X}%
+\newcolumntype{R}{>{\raggedleft\arraybackslash}X}%
+\newcolumntype{C}{>{\centering\arraybackslash}X}%
+
+% Commands for icon sizing and positioning
+\newcommand{\socialicon}[1]{\raisebox{-0.05em}{\resizebox{!}{1em}{#1}}}
+\newcommand{\ieeeicon}[1]{\raisebox{-0.3em}{\resizebox{!}{1.3em}{#1}}}
+
+% Font options
+\newcommand{\headerfonti}{\fontfamily{phv}\selectfont} % Helvetica-like (similar to Arial/Calibri)
+\newcommand{\headerfontii}{\fontfamily{ptm}\selectfont} % Times-like (similar to Times New Roman)
+\newcommand{\headerfontiii}{\fontfamily{ppl}\selectfont} % Palatino (elegant serif)
+\newcommand{\headerfontiv}{\fontfamily{pbk}\selectfont} % Bookman (readable serif)
+\newcommand{\headerfontv}{\fontfamily{pag}\selectfont} % Avant Garde-like (similar to Trebuchet MS)
+\newcommand{\headerfontvi}{\fontfamily{cmss}\selectfont} % Computer Modern Sans Serif
+\newcommand{\headerfontvii}{\fontfamily{qhv}\selectfont} % Quasi-Helvetica (another Arial/Calibri alternative)
+\newcommand{\headerfontviii}{\fontfamily{qpl}\selectfont} % Quasi-Palatino (another elegant serif option)
+\newcommand{\headerfontix}{\fontfamily{qtm}\selectfont} % Quasi-Times (another Times New Roman alternative)
+\newcommand{\headerfontx}{\fontfamily{bch}\selectfont} % Charter (clean serif font)
+
+% Custom commands for header and sections
+\newcommand{\name}{\Huge\textbf{Xiaomin Lin}}
+\newcommand{\contactInfo}{
+\includegraphics[width=0.30\linewidth]{QR_code.png}
+
+    \faPhone\ +1-813-974-3207 \\
+    \faEnvelope\ \href{mailto:xlin2@usf.edu}{xlin2@usf.edu} \\
+    \faGlobe\ \href{https://xiaominlin.github.io/}{xiaominlin.github.io} \\
+    \faGraduationCap\ \href{https://scholar.google.com/citations?user=nudP80UAAAAJ&hl=en}{Google Scholar} \\
+    \faLinkedin\ \href{https://www.linkedin.com/in/xiaomin-lin/}{linkedin.com/in/xiaomin-lin}
+    }
+\newcommand{\affiliation}{
+\small{
+Doctor of Philosophy, \\
+Assist. professor of Electrical and Computer Engineering, \\
+Affiliated Faculty,  Bellini College of Artificial Intelligence, Cybersecurity and Computing(Compute Science), \\
+Director of Embodied Robotics Autonomy Lab, \\
+Researcher, Institute for Artificial Intelligence + X, \\
+University of South Florida}
+}
+
+\newcommand{\sectionTitle}[1]{
+    \vspace{5pt}
+    \noindent\large\textbf{#1}
+    \vspace{3pt}
+    \hrule
+    \vspace{5pt}
+}
+
 \begin{document}
 
-%% Choose fonts for use with xelatex
-%% Minion and Myriad are widely available, from Adobe.
-%% Pragmata is available to buy at http://www.fsd.it/fonts/pragma.htm
-%% and is worth every penny. Any good monospace font will work fine, though.
-%% Consolas or inconsolata are good alternatives.
-% \setromanfont[Mapping={tex-text},Numbers={OldStyle},Ligatures={Common}]{arial}
-% \setsansfont[Mapping=tex-text,Colour=AA0000]{Myriad Pro}
-% \setmonofont[Mapping=tex-text,Scale=0.9]{Inconsolata}
+% Two-column header with left and right sections
+\begin{multicols}{2}
+    \raggedright
+    \name
+    
+    \vspace{10pt}
+    \affiliation
+    
+    \columnbreak
+    \raggedleft
+    \contactInfo
+\end{multicols}
+% \vspace{-6mm}
+
+% \begin{center}
+%     \small{
+%     \socialicon{\faLinkedin} \href{https://www.linkedin.com/in/xiaomin-lin/}{your-profile} | 
+%     % \socialicon{\faGithub} \href{https://github.com/your-username}{your-username} | 
+%     \ieeeicon{\includegraphics[height=1.3em]{ieee_collabratec_icon.png}} \href{https://ieee-collabratec.ieee.org/app/p/your-profile}{your-profile} |
+%     \socialicon{\faTwitter} \href{https://twitter.com/your-handle}{your-handle}
+%     }
+% \end{center}
+% \vspace{-6mm}
+
+\section{\textbf{Education}}
+\vspace{-0.4mm}
+\resumeSubHeadingListStart
+
+\resumeSubheadingnew
+{University of Maryland, College Park}{College Park, MD}
+{Ph.D. in Electrical and Computer Engineering}{Sept 2018 - Dec 2024}
+{Dissertation: TOWARDS EFFICIENT OCEANIC ROBOT LEARNING WITH
+SIMULATION}{Advisor: Yiannis Aloimonos}{Sponsor: USDA NIFA Sustainable Agriculture System Program}
+\resumeSubheadingnew
+{University of Maryland, College Park}{College Park, MD}
+{Master's of Science in Electrical and Computer Engineering}{Sept 2015 - May 2018}{Project: Unmanned Aircraft Systems (UAS) for Transporting Human Organs}{Advisor: Gilmer Blankenship}{Sponsor: Laboratory for Physical Sciences, University of Maryland}
+
+% \resumeSubheadingnew
+% {University of Dayton}{Dayton, OH}
+% {Bachelor of Science in Electrical Engineering}{July 2013 - May 2015}{}{}{}
+% \resumeSubheading
+% {Nanjing University of Science and Technology}{Nanjing, China}
+% {Bachelor of Science in Electrical Engineering}{Sept 2011 - May 2015}
+\resumeSubheadingnew
+{University of Dayton \& NJUST}{Dayton, OH \& Nanjing, China}
+{Bachelor's of Science in Electrical Engineering (Dual Degree from both Universities)}{Sept 2011 - May 2015}
+{Magna cum Laude from University of Dayton}
+{Dean's list 2014, 2015}
+% {Achievement: One of only two students selected from 600 in the engineering school for a dual-degree program}
+{}
+\resumeSubHeadingListEnd
+\vspace{-6mm}
+
+
+
+\section{\textbf{Honors and Awards}}
+\vspace{-0.4mm}
+\resumeSubHeadingListStart
+\resumeProject
+   {ISR Honors 2025 Graduate Achievements}
+  {University of Maryland, College Park}
+  {May 2025}
+  {{
+    [\href{https://isr.umd.edu/news/story/isr-honors-2025-graduate-achievements}{\textcolor{darkblue}{\faIcon{globe}}}]
+  }}
+  
+\resumeProject
+  {Postdoctoral Fellow}
+  {Institute for Assured Autonomy, Whiting School of Engineering, Johns Hopkins University}
+  {Jan, 2025 – Aug, 2025}
+  {{}[\href{https://engineering.jhu.edu/studentaffairs/postdoctoral-fellows/}{\textcolor{darkblue}{\faIcon{globe}}}]}
+
+
+\resumeProject
+  {Best Paper Award}
+  {Autonomous Robotic Systems in Aquaculture Workshop, Abu Dhabi, IROS}
+  {Oct, 2024}
+  {{}[\href{https://www.linkedin.com/in/xiaomin-lin/details/certifications/1729813201192/single-media-viewer/?type=IMAGE&profileId=ACoAABIY1FwBxCgG0jmzM3v9ppOxbZU1Puc10VE}{\textcolor{darkblue}{\faIcon{globe}}}]}
+  
+\resumeProject
+  {Best Poster Award}
+  {Maryland Robotics Center (MRC) Research Symposium}
+  {May, 2023}
+  {{}[\href{https://www.linkedin.com/in/xiaomin-lin/details/certifications/1711988773423/single-media-viewer/?type=DOCUMENT&profileId=ACoAABIY1FwBxCgG0jmzM3v9ppOxbZU1Puc10VE}{\textcolor{darkblue}{\faIcon{globe}}}]}
 
+\resumeProject
+  {Image Segmentation Challenge third place }
+  {Northrop Grumman}
+  {Dec, 2020}
 
-%%%------------------------------------------------------------------------
-%%% Local commands
-%%%------------------------------------------------------------------------
-
-%% Marginal header
-%% Note: as the document goes on you may need to introduce a (gradually increasing)
-%% \vspace element to keep the marginal header pleasingly aligned with the first
-%% item in the body text. Like this: \marginhead{ {\vskip 0.4em}Grants}, or
-%% \marginhead{ {\vskip 0.8em}Service}. Experiment as needed.
-\newcommand{\marginhead}[1]{\marginpar{\textsf{ {\footnotesize\vspace{-1em}\flushright #1}}}}
-
-
-%% custom ampersand (font consistent with the one chosen above)
-\newcommand{\amper}{ {\fontspec[Scale=.95,Colour=AA0000]{Minion Pro Medium}\selectfont\&\,}}
-
-%% No bullets on labels
-\renewcommand{\labelitemi}{~}
-
-%% Custom hanging indent for vita items
-\def\ind{\hangindent=1 true cm\hangafter=1 \noindent}
-%\def\ind{\hangindent=18pt\hangafter=1 \noindent}
-\def\labelitemi{~}
-\renewcommand{\labelitemii}{~}
-
-%%%------------------------------------------------------------------------
-%%% Page layout
-%%%------------------------------------------------------------------------
-\pagestyle{fancy}
-\renewcommand{\headrulewidth}{0pt}
-\fancyhead{}
-\fancyfoot{}
-\rhead{ {\scriptsize\thepage}}
-
-%% git revision control footer
-%\rfoot{\texttt{\scriptsize \VCRevision\ on \VCDateTEX}} % git revision info inserted via external script -- see docs for vc package for details. comment out this line if you're not using vc, and also remove the \input{vc} line above.
-
-%%%------------------------------------------------------------------------
-%%% Address and contact block
-%%%------------------------------------------------------------------------
-\begin{minipage}[t]{2.95in}
-	\flushright {\footnotesize \href{http://rush-nlp.com}{Cornell University} \\ Cornell Tech, \\ \vspace{-0.05in} New York, NY }
-
-\end{minipage}
-\hfill
-%\begin{minipage}[t]{0.0in}
-% dummy (needed here)
-%\end{minipage}
-\hfill
-\begin{minipage}[t]{1.7in}
-	\flushright %\footnotesize Phone: \myphone \\
-	{\scriptsize  \texttt{\href{mailto:\myemail}{\myemail}}} \\
-	{\scriptsize  \texttt{\href{\myweb}{\myweb}}} \\
-	{\scriptsize  \texttt{\href{http://twitter.com/\myfax}{@\myfax}}} \\
-\end{minipage}
+\resumeSubHeadingListEnd
+\vspace{-6mm}
 
 
-\medskip
+\section{\textbf{Grant and Research Agreement}\hfill \textcolor{darkblue}{\scriptsize G=Grant, RA=Research Agreement}}
+\vspace{-0.4mm}
+\resumeSubHeadingListStart
+\grantEntry{RA1}{DEVCOM Army Research Laboratory (ARL) Cooperative Research and Development Agreement (CRADA): Efficient Multimodal Learning (ARL CRADA 22-0034-J003)}{Xiaomin Lin, Wyatt Mackey (Estimated yearly value of effort \textbf{\$210,933;} effective 01/2026)}{Technical POC \textbf{(Xiaomin Lin)}: Led the Joint Work Statement scope and research plan for efficient multimodal learning for edge deployed agentic systems. Coordinated weekly joint technical meetings, guided development of retrieval augmented generation and model efficiency components, and supported joint integration efforts and code review across the University of South Florida and ARL teams.}
 
-%% Name
-\noindent{\Large {Alexander M. Rush}}
-\reversemarginpar
-\medskip
+\grantEntry{G1}{Air Force Research Lab (AFRL) Small Technology Transfer Research Program (STTR) Phase II: Mobile Software Tool for Counting Small Objects Using Computer Vision and Machine Learning (\href{https://www.highergov.com/contract/FA864920P1011/}{FA864920P1011})}{Xiaochun Zhang, Yiannis Aloimonos (\$500k, 09/2020–12/2021)}{Primary Contributor \textbf{(Xiaomin Lin)}: Proposed the original idea, led the preliminary project, authored the proposal, and delivered the final project presentation.}\label{grant:G1}
+\resumeSubHeadingListEnd
 
 
-\marginhead{Appointment}
-\noindent\emph{Cornell University Computer Science Department \vspace{0.01in}}\\
-\ind 2019-.  Associate Professor of Computer Science
+\vspace{-6mm}
+\section{\textbf{Press Coverage}}
+\vspace{-0.4mm}
+\resumeSubHeadingListStart
+\resumeSubItem{{To Protect Rhinos, Researchers Turn to New AI Tech}, {\href{https://today.umd.edu/to-protect-rhinos-researchers-turn-to-new-ai-tech}{Maryland Today, 2025}}, {\href{https://myemail.constantcontact.com/Interface-December-issue.html?soid=1133105250221&aid=CEKw9k00Kxk}{UMIACS}}, {\href{https://www.linkedin.com/posts/usf-world_usf-ai-wildlife-activity-7407496294253993984-XeoP?utm_source=share&utm_medium=member_desktop&rcm=ACoAABIY1FwBxCgG0jmzM3v9ppOxbZU1Puc10VE}{USF World}}}
 
-\medskip
-\noindent\emph{Hugging Face \vspace{0.01in}}\\
-\ind 2019-.  NLP Open-Source Startup
+\resumeSubItem{{ISR Honors 2025 Graduate Achievements}, {\href{https://isr.umd.edu/news/story/isr-honors-2025-graduate-achievements}{Institute for Systems Research News, 2025}}}
 
-\medskip
-\noindent\emph{Harvard University School of Engineering and Applied Sciences \vspace{0.01in}}\\
-\ind 2015-2019.  Assistant Professor of Computer Science
+  \resumeSubItem{{"OysterNet" + underwater robots will aid in accurate oyster count}, {\href{https://robotics.umd.edu/news/story/oysternet-underwater-robots-will-aid-in-accurate-oyster-count}{MRC}}, \href{https://bluerobotics.com/oysternet-enhanced-oyster-detection-using-simulation/}{Subsea Scholar Journals}, \href{https://isr.umd.edu/news/story/oysternet-underwater-robots-will-aid-in-accurate-oyster-count}{Institute of System Research News, 2023}}
 
-\medskip
-\noindent\emph{Facebook Artificial Intelligence Research Lab \vspace{0.01in}}\\
-\ind 2015.  Post-Doctoral Fellowship Advisor: Yann LeCunn
+\resumeSubItem{{Precision Aquaculture (Robotics)}, \href{https://extension.umd.edu/programs/agriculture-food-systems/program-areas/animal-science/aquaculture/precision-aquaculture-robotics/}{University of Maryland Extension}}
 
-\bigskip
+  
+\resumeSubItem{{UMD’s SeaDroneSim can generate simulated images and videos to help UAV systems recognize ‘objects of interest’ in the water}, \href{https://isr.umd.edu/news/story/umdrsquos-seadronesim-can-generate-simulated-images-and-videos-to-help-uav-systems-recognize-lsquoobjects}{Institute for System Research News, 2021}}
 
-\marginhead{Education}
 
-\noindent\emph{Massachusetts Institute of Technology \vspace{0.01in}}\\
-\ind 2009-2014.  Ph.D, Computer Science. Advisor: Michael Collins\\
-\ind Dissertation: \emph{Relaxation Methods for Natural Language Decoding}. %\vspace{-0.1in}
+\resumeSubItem{{IFIG framework helps robots follow instructions}, \href{https://isr.umd.edu/news/story/ifig-framework-helps-robots-follow-instructions}{Institute for System Research News, 2020}}
 
+\resumeSubItem{{S3AM (Smart Sustaining Shellfish Aquaculture Management), Newsletter Coverage}, 
+\href{https://mailchi.mp/66ea0584caaf/s3am-newsletter-12742270?e=\%5BUNIQID\%5D}{Summer 2024}, 
+\href{https://us21.campaign-archive.com/?e=\%5BUNIQID\%5D&id=50337d9fe1&u=f2686d56f770fcd9c1dd4c029}{Winter 2024}, 
+\href{https://us21.campaign-archive.com/?e=\%5BUNIQID\%5D&id=36fa30c4a4&u=f2686d56f770fcd9c1dd4c029}{Fall 2023}, 
+\href{https://mailchi.mp/a6609040d61a/s3am-newsletter-347826?e=\%5BUNIQID\%5D}{Spring 2023}}
 
+  
+\resumeSubHeadingListEnd
 
-\medskip
-\noindent\emph{Harvard University\vspace{0.02in}}\\
-\ind 2007. B.A., Computer Science.
+\vspace{-6mm}
+\section{\textbf{Slightly longer story}}
+\vspace{1mm}
+\small{My research lies at the intersection of robotics and perception, with a focus on enhancing autonomous underwater systems. I work within a perception lab to bring advanced perceptual capabilities to robots, enabling them to perform complex tasks in dynamic oceanic environments. I view robotics and perception as deeply interwoven: robots need to move to perceive their surroundings effectively, and active perception, in turn, aids them in executing tasks. Specifically, I develop frameworks for autonomous underwater vehicles (AUVs) to detect and map marine objects like oyster beds and coral reefs using both real and synthetic data. I leverage simulation-based techniques, data-driven decision-making, and multi-modal sensor integration to create robust systems that thrive in challenging conditions. My ultimate goal is to advance autonomous systems that support conservation, research, and sustainable marine ecosystem management.}
+% \small{My research interests lie at the intersection of machine learning, computer vision, and robotics, specifically focused on enhancing autonomous systems for underwater exploration and environmental monitoring. This work involves developing advanced perception and navigation frameworks for autonomous underwater vehicles (AUVs) to efficiently detect and map marine objects, such as oyster beds and coral reefs, using both real and synthetic data. I am particularly interested in leveraging simulation-based techniques, data-driven decision-making, and multi-modal sensor integration to create robust robotic systems that can operate effectively in challenging oceanic environments. My ultimate goal is to advance autonomous systems that can support conservation, research, and sustainable management of marine ecosystems.}
+\vspace{-2mm}
 
-\bigskip
+\section{\textbf{Fully-Refereed Publications} \hfill \textcolor{darkblue}{\scriptsize C=Conference, S=In Submission, T=Thesis}}
+\vspace{0.2mm}
+\small{
+\begin{enumerate}[leftmargin=*, labelsep=0.5em, align=left, widest={[\textbf{S.1}]}, itemindent=0em, label={\textbf{[\arabic*]}]}]
 
-%% Publications
+\item[\textbf{[J.5]}] Duporge, I., Wu, Z., Black, M. E., Wolf, S., Albi, A., Watt, C. A., \& \textbf{\underline{Lin, X.}} (2025). \href{https://www.sciencedirect.com/science/article/pii/S1574954126001731}{Enhancing satellite based detection of marine fauna using synthetic data.} \textit{Ecological Informatics}, DOI: 10.1016/j.ecoinf.2026.103767
 
-\marginhead{ {\vskip 0.4em} Awards}
-\hspace{-1cm} \begin{tabular}{lp{11.5cm}}
-	2023 & Best Paper Runner-up -  NeurIPS              \\
-	     & Outstanding Paper -  EMNLP                   \\
-	2021 & Best Demo Paper -  EMNLP                     \\
-	     & Outstanding Short Paper -  NAACL             \\
-	     & Sloan Fellowship                             \\
-	2020 & Best Demo Paper (Runner-Up), ACL             \\
-	     & Best Paper - DAC (Hardware)                  \\
-	     & Best Demo Paper - EMNLP                      \\
-	2019 & NSF Career Award                             \\
-	     & Best Demo Paper - Nominee, ACL               \\
-	2018 & Senior Program Chair, ICLR                   \\
-	     & Best Paper - Runner-Up, VAST (Visualization) \\
-	2017 & Best Demo  - Runner-Up, ACL                  \\
-	     & Invitation IJCAI Early Research Spotlight    \\
-	     & Best Paper - Runner-Up, EMNLP                \\
-	2015 & NIPS Deep Learning Symposium (Invited Paper) \\
-	2012 & Best Paper Award, NAACL                      \\
-	2010 & Best Paper Award, EMNLP                      \\
-\end{tabular}
+\item[\textbf{[J.4]}] Feng, Y., Pallerla, C., \textbf{\underline{Lin, X.}}, A., Suresh, Sohrabipour, P. Sr., Crandall, P., Shou, W., She, Y., \& Wang, D. (2025). \href{https://ieeexplore.ieee.org/document/11319168/}{Synthetic Data Augmentation for Enhanced Chicken Carcass Instance Segmentation.} In proceeding of \textit{IEEE Transactions on AgriFood Electronics}. DOI: 10.1109/TAFE.2025.3644764
 
+\item[\textbf{[J.3]}] Duporge, I., \textbf{\underline{Lin, X.}}, Palnitkar, A., Suresh, A., Isupova, O., Rubenstein, D., \& Aloimonos, J. Y. (2025). \href{https://www.nature.com/articles/s41598-025-24178-2}{Automated rhinoceros detection in satellite imagery using deep learning}. Scientific Reports, 15(1), 39352 \textit{Scientific Reports, 15}, 39352. Nature Portfolio. Published November 10, 2025. DOI: 10.1038/s41598-025-24178-2
 
-\marginhead{ {\vskip 0.4em} Grants}
+\item[\textbf{[J.2]}] Chen, W., Wang, C.-Y., Joshi, K., Williams, A., Hevaganinge, A., \textbf{\underline{Lin, X.}}, Senthil Kumar, S. S., Pattillo, A., Yu, M., Chopra, N., Gray, M., \& Tao, Y. (2025). \href{https://www.mdpi.com/1424-8220/25/15/4650}{A Kinodynamic Model for Dubins-Based Trajectory Planning in Precision Oyster Harvesting}. \textit{Sensors, 25}(15), 4650. MDPI. Published July 27, 2025. DOI: 10.3390/s25154650
 
-\hspace{-1cm} \begin{tabular}{lp{11.5cm}}
-	2019 & NSF Career Award                                    \\
-	     & Sony Faculty Awards                                 \\
-	2018 & Google, Facebook, and Amazon AWS Faculty Awards     \\
-	2017 & Bloomberg and Intel AI Collaboration Faculty Awards \\
-	2016 & Microsoft Azure  and Samsung AI Award               \\
-	2015 & Google Faculty Award                                \\
-\end{tabular}
-\pagebreak
+\item[\textbf{[J.1]}] Campbell, B., Williams, A., Baxevani, K., Campbell, A., Dhoke, R., Hudock, R. E., \textbf{\underline{Lin, X.}}, Mange, V., Neuberger, B., Suresh, A., Vera, A., Trembanis, A., Tanner, H. G., \& Hale, E. (2025). \href{https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2025.1587033/full}{Is AI currently capable of identifying wild oysters? A comparison of human annotators against the AI model, ODYSSEE}. \textit{Frontiers in AI and Robotics, Autonomous Robotic Systems in Aquaculture: Research Challenges and Industry Needs}. Published May 6, 2025. DOI: 10.3389/frobt.2025.1587033
 
+\item[\textbf{[C.20]}] Wu, J., Wang, T., Xiong, T., Yuan, D., \textbf{\underline{Lin, X.}}, Islam, M. J., Fermuller, C., Metzler, C., \& Aloimonos, Y. (2026). \href{https://openreview.net/forum?id=86HyQOUle8}{WaterGen: Decoupling Scene and Medium in Underwater Image Generation}. Accepted to 2026 European Conference on Computer Vision (ECCV).
 
-\bigskip
+\item[\textbf{[C.19]}] Dong, T. T., Thakkar, D., Sargolzaei, A., \& \textbf{\underline{Lin, X.}} (2026). \href{https://arxiv.org/pdf/2603.05623}{Post Fusion Bird's Eye View Feature Stabilization for Robust Multimodal 3D Detection}. Accepted to 2026 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS).
+\item[\textbf{[C.18]}] Lu, Y., Wang, B., Wu, Z., Li, Y., \textbf{\underline{Lin, X.}}, Mao, C., \& Xiao, X. (2026). \href{https://arxiv.org/pdf/2603.08862}{APPLV: Adaptive Planner Parameter Learning from Vision-Language-Action Model}. Accepted to 2026 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS).
+\item[\textbf{[C.17]}] Wu, Z., Lu, Y., Xiao, X., \& \textbf{\underline{Lin, X.}} (2026). \href{https://arxiv.org/pdf/2603.14786}{CORAL: Contextual Reasoning and Local Planning in a Hierarchical VLM Framework for Underwater Monitoring}. Accepted to 2026 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS).
 
+\item[\textbf{[C.16]}] Kondapalli, S., Radovanovic, L., Palnitkar, A., Mao, M., \& \textbf{\underline{Lin, X.}} (2026). \href{https://arxiv.org/pdf/2606.17433}{LADBench: A Benchmark for Logical Fault Detection in Images}. Accepted to 2026 IEEE International Conference on Development and Learning (ICDL).
 
-\marginhead{ {\vskip 0.3em}Publications}
+\item[\textbf{[C.15]}] Ranjan, R., Grover, U., Akewar, M., \textbf{\underline{Lin, X.}}, \& Polyzou, A. (2026). \href{https://arxiv.org/pdf/2604.00419}{G-Drift MIA: Membership Inference via Gradient-Induced Feature Drift in LLMs}. Accepted to 2026 International Conference on Pattern Recognition (ICPR).
 
-\noindent (Full list: \url{http://bit.do/alexander-rush}) \\
+\item[\textbf{[C.14]}] Ranjan, R., Grover, U., Akewar, M., \textbf{\underline{Lin, X.}}, \& Polyzou, A. (2026). \href{https://arxiv.org/abs/2603.21524}{CatRAG: Functor-Guided Structural Debiasing with Retrieval Augmentation for Fair LLMs}. Accepted to 2026 International Joint Conference on Neural Networks (IJCNN).
 
-\medskip
-\noindent
-\textbf{Highly Cited Publications (Google Scholar Metrics)}
+\item[\textbf{[C.13]}] Ranjan, R., Grover, U., \textbf{\underline{Lin, X.}}, \& Polyzou, A. (2025). \href{https://arxiv.org/pdf/2603.14819}{RAZOR: Ratio-Aware Layer Editing for Targeted Unlearning in Vision
+Transformers and Diffusion Models}. In Proceeding Proceedings of the Computer Vision and Pattern Recognition Conference(CVPR) 2026, Finding's Track.
 
-\ind  Thomas Wolf et al. \emph{\href{ https://arxiv.org/pdf/1910.03771 }{ Transformers: State-of-the-art Natural Language Processing.} }\emph{ EMNLP Demos 2020 (2nd Most Cited EMNLP Paper 2020-2025) }
+\item[\textbf{[C.12]}] Mao, M., Perez-Cabarcas, M. M., Kallakuri, U., Waytowich, N. R., \textbf{\underline{Lin, X.}}, \& Mohsenin, T. (2025). \href{https://arxiv.org/abs/2505.23990}{Multi-RAG: A Multimodal Retrieval-Augmented Generation System for Adaptive Video Understanding}. In Proceeding of The 30th Pacific-Asia Conference on Knowledge Discovery and Data Mining, Special Session on 'Data Science: Foundations and Applications.
 
-\medskip
+\item[\textbf{[C.11]}] Wu, Z.*, Modi, A.*, Mavrogiannis, A., Joshi, K., Chopra, N., Rekleitis, I., \& \textbf{\underline{Lin, X.}} (2025). \href{https://arxiv.org/pdf/2509.13666?}{DREAM: Domain-aware Reasoning for Efficient Autonomous Underwater Monitoring}. In proceeding of \textit{2025 IEEE International Conference on Robotics and Automation (ICRA)}.
 
-\ind Alexander M. Rush, Sumit Chopra, and Jason Weston. \emph{\href{ http://arxiv.org/pdf/1509.00685.pdf }{ A Neural Attention Model for Abstractive Sentence Summarization.} }\emph{ EMNLP 2015. (1600 citations, 3rd Most Cited AAAI Paper 2015-2020) }
+\item[\textbf{[C.10]}] Lu, Y., Mao, M., Xu, T., Wang, L., \textbf{\underline{Lin, X.}}, Xiao, X. (2025). \href{https://arxiv.org/pdf/2510.05330}{Adaptive Dynamics Planning for Robot Navigation.} In proceeding of \textit{2025 IEEE International Conference on Robotics and Automation (ICRA)}.
 
-\medskip
+\item[\textbf{[C.9]}]Kapoor, K., Mackey, W., Aloimonos, Y., \& \textbf{\underline{Lin, X.}} (2026, March). \href{https://ojs.aaai.org/index.php/AAAI/article/view/39411/43372}{HiCL: Hippocampal-Inspired Continual Learning.} In Proceedings of the AAAI Conference on Artificial Intelligence (Vol. 40, No. 27, pp. 22518-22526). DOI: 10.1609/aaai.v40i27.39411
 
+% \item[\textbf{[C.8]}] Kallakurik, U., Humes, E., Jonna, R., \textbf{\underline{Lin, X.}}, \& Mohsenin, T. (2025). \href{https://arxiv.org/abs/2506.11105}{Enabling On-Device Medical AI Assistants via Input-Driven Saliency Adaptation}. IEEE Biomedical Circuits and Systems Conference (BioCAS), 2025.
 
-\ind Yoon Kim, Yacine Jernite, David Sontag, and Alexander M. Rush. \emph{\href{ https://arxiv.org/pdf/1508.06615v4 }{ Character-Aware Neural Language Models.} }\emph{ AAAI 2016, (1250 citations, 3rd Most Cited AAAI Paper 2015-2020) }
+\item[\textbf{[C.8]}]Walczak, M., Kallakuri, U., Humes, E., \textbf{\underline{Lin, X.}}, \& Mohsenin, T. (2025, October). \href{https://ieeexplore.ieee.org/abstract/document/11240999}{BitMedViT: Ternary-Quantized Vision Transformer for Medical AI Assistants on the Edge}. In 2025 IEEE/ACM International Conference On Computer Aided Design (ICCAD) (pp. 1-7). IEEE. DOI: 10.1109/ICCAD66269.2025.11240999
 
-\medskip
+\item[\textbf{[C.7]}] \textbf{\underline{Lin, X.}}, Mange, V., Suresh, A., Neuberger, B., Palnitkar, A., Campbell, B., ... \& Aloimonos, Y. (2025, May). IEEE.\href{https://ieeexplore.ieee.org/document/11128133}{Odyssee: Oyster detection yielded by sensor systems on edge electronics.} In 2025 IEEE International Conference on Robotics and Automation (ICRA) (pp. 5290-5297).DOI: 10.1109/ICRA55743.2025.11128133
 
-\ind Hendrik Strobelt, Sebastian Gehrmann, Hanspeter Pfister, and Alexander M. Rush. \emph{\href{ http://lstm.seas.harvard.edu/ }{ LSTMVis: A Tool for Visual Analysis of Hidden State Dynamics in Recurrent Neural Networks.} }\emph{ InfoVis 2017, (139 citations, 12th Most Cited IEEE Transactions on Visualization and Computer Graphics Paper 2015-2020) }
+\item[\textbf{[C.6]}] Wu, J., \textbf{\underline{Lin, X.}}, He, B., Fermüller, C., \& Aloimonos, Y. (2025, October). \href{https://ieeexplore.ieee.org/abstract/document/11247705}{ViewActive: Active viewpoint optimization from a single image.} In 2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) (pp. 11812-11818). IEEE. DOI: 10.1109/IROS60139.2025.11247705
 
+\item[\textbf{[C.5]}] Wu, J., \textbf{\underline{Lin, X.}}, Negahdaripour, S., Fermüller, C., \& Aloimonos, Y. (2024, Oct).\href{https://arxiv.org/pdf/2403.09850}{\textbf{MARVIS: Motion \& Geometry Aware Real and Virtual Image Segmentation.}} In proceeding of \textit{2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}. IEEE. Abu Dhabi, UAE. DOI: 10.1109/IROS58592.2024.10801473
 
+\item[\textbf{[C.4]}] \textbf{\underline{Lin, X.}}, Karapetyan, N., Joshi, K., Liu, T., Chopra, N., Yu, M., ... \& Aloimonos, Y.(2023, Oct). \href{https://doi.org/10.1109/ICRA57147.2024.10611203}{\textbf{Uivnav: Underwater information-driven vision-based navigation via imitation learning.}} In \textit{2024 IEEE International Conference on Robotics and Automation (ICRA)}, pp. 5250-5256. IEEE. Yokohama, Japan. DOI: 10.1109/ICRA57147.2024.10611203
 
-\medskip
-\ind Guillaume Klein, Yoon Kim, Yuntian Deng, Jean Senellart, Alexander M. Rush. \emph{\href{ https://arxiv.org/abs/1701.02810 }{ OpenNMT: Open-Source Toolkit for Neural Machine Translation.} }\emph{ ACL Demo 2017 (900 citations, Best Demo Runner-up, 5th Most Cited ACL Paper 2015-2020) }
+\item[\textbf{[C.3]}] Karabatis, Y., \textbf{\underline{Lin, X.}}, Sanket, N. J., Lagoudakis, M. G., \& Aloimonos, Y. (2023, Oct). \href{https://doi.org/10.1109/IROS55552.2023.103417650}{\textbf{Detecting Olives with Synthetic or Real Data? Olive the Above.}} In \textit{2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}, pp. 4242-4249. IEEE. Detroit, MI, USA. DOI:10.1109/IROS55552.2023.10341765
 
-\medskip
+\item[\textbf{[C.2]}] \textbf{\underline{Lin, X.}}, Sanket, N. J., Karapetyan, N., \& Aloimonos, Y. (2023, May). \href{https://doi.org/10.1109/ICRA48891.2023.10160830}{\textbf{Oysternet: Enhanced oyster detection using simulation.}} In \textit{2023 IEEE International Conference on Robotics and Automation (ICRA)}, pp. 5170-5176. IEEE. London, United Kingdom. DOI: 10.1109/ICRA48891.2023.10160830
 
-\noindent\textbf{All Conference Papers \vspace{0.01in}}
 
-{% for paper in papers %}
-[{{loop.index}}] \ind {{paper.authors}}. \emph{\href{ {{paper.pdf}} }{ {{paper.title}}.} }\emph{ {{paper.conference}} }
+\item[\textbf{[C.1]}] \textbf{\underline{Lin, X.}}, Liu, C., Pattillo, A., Yu, M., \& Aloimonous, Y. (2023). \href{https://doi.org/10.1109/WACVW58289.2023.00027}{\textbf{Seadronesim: Simulation of aerial images for detection of objects above water.}} In \textit{IEEE/CVF Winter Conference on Applications of Computer Vision}, pp. 216-223. IEEE. 2023, Waikoloa, HI, USA. DOI: 10.1109/WACVW58289.2023.00027
 
-\medskip
+\item[\textbf{[T.1]}] Xiaomin Lin. (2024). \textbf{TOWARDS EFFICIENT OCEANIC ROBOT LEARNING WITH SIMULATION}. Manuscript submitted for publication in \textit{University of Maryland, 2024}.
 
-{% endfor %}
 
-{% for paper in extrapapers %}
-[{{loop.index + papers|length}}] \ind {{paper.authors}}. \emph{\href{ {{paper.pdf}} }{ {{paper.title}}.} }\emph{ {{paper.conference}} }
-{% endfor %}
 
-\vspace{0.3in}
 
-\noindent\emph{Journal Papers \vspace{0.01in}}
 
-\ind Alexander M. Rush and Michael Collins. \emph{\href{http://www.cs.columbia.edu/~mcollins/acltutorial.pdf}{A Tutorial on Dual Decomposition and Lagrangian Relaxation for Inference in Natural Language Processing}}. Journal of Artificial Intelligence Research 2012.
+% \item[\textbf{[P.1]}] Inventor 1, Your Name, Inventor 3, et al. (Year). \href{https://patentoffice.gov/patent/XXXXXXXXX}{\textbf{Title of Patent}}. Patent Office, Patent No. XXXXXXXXX. Registration Date: Date, Grant Date: Date, Publication Date: Date.
 
+% \item[\textbf{[J.1]}] Author 1, Your Name, Author 3, et al. (Year). \href{https://doi.org/XX.XXXX/XXXXX.XXXX.XXXXXXX}{\textbf{Title of Journal Article}}. \textit{Journal Name}, Vol. XX, Issue X, pp. XXX-XXX. DOI: XX.XXXX/XXXXX.XXXX.XXXXXXX
+\end{enumerate}
+}
+\vspace{-6mm}
+\section{\textbf{Lightly-Refereed Publications} \hfill \textcolor{darkblue}{\scriptsize O=Conference, A=Abstract}}
+\vspace{0.2mm}
+\small{
+\begin{enumerate}[leftmargin=*, labelsep=0.5em, align=left, widest={[\textbf{S.1}]}, itemindent=0em, label={\textbf{[\arabic*]}]}]
 
+\item[\textbf{[O.6]}] Karapetyan, N., ...  \textbf{\underline{Lin, X.}}, Aloimonos, Y., Chopra, N., Malone, P., \& Yu, M. (2025, September). \href{https://ieeexplore.ieee.org/abstract/document/11245159}{OysterBot: Autonomous Surface Vehicle Based System for Aquaculture Monitoring Operations.} In OCEANS 2025-Great Lakes (pp. 1-7). IEEE. DOI: 10.23919/OCEANS59106.2025.11245159
 
-% %\end{revnumerate}
-% \begin{itemize} \itemsep -2pt %
-% \item Helped develop optimized C++ parser and interpreter for FBML, a domain-specific markup language for applications.
+\item[\textbf{[O.5]}] Negahdaripour, S., Kyatham, H., Xu, M., \textbf{\underline{Lin, X.}}, Aloimonos, Y., \& Yu, M. (2024, September). \href{https://ieeexplore.ieee.org/document/10754585}{\textbf{GoPro Modeling and Application in Opti-Acoustic Stereo Imaging.}} In OCEANS 2024-Halifax (pp. 1-7). IEEE. DOI: 10.1109/OCEANS55160.2024.10754585
 
-% \medskip
+\item[\textbf{[O.4]}] Kyatham, H., Negahdaripour, S., Xu, M., \textbf{\underline{Lin, X.}}, Yu, M., \& Aloimonos, Y. (2024, September). \href{https://ieeexplore.ieee.org/document/10754482}{Performance Assessment of Feature Detection Methods for 2-D FS Sonar Imagery.} In OCEANS 2024-Halifax (pp. 1-7). IEEE. DOI: 10.1109/OCEANS55160.2024.10754482
 
-% \item Built and designed a distributed system for tracking resource constraints of third-party applications. Awarded patent.
-% \medskip
+\item[\textbf{[O.3]}] Gaur, A., Liu, C., \textbf{\underline{Lin, X.}}, Karapetyan, N., \& Aloimonos, Y. (2023, September). \href{https://doi.org/10.23919/OCEANS52994.2023.10337400}{Whale detection enhancement through synthetic satellite images.} In Oceans 2023-mts/ieee us gulf coast (pp. 1-7). IEEE. DOI:10.23919/OCEANS52994.2023.10337400
+\item[\textbf{[O.2]}] Palnitkar, A., Kapu, R., \textbf{\underline{Lin, X.}}, Liu, C., Karapetyan, N., \& Aloimonos, Y..(2023, September). \href{https://doi.org/10.23919/OCEANS52994.2023.10337406}{\textbf{Chatsim: Underwater simulation with natural language prompting.}} In \textit{OCEANS 2023-MTS/IEEE US Gulf Coast}, pp. 1-7. IEEE. Biloxi, MS, DOI:10.23919/OCEANS52994.2023.10337406
 
-% \item Contributor on Internationalization project which utilizes crowd-sourcing to translate Facebook into 70+ languages.
-% \end{itemize}
+\item[\textbf{[O.1]}] \textbf{\underline{Lin, X.}}, Jha, N., Joshi, M., Karapetyan, N., Aloimonos, Y.,\& Yu, M. (2022, October). \href{https://doi.org/10.1109/OCEANS47191.2022.9977233}{\textbf{Oystersim: Underwater simulation for enhancing oyster reef monitoring}}. In \textit{OCEANS 2022, Hampton Roads}, pp. 1-6. IEEE. 2022, Hampton Roads. DOI:10.1109/OCEANS47191.2022.9977233
 
-% \ind Technical Associate (Intern), {\sl Bridgewater Associates}  June -- September 2006,
-%  Westport, CT. Implemented trade scheduling and equity analysis algorithms.
-% \begin{itemize} \itemsep -2pt % Reduce space between items
-% \item Designed and implemented large-scale trade scheduling and equity analysis algorithms.
-% \end{itemize}
+% \item[\textbf{[O.1]}] Kanu, J., Dessalene, E., \textbf{\underline{Lin, X.}}, Fermuller, C., \& Aloimonos, Y. (2020).   \href{https://arxiv.org/pdf/2001.09373}{\textbf{Following instructions by imagining and reaching visual goals.}} arXiv preprint arXiv:2001.09373. \textit{Arxiv, 2020}.
 
+\item[\textbf{[A.1]}] \textbf{\underline{Lin, X.}}, Pattillo, A., \& Aloimonos, Y.(2022, Feburay). \href{https://xiaominlin.github.io/files/Aquaculture_American_2023_Simulation_based_Oyster_detection-compressed.pdf}{\textbf{Simulation Based Oyster Detection}}. In \textit{Aquaculture America 2023 Conference and Exposition}, New Orleans, Louisiana USA
+\end{enumerate}
+}
+\section*{Workshops}
+\small{
+\begin{enumerate}[leftmargin=*, labelsep=0.5em, align=left, widest={[\textbf{W.1}]}, itemindent=0em, label={\textbf{[\arabic*]}}]
 
-\marginhead{ {\vskip 0.4em}Professional Service}
-\medskip
+\item[\textbf{[W.8]}] Wu, J., Wang, T., Xiong, T., Yuan, D., \textbf{\underline{Lin, X.}}, Islam, M. J., Fermüller, C., Metzler, C., \& Aloimonos, Y. (2026). \href{https://openreview.net/forum?id=86HyQOUle8}{WaterGen: Decoupling Scene and Medium in Underwater Image Generation}. In the 3rd \href{https://syndata4cv.github.io/}{Workshop on Synthetic Data for Computer Vision (SynData4CV)} at CVPR 2026.
 
+\item[\textbf{[W.7]}] Lu, Y., Wang, B., Wu, Z., Li, Y., \textbf{\underline{Lin, X.}}, Mao, C., \& Xiao, X. (2026). \href{https://openreview.net/forum?id=lq4ZxvVoOP}{APPLV: Adaptive Planner Parameter Learning from Vision-Language-Action Model}. In the \href{https://activis-workshop.github.io/}{Bridging Vision, Language, and Action Workshop (ActiVis)} at CVPR 2026.
 
-\bigskip
+\item[\textbf{[W.6]}] Humes, E. S., \textbf{\underline{Lin, X.}}, Kallakuri, U., \& Mohsenin, T. (2025). \href{https://openreview.net/forum?id=uHxvIXPT2c}{RAFT: Robust Augmentation of FeaTures for Image Segmentation}. In the 2nd \href{https://syndata4cv.github.io/}{Workshop on Synthetic Data for Computer Vision (SynData4CV)} at CVPR 2025.
 
-\ind President / Founder :
-\ind COLM 2024-
+\item[\textbf{[W.5]}] 
+\textbf{\textit{Highlights workshop papers}}. [\href{https://sites.google.com/view/aq2uasim/highlights-workshop-papers}{\textcolor{darkblue}{\faIcon{globe}}}]
 
-\ind Secretary:
-\ind ICLR Board 2021-2024
+Kyatham, H., Suresh, A., Palnitkar, A., Aloimonos, Y., \& \textbf{\underline{Lin, X.}} (2025). \href{https://xiaominlin.github.io/files/ICRA2025_AQUA2SIM_EREBUS.pdf}{EREBUS: End-to-End Robust Event-Based Underwater Simulation}. In 2025 IEEE
+International Conference on Robotics and Automatio Workshop of \href{https://sites.google.com/view/aq2uasim/call-for-papers}{AQ²UASIM: Advancing Quantitative and QUAlitative SIMulators for Marine Applications}.
 
-\ind General  Chair:
-\ind ICLR (Deep Learning) 2020
+\item[\textbf{[W.4]}] Herrin, E. B., Zhang, Z., Sarma, P., \textbf{\underline{Lin, X.}}, \& Shin, J. (2025). \href{https://xiaominlin.github.io/files/ICRA2025_AQ2UASIM_Workshop_Diver_Dataset.pdf}{An Underwater Action Dataset for Scuba Gesture Recognition in Human-Machine Teaming}. In 2025 IEEE
+International Conference on Robotics and Automatio Workshop of \href{https://sites.google.com/view/aq2uasim/call-for-papers}{AQ²UASIM: Advancing Quantitative and QUAlitative SIMulators for Marine Applications}.
 
-\ind Organizational Chair:
-\ind COLM 2024, 2025
 
-\ind Senior Program Chair:
-\ind ICLR (Deep Learning) 2019
+\item[\textbf{[W.3]}] Sarma, P., Palnitkar, A., Suresh, A., Herrin, E. B., Shin, J., Aloimonos, Y., \& \textbf{\underline{Lin, X.}} (2025). \href{https://xiaominlin.github.io/files/ICRA2025_AQ2UASIM_DEEPSONAR.pdf}{DeepSonar: AI-Assisted Synthetic Sonar Data Generation}. In 2025 IEEE
+International Conference on Robotics and Automatio Workshop of \href{https://sites.google.com/view/aq2uasim/call-for-papers}{AQ²UASIM: Advancing Quantitative and QUAlitative SIMulators for Marine Applications}.
 
-\ind Senior Area Chair:
-\ind TACL 2020; NeurIPS 2019; ACL (Generation) 2019; ACL (Generation) 2020; NAACL, 2024
+\item[\textbf{[W.2]}]  \textbf{\textit{Best paper award: Best control framework for autonomous navigation and control}}. 
 
-\ind Area Chair:
-\ind NAACL (Machine Learning) 2020; NIPS 2018; NAACL (Machine Learning) 2016; ICLR (NLP) 2017, 2018; EMNLP (Generation/Summarization) 2017; ACL (Parsing and Tagging) 2017
+Joshi, K., Liu, T., Williams, A., Gray, M., \textbf{\underline{Lin, X.}}, \& Chopra, N. (2024, Oct).\href{https://arxiv.org/pdf/2409.11578}{\textbf{3D Water Quality Mapping using Invariant Extended Kalman Filtering for Underwater Robot Localization}}. In \textit{2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), workshop of "Autonomous Robotic Systems in Aquaculture: Research Challenges and Industry Needs"}. IEEE. Abu Dhabi, UAE.    
+\item[\textbf{[W.1]}] Humes, E., \textbf{\underline{Lin, X.}}, Kallakuri, U., \& Mohsenin, T. (2025). \href{https://arxiv.org/abs/2505.04529}{RAFT: Robust Augmentation of FeaTures for Image Segmentation}. CVPR Workshop on Synthetic Data for Computer Vision (part of IEEE CVPR).
+\end{enumerate}}
+\vspace{-6mm}
 
-\ind Tutorial Chair: NAACL 2016
+\section{\textbf{Professional Experience}}
+\vspace{-0.4mm}
+\resumeSubHeadingListStart
+\resumeSubheading
+    {University of South Florida, Department of Electrical Engineering}{Tampa, Florida}
+    {Assistant Professor}{Aug 2025 -- Present}
+    \resumeItemListStart
+        \item Establishing and directing the \textbf{ERA Lab (Embodied Robotics \& Autonomy Lab)}, advancing research in underwater, medical, and agricultural robotics.
+        \item Leading a multidisciplinary team of graduate and undergraduate researchers, fostering an inclusive and collaborative environment to advance autonomy and edge-AI systems.
+        \item Designing and teaching undergraduate and graduate courses in robotics, computer vision, and machine learning, integrating cutting-edge research insights into the classroom.
+        \item Driving federally funded research initiatives, securing external grants, and building collaborations with industry and government laboratories (e.g., ARL, USDA).
+        \item Publishing in top-tier venues (AAAI, ICRA, CVPR, IROS, ICCAD, BioCAS, Scientific Report) and serving the community through editorial roles, program committees, and workshop organization.
+        \item Mentoring students towards competitive fellowships, research awards, and successful placements in academia, industry, and government labs.
+        \item Advancing departmental and university service through committee contributions, cross-disciplinary initiatives, and outreach in STEM education.
+    \resumeItemListEnd
 
-\bigskip
+\resumeSubheading
+    {Johns Hopkins University, EEHPC Lab [\href{https://eehpc.ece.jhu.edu/tinoosh-mohsenin/}{\faIcon{globe}}]}{Baltimore, Maryland}
+    {Postdoctoral Researcher, Advisor: Tinoosh Mohsenin}
+    {Jan 2025 -- Aug 2025}
+\resumeItemListStart
+    \item Advanced edge-AI research for medical imaging and robotics, focusing on efficient model design, continual learning, and multimodal reasoning.
+    \item Developed robotic platforms and algorithms, including deployment on the Unitree Go2 quadruped, Unitree humanoid prototypes, and collaborative systems for adaptive autonomy.
+    \item Co-authored and secured a winning proposal with Dr. Mohsenin funded by the U.S. Army Research Laboratory (ARL).
+    \item Mentored more than six graduate and undergraduate students in medical AI, embedded systems, and robotics, resulting in multiple co-authored publications.
+    \item Contributed to academic community building as co-organizer of the \textit{AAAI GenAI@EDGE} workshop.
+\resumeItemListEnd
 
-\marginhead{ {\vskip 0.4em} Graduate Field Activity}
-\medskip
 
-\ind Field Member - Computer Science
-
-\ind PhD Students
-
-
-\ind Graduated Students
-
-\begin{itemize}
-	\item Nathan Yan (2024); Google DeepMind
-	\item Junxiong Wang (2024); Together AI
-	\item Justin Chiu (2024); Cohere AI
-	\item Jiawei Zhou (2023); Assistant Professor, Stonybrook
-	\item Yuntian Deng (2023); Assistant Professor, Waterloo
-	\item Sam Wiseman (2019); Assistant Professor, Duke University
-	\item Yoon Kim (2020); Assistant Professor, MIT
-	\item Sebastian Gehrmann (2020); Google NLP
-
-\end{itemize}
-
-
-\ind Current Cornell Students
-
-\begin{itemize}
-	\item Jack Morris
-	\item Woojeong Kim
-	\item Celine Lee
-	\item Wenting Zhao (2025)
-	\item Shankar Padmanabhan
-\end{itemize}
-
-
-\marginhead{ {\vskip 0.4em}University Service}
-\medskip
-\ind CS Recruiting Char Fall 2024
-\ind Program Director 2020-2024; Computer Science Program, the largest Masters program at Cornell Tech.
-
-\ind Admissions Committee 2020-2024
-\bigskip
-
-
-\marginhead{ {\vskip 0.3em}Teaching}
-
-\hspace{-1cm} \begin{tabular}{lp{11.5cm}}
-	2020-2024 & \ind  Instructor, Machine Learning Engineering (150 students) , Cornell Tech, Spring.                                                                       \\
-	2021      & \ind  Instructor, Topics in Machine Learning and NLP (10 students) , Cornell Tech, Spring.                                                                  \\
-	2020      & \ind  Instructor, Topics in Machine Learning and NLP (100 students), Cornell Tech, Spring.                                                                  \\
-	          & \ind  Instructor,  Machine Learning Engineering (100 students) (Rated 4.75/5), Cornell Tech, Fall.                                                          \\
-
-	2019      & \ind  Instructor, Machine Learning for NLP (50 students) , Harvard University, Spring.                                                                      \\
-
-	2018      & \ind  Instructor, Machine Learning for NLP (50 students) (Rated 4.8/5) , Harvard University, Spring.                                                        \\
-	          & \ind  Instructor, Advanced Machine Learning (100 students), Harvard University, Fall.                                                                       \\
-	2017      & \ind  Instructor, Machine Learning (250 students), Harvard University, Spring.                                                                              \\
-	          & \ind  Instructor, Advanced Machine Learning (100 students), Harvard University, Fall.                                                                       \\
-	2016      & \ind  Instructor, Machine Learning for NLP (50 students) (Rated 4.9/5), Harvard University, Spring.                                                         \\
-	2015      & \ind  Instructor, Artificial Intelligence (100 students), Harvard University, Fall.                                                                         \\
-	2013      & \ind  Instructor (with Michael Collins), Natural Language Processing, Columbia University, Fall.                                                            \\
-	          & \ind Head Teaching Assistant, Natural Language Processing , Michael Collins, Columbia University, Spring (taught on Coursera, 30,000+ registered students). \\
-	2012      & \ind Head Teaching Assistant, Natural Language Processing, Michael Collins, Columbia University, Fall.                                                      \\
-\end{tabular}
-
-\bigskip
-\marginhead{ {\vskip 0.3em}Patents}
-
-% \medskip
-\ind A neural attention model for abstactive summarization (Facebook). Alexander M. Rush, Sumit Chopra, Jason Weston 2017.
-\medskip
-
-\ind Techniques for discriminative dependency parsing (Google). Slav Petrov, Alexander M. Rush, 2015.
-\medskip
-
-\ind Efficient parsing with structured prediction cascades (Google). Slav Petrov, Alexander M. Rush, 2013
-\medskip
-
-%% Publications
-\ind  Determining user affinity towards applications on a social networking website (Facebook., Thomas S. Whitnah, Alexander M. Rush, Ding Zhou, Ruchi Sangvhi, 2010.
-
-
-
-\bigskip
-
-%% Publications
-
-\marginhead{ {\vskip 0.4em}Personal Libraries}
-\bigskip
-{% for paper in projects %}
-\ind \href{ paper.link } { {{paper.title}}. }
-\begin{itemize}
-	\item {{paper.abstract}}.
-\end{itemize}
-\medskip
-
-{% endfor %}
-
-
-
-% \medskip \ind \href{ http://seq2seq-vis.io/ }{ LSTMVis / Seq2Seq-Vis }
-% \begin{itemize}
-% \item Collaboration with IBM to develop an interactive visualization for translation models.
-% \end{itemize}
-
-
-
-% \medskip \ind \href{ http://opennmt.net }{ OpenNMT }
-% \begin{itemize}
-% \item  Open-source neural machine translation system. Used in over 200 publications, and
-%   deployed by major translation providers such as Systran International.
-% \end{itemize}
-
-
-
-% \medskip \ind \href{ http://nlp.seas.harvard.edu/2018/04/03/attention.html }{ The Annotated Transformer }
-% \begin{itemize}
-% \item  An educational line-by-Line implementation of Google's Transformer architecture.
-%   Viewed over 300,000 times.
-% \end{itemize}
-
-% \medskip \ind \href{ http://nlp.seas.harvard.edu/NamedTensor }{ Named Tensor }
-% \begin{itemize}
-% \item  An educational view of the use of tensors in Pytorch.
-%     Viewed over 50,000 times over the year.
-% \end{itemize}
-
-
-% {% for proj in code %}
-% {% if loop.index <= 5 %}
-% \medskip \ind \href{ {{proj.link}} }{ {{proj.title}} }
-% \begin{itemize}
-% \item  {{proj.abstract}}
-% \end{itemize}
-% {% endif %}
-{% endfor %}
-
-\bigskip
-
-
-%% Publications
-
-
-%% Publications
-
-\marginhead{ {\vskip 0.4em}Academic \newline Internships}
-
-\bigskip
-
-\ind Research Intern, {\sl Google Research}, 2011 -- 2013 , New York, NY.  Advisor: Slav Petrov.
-
-
-
-\ind Research Intern, {\sl USC/ISI },  Summer 2010, Marina Del Rey, CA. Advisor: Liang Huang.
-
-\bigskip
-
-%% Publications
-
-\marginhead{ {\vskip 0.4em}Industry }
-
-\medskip
-\ind  Lead Engineer (Platform Team), {\sl Facebook}, 2007 -- 2009, Palo Alto, CA.
-\begin{itemize}
-	\item Developed compiler for Facebook Markup Language (FBML) to sanitize user content.
-	\item Developed system for crowd-sourced translation of Facebook user text.
-\end{itemize}
-
-
-
-% \medskip \ind \href{http://www.pydecode.org}{PyDecode} (http://www.pydecode.org)
-% \begin{itemize}
-% \item  An optimized toolkit for designing inference algorithms for NLP.
-% \end{itemize}
-
-% \ind  \href{http://www.declassification-engine.org}{The Declassification Engine} (http://www.declassification-engine.org)
-% \begin{itemize}
-% \item  Computational social science project analyzing the process of official secrecy.
-% \item Awarded a Magic grant from Brown Institute for Media Innovation.
-% \end{itemize}
-% \medskip
-
-\bigskip
-
-\marginhead{ {\vskip 0.4em}Invited Talks \newline}
-\medskip
-\hspace{-1cm} \begin{tabular}{lp{11.5cm}}
-	2024
-	 & \ind   Panel, EMNLP Keynote.                         \\
-	 & \ind   Richard Karp Lecture, Simons Institute.       \\
-	 & \ind   Keynote, IEEE Big Data.                       \\
-	2023
-	 & \ind   Panel, NeurIPS Keynote.                       \\
-	 & \ind   Invited Talk, JHU.                            \\
-	 & \ind   Invited Talk, NYU.                            \\
-	 & \ind   Keynote Talk, MLSys 2023.                     \\
-	 & \ind   Keynote Talk, Simon Workshop on LLMs .        \\
-	 & \ind   Invited Talk, Dagstuhl Seminar.               \\
-	 & \ind   Invited Talk, UCSD AI Seminar.                \\
-	 & \ind   Invited Talk, Penn NLP Seminar.               \\
-	 & \ind   Invited Talk, Stanford NLP Seminar.           \\
-	2022
-	 & \ind   Invited Talk, SoCal NLP.                      \\
-	 & \ind   Invited Talk, LXMLS 2022.                     \\
-	 & \ind   Invited Talk, MASC 2022.                      \\
-	 & \ind   Invited Talk, Rutgers Efficient ML.           \\
-	 & \ind   Invited Talk, Georgia Tech NLP Seminar.       \\
-	 & \ind   Invited Talk, Pacific Research Lab NLP.       \\
-	2021
-	 & \ind   Invited Talk, NeurIPS Crowd Source ML.        \\
-	 & \ind   Invited Talk, NeurIPS AIPLANs Workshop.       \\
-	 & \ind   Invited Talk, Microsoft Efficient ML.         \\
-	 & \ind   Invited Talk, Stanford SysML.                 \\
-	 & \ind   Invited Talk, Lisbon Machine Learning.        \\
-	 & \ind   Invited Talk, University of Cambridge.        \\
-	 & \ind   Invited Talk, Oracle.                         \\
-	 & \ind   Invited Talk, UCSB.                           \\
-	2020
-	 & \ind   Invited Talk, ByteDance.                      \\
-	 & \ind   Invited Talk, Baidu.                          \\
-	 & \ind   Colloquium, UMass Lowell.                     \\
-	 & \ind   Invited Talk, London Machine Learning.        \\
-	 & \ind   Invited Talk, UCSB.                           \\
-	 & \ind   Invited Talk, Baidu.                          \\
-	 & \ind   Invited Talk, Google AI.                      \\
-	 & \ind   Invited Talk, Oracle AI.                      \\
-	 & \ind   Invited Talk, EMNLP Structured Prediction WS. \\
-	 & \ind   Invited Talk, EMNLP SustaiNLP WS.             \\
-\end{tabular}
-
-\hspace{-1cm} \begin{tabular}{lp{11.5cm}}
-	2019
-	 & \ind   Colloquium, University of Edinburgh, Spring.      \\
-	 & \ind   Colloquium, Tel Aviv University, Spring.          \\
-	 & \ind   Invited Talk, Conversational Intelligence Summer. \\
-	 & \ind   Invited Talk, GANocracy, MIT, Summer.             \\
-	 & \ind   Invited Talk, OpenAI, MIT, Summer.                \\
-	 & \ind   Invited Talk, NeuralGen Workshop NAACL Summer.    \\
-	 & \ind   Invited Talk, Berkeley NLP, Fall.                 \\
-	 & \ind   Keynote, PyTorch Developers Conference, Fall.     \\
-\end{tabular}
-
-\hspace{-1cm} \begin{tabular}{lp{11.5cm}}
-	2018
-	 & \ind   Invited Talk, University of Washington, Spring.            \\
-	 & \ind   Invited Talk, Allen Institute for AI, Spring.              \\
-	 & \ind   Invited Talk, MSR, Spring.                                 \\
-	 & \ind   Keynote, American Machine Translation Association, Spring. \\
-	 & \ind   Invited Talk, University of Texas, Spring.                 \\
-	 & \ind   Invited Talk, University of Maryland, Spring.              \\
-	 & \ind   Invited Talk, Georgetown, Spring.                          \\
-	 & \ind   Invited Talk, Lisbon ML Summer School, Summer.             \\
-	 & \ind   Invited Talk, Columbia University, Fall.                   \\
-	 & \ind   Invited Talk, New York University - Text as Data, Fall.    \\
-	 & \ind   Tutorial, EMNLP, Fall.                                     \\
-\end{tabular}
-
-\hspace{-1cm} \begin{tabular}{lp{11.5cm}}
-	2017
-	 & \ind   Invited Talk, Google Faculty Day, Spring.               \\
-	 & \ind   Invited Talk, New England Machine Learning Day, Spring. \\
-	 & \ind   Invited Talk, Google, Spring.                           \\
-	 & \ind   Invited Talk, Berkeley CS, Spring.                      \\
-	 & \ind   Invited Talk, Notre Dame, Spring.                       \\
-	 & \ind   Colloquium, TTI-Chicago, Spring.                        \\
-	 & \ind   Invited Talk, Apple, Siri Team, Spring.                 \\
-	 & \ind   Colloquium, Samsung Global AI Forum, Fall.              \\
-	 & \ind   Invited Talk, AMD, Fall.                                \\
-\end{tabular}
-
-\hspace{-1cm} \begin{tabular}{lp{11.5cm}}
-	2016
-	 & \ind   Invited Talk, NYU, Fall.                     \\
-	 & \ind   Invited Talk, BBN Research, Fall.            \\
-	 & \ind   Invited Talk, Bloomberg, Fall.               \\
-	 & \ind   Invited Talk (Speech Group), MIT, Fall.      \\
-	 & \ind   Invited Talk, IBM Research, Fall.            \\
-	 & \ind   Colloquium, CMU, Fall.                       \\
-	 & \ind   Invited Talk, Stanford NLP, Summer.          \\
-	 & \ind   Invited Talk, Oracle Labs, Summer.           \\
-	 & \ind   Invited Talk, Twitter, Summer.               \\
-	 & \ind   Colloquium, John Hopkins University, Spring. \\
-	 & \ind   Colloquium, Rakuten, Spring.                 \\
-\end{tabular}
-\begin{tabular}{lp{11.5cm}}
-
-	2014
-
-	 & \ind   Colloquium, University of Washington, Spring. \\
-
-	 & \ind   Colloquium, NYU, Spring.                      \\
-
-	 & \ind   Colloquium, CMU, Spring.                      \\
-
-	 & \ind   Colloquium, MIT, Spring.                      \\
-
-	 & \ind   Colloquium, Harvard, Spring.                  \\
-
-	 & \ind   Colloquium, TTIC, Spring.                     \\
-
-	 & \ind   Colloquium, University of Maryland, Spring.   \\
-\end{tabular}
-\hspace{-1cm} \begin{tabular}{lp{11.5cm}}
-	2013
-	     & \ind   Invited Tutorial, UMBC, October.                                                      \\
-
-	     & \ind   Invited Talk, CS and Social Science Seminar, UMass Amherst, October.                  \\
-
-	     & \ind   Talk, NLP Seminar, Columbia University, October.                                      \\
-	     & \ind   Invited Talk, ML Seminar, UMass Amherst, October.                                     \\
-
-	     & \ind  Invited Talk, Johnson Research Labs, NY, August.                                       \\
-
-	     & \ind Invited Talk, Society for Historians of American Foreign Relations, Arlington, June.    \\
-
-	     & \ind  Invited Talk, Columbia University, Spring.                                             \\
-
-	     & \ind    Invited Talk, NLP Seminar, City University of New York, Spring.                      \\
-	2012 & \ind   Invited Tutorial, Neural Information Processing Systems (NIPS), December.             \\
-	2011 & \ind  Invited Tutorial, Google Research, Mountain View, August.                              \\
-	     & \ind Tutorial. Association of Computational Linguistic (ACL), June.                          \\
-	     & \ind  Invited Talk, ML Seminar, University of Massachusetts, Amherst, Spring.                \\
-	     & \ind   ML Tea, MIT, January.                                                                 \\
-	2010 & \ind  NLP Seminar, USC/ISI, Summer.                                                          \\
-	2006 & \ind  Invited Talk, Computational Linguistics Seminar, University of Pennsylvania, November. \\
-\end{tabular}
-%\end{revnumerate}
-
-
-%\newpage
-
-
-\bigskip
-
-%% Publications
-
-% \marginhead{ {\vskip 0.4em}Misc}
-% \medskip
-
-% \ind General Manager of Harvard Radio Broadcasting (WHRB).
-
-% \medskip
-
-% \ind Member ACM Programming Team, Harvard University.
-
-% \medskip
-
-% \ind Experienced in C/C++, Python, Javascript, Lua/Torch, Haskell, Java, PHP, OCaml, LaTeX, HTML/CSS.
-
+  \resumeSubheading
+    {University of Maryland, Perception and Robotic Group[\href{https://prg.cs.umd.edu/}{\faIcon{globe}}]}{College Park, Maryland}
+    {Graduate Research Assistant, Advisor: Yiannis Aloimonos}{Sept 2018 - Dec 2024}
+    \resumeItemListStart
+        \item Designed, developed, and implemented perception-driven algorithms and lightweight networks for autonomous systems, enabling edge computing, optimal decision-making, and adaptive navigation in complex environments.
+    \item Generated synthetic datasets to simulate challenging real-world conditions, significantly reducing the cost and time for data collection. Conducted advanced data analysis to validate and enhance system performance.
+    \item Coordinated interdisciplinary projects with collaborators across academia, government agencies, and industry. Took the initiative to lead teams, including organizing and contributing to joint publications such as Odyssee.
+    \item Applied research to diverse domains such as oyster stock assessment, olive yield estimation, and marine robotics. Successfully deployed systems in field settings, ensuring real-time functionality and scalability.
+    \item Contributed to funding proposals and public presentations, promoting research impact and fostering collaboration within and beyond my institution.
+    \resumeItemListEnd
+  \resumeSubheading
+    {University of Maryland, Autonomous System Lab}{College Park, Maryland}
+    {Graduate Research Assistant, Advisor: Gilmer Blankenship}{Sept 2016 - August 2018}
+\resumeItemListStart
+        \item Built a fully functional drone and an autonomous all-terrain vehicle (ATV), incorporating hardware integration and software development for navigation and control.
+        \item Designed and assembled mechanical components, integrated sensors, and actuators, and ensured system functionality in real-world conditions.
+\resumeItemListEnd
+ 
+\resumeSubheading
+    {Budy.bot [\href{https://www.budy.bot}{\small\faIcon{globe}]}, led by CEO \href{https://www.linkedin.com/in/ksamay/}{Samay Kohil}, founder of \href{https://www.greyorange.com/}{GreyOrange}}{Palo Alto, CA}
+    {Machine Learning Engineer \textit{(One of four team members in a \href{https://economictimes.indiatimes.com/tech/funding/ai-firm-budy-bags-4-2-million-in-funding-round-led-by-rtp-global/articleshow/114292618.cms?from=mdr}{\$4.2M} seed-funded startup)}}{May 2024 -- July 2024}
+    \resumeItemListStart
+        \item Led the design and implementation of enterprise-specific LLMs for Budy.bot, optimizing SaaS tasks through Retrieval-Augmented Generation (RAG) and fine-tuning LLama3. These efforts significantly improved the relevance and efficiency of the system, enhancing customer satisfaction and enabling faster, more accurate responses to user queries. As a result, Budy.bot gained a competitive edge in delivering personalized, context-aware solutions, leading to higher adoption rates among enterprise clients.
+        \item Directed the technical hiring process, collaborating with human resources to design and conduct rigorous coding and behavioral interviews. Successfully resulted in hiring two more members to the team of four. This strategic expansion enabled Budy.bot to scale its operations and accelerate product development, directly contributing to the successful rollout of key features.
+        \item Provided comprehensive mentorship to junior engineers, focusing on machine learning best practices, model fine-tuning techniques, and streamlined software engineering workflows. Conducted internal classes and practical lessons on fine-tuning methodologies for Large Language Models (LLMs), demonstrating how to apply techniques such as Retrieval-Augmented Generation (RAG) for contextual enhancements, Low-Rank Adaptation (LoRA) for efficient parameter updates, and traditional fine-tuning for domain-specific tasks. As a result, team members significantly improved their technical capabilities, with one engineer excelling in seamlessly integrating front-end and back-end systems, thereby enhancing the team’s overall productivity and cohesion. This contributed directly to the timely delivery of high-quality updates and features for Budy.bot.
+    \resumeItemListEnd
+      
+  \resumeSubheading
+      {Distat Co. Ltd [\href{https://www.distat.co}
+      {\faIcon{globe}}]}{Kennett Square, PA}
+    {Computer Vision Engineer(Lead Engineer for this project [\hyperref[grant:G1]{G1}])}{May 2021 - Aug 2021}
+    \resumeItemListStart
+        \item Defined and led the AFRL STTR project to develop accurate industrial component counting algorithms, achieving 97\% counting accuracy using synthetic datasets for over 50 different industrial parts and AWS-based implementation. Took the project from initial concept to completion, including defining the problem, conducting a pre-proposal demonstration, writing the proposal, and executing all project phases.
+
+        \item Led and managed a team of four, developed and delivered a functional application that enables efficient and reliable component counting for Air Force warehouses. The app integrates seamlessly into warehouse operations, enhancing accuracy and reducing manual labor. The project culminated in a successful presentation to AFRL stakeholders, showcasing its potential for large-scale deployment and demonstrating the effectiveness of our solution.
+    \resumeItemListEnd
+
+  \resumeSubheading
+    {Bosch Automotive Products Co. Ltd [\href{https://www.bosch.com}{\faIcon{globe}}]}{Suzhou, China}
+    {Robot System Developer Intern}{June 2016 - Aug 2016}
+    \resumeItemListStart
+        \item Designed and showcased an advanced industrial robotic system integrating Fanuc (APAS) robots with a Manufacturing Execution System (MES) at Bosch’s internal conference during the 2018 World Manufacturing Conference, attended by over 1,000 participants. The system demonstrated seamless automation for manufacturing processes, highlighting capabilities such as real-time data integration, optimized task allocation, and enhanced production efficiency. The demo received highly positive feedback from participants, with many praising its innovative approach to improving manufacturing workflows. This successful showcase reinforced Bosch’s commitment to Industry 4.0 technologies and their potential to transform manufacturing practices.
+
+    \resumeItemListEnd
+  \resumeSubHeadingListEnd
+\vspace{-6mm}
+
+\section{\textbf{Teaching Experience}}
+\vspace{-0.4mm}
+\resumeSubHeadingListStart
+\resumeProject
+  {EEL 4935/6935: Computer Vision and pattern recgonition (Spring 2026)}
+  {Instructor. Topics: Image Processing, Feature Detection, Object Recognition}{[\href{https://piazza.com/class/mkctveu05hl5hz}{\textcolor{darkblue}{\faIcon{globe}}}]}
+  
+\resumeProject
+  {CMSC 426: Computer Vision (Fall 2020)}
+  {Teaching Assistant. Topics: Image Processing, Feature Detection, Object Recognition}
+  {{professor: Yiannis Aloimonos}[\href{https://prg.cs.umd.edu/cmsc426-fall2020}{\textcolor{darkblue}{\faIcon{globe}}}]}
+  
+\resumeProject
+  {ENEE350: Computer Organization (Spring 2021, 2020, 2019)}
+  {Teaching Assistant. Topics: Microprocessors, Assembly Language, Computer Architecture}
+  {professor: Yavuz Oruc}
+
+\resumeProject
+  {ENEE303(H): Analog and Digital Electronics (Fall 2019)}
+  {Teaching Assistant. Topics: Transistors, Amplifiers, Digital Logic Design}
+  {Senior lecture: Danilo Romero}
+  
+\resumeProject
+  {ENEE408I: Capstone Design Project(Fall 2018, 2019)}
+  {Teaching Assistant. Topics: Robotics, Autonomous Systems, Multi-agent Control}
+  {professor: Gilmer Blankenship}
+  
+\resumeProject
+  {ENEE380: Electromagnetic Theory (Fall 2018)}
+  {Teaching Assistant. Topics: Maxwell's Equations, Wave Propagation, Electromagnetic Fields}
+  {professor:Dagenais Mario}
+
+\resumeSubHeadingListEnd      
+\vspace{-6mm}
+
+\section{\textbf{Talks and presentations}}
+\vspace{-0.4mm}
+\resumeSubHeadingListStart
+    % \resumeItemListStart
+    %     \item Panelist discussion
+    % \resumeItemListEnd
+\resumeProject
+  {"ERA Lab Introduction"}
+  {\textbf{2nd REU symposium presentation, Bellini College of AI, Univrsity of South Florida}}
+  {May 1st, 2026}
+    {{}[\href{https://www.usf.edu/ai-cybersecurity-computing/events/bcreus-spring-26.aspx}{\textcolor{darkblue}{\faIcon{globe}}}]}  
+    \resumeItemListStart
+        \item Faculty presentation
+        \item Panelist discussion
+    \resumeItemListEnd
+\resumeProject
+  {"Fomr Human Cognition to Ocean"}
+  {\textbf{University of South Florida, Department of Electrical Engineering}}
+  {Oct 3rd, 2025}
+    {{}[\href{https://xiaominlin.github.io/files/Lin_Seminar.pdf}{\textcolor{darkblue}{\faIcon{globe}}}]}
+    \resumeItemListStart
+        \item Department Talk
+    \resumeItemListEnd
+
+\resumeProject
+  {"DNALaCT: Ultralong Genomic Seequence Modeling with Test-Time Training."}
+  {\textbf{Talk at Rutgers University–New Brunswick}}
+  {Sept 21nd, 2025}
+    {{}[\href{https://xiaominlin.github.io/files/AI_for_Health.jpeg}{\textcolor{darkblue}{\faIcon{globe}}}]}
+    \resumeItemListStart
+        \item AI for Health workshop
+    \resumeItemListEnd
+\resumeProject
+  {AQ²UASIM Workshop Panelist discussion}
+  {\textbf{Advancing Quantitative and QUAlitative SIMulators for marine applications, ICRA 2025}}
+  {May 23rd, 2025}
+    {{}[\href{https://sites.google.com/view/aq2uasim/panel-discussion?authuser=0}{\textcolor{darkblue}{\faIcon{globe}}}]}    
+\resumeProject
+  {"Seeing Beneath the Surface: Vision-Enabled Robots for Long-term Ocean Monitoring."}
+  {\textbf{University of Central Florida, Department of Electrical Engineering and Computer Science}}
+  {May 5nd, 2025}
+    {{}[\href{https://www.youtube.com/watch?v=jnJA9kSq22U}{\textcolor{darkblue}{\faIcon{globe}}}]}
+    \resumeItemListStart
+        \item Job talk for Tenure-track Professor for AI initiative.
+    \resumeItemListEnd
+    
+\resumeProject
+  {"AI-Driven Perception for Long-Term Ocean Monitoring"}
+  {\textbf{University of South Florida, Department of Electrical Engineering and Computer Science}}
+  {May 5nd, 2025}
+    {{}[\href{https://www.youtube.com/watch?v=jnJA9kSq22U}{\textcolor{darkblue}{\faIcon{globe}}}]}
+    \resumeItemListStart
+        \item Job talk for Tenure-track Professor for AI initiative.
+    \resumeItemListEnd
+    
+\resumeProject
+  {"AI-Driven Perception for Long-Term Ocean Monitoring"}
+  {\textbf{AI for Engineering and Scientific Discoveries}}
+  {Apr 2nd, 2025}
+    {{}[\href{https://sites.google.com/view/aaai-ss25-ai4science/home}{\textcolor{darkblue}{\faIcon{globe}}}]}
+    \resumeItemListStart
+        \item AAAI Spring Symposium 2025
+    \resumeItemListEnd
+\resumeProject
+  {"Seeing Beneath the Surface"}
+  {\textbf{University of South Florida, Department of Electrical Engineering Semianr}}
+  {Feb 27th, 2025}
+    {}
+    \resumeItemListStart
+        \item Job talk for Tenure-track Professor.
+    \resumeItemListEnd
+
+\resumeProject
+  {"Seeing Beneath the Surface"}
+  {\textbf{Virginia Tech, Aerospace and Ocean Engineering Semianr}}
+  {Feb 24th, 2025}
+    {{}[\href{https://www.aoe.vt.edu/about-us/seminars/Entries/02-24-2025-seminar.html}{\textcolor{darkblue}{\faIcon{globe}}}]}
+    \resumeItemListStart
+        \item Job talk for Assistant Professor - AI/ML for Aerospace and Ocean Perception
+    \resumeItemListEnd
+
+\resumeProject
+  {"Seeing Beneath the Surface"}
+  {\textbf{Catholic University of America, EECS Seminar}}
+  {Feb 21th, 2025}
+            {{}[\href{https://nest.cua.edu/event/11066895}{\textcolor{darkblue}{\faIcon{globe}}}]}
+    \resumeItemListStart
+        \item Delivered an in-person talk hosted by Prof Hieu Bui and Chair Nader M Namazi, attended by a diverse audience of 20 participants, including faculties and students. 
+    \resumeItemListEnd
+
+\resumeProject
+  {"Vision-Enabled Robots for Long-term Ocean Monitoring"}
+  {\textbf{Univeristy of Maryland Baltimore County, UMBC Center for Artificial Intellige Seminar}}
+  {Feb 21th, 2025}
+        {{}[\href{https://ai.umbc.edu/news/post/147361/}{\textcolor{darkblue}{\faIcon{globe}}}]}
+    \resumeItemListStart
+        \item Delivered an in-person talk hosted by Prof. Tejas Gokhale, attended by a diverse audience of 50 participants, including faculties and students. 
+    \resumeItemListEnd
+    
+\resumeProject
+  {"Where is my Oyster?"}
+  {Smart Sustainable Shellfish Aquaculture Management" (S3AM) program webinar}
+  {November 16th, 2022}
+    {{}[\href{https://youtu.be/ZhnGXh17NUA}{\textcolor{darkblue}{\faIcon{globe}}}]}
+    \resumeItemListStart
+        \item Delivered a webinar hosted by Allen Pattillo, attended by a diverse audience of 30 participants, including industry professionals(Pacific Seafood Inc.), ecologists, aquaculture robotics experts, and computer vision researchers. The presentation highlighted advancements in sustainable shellfish management through robotics and AI, fostering interdisciplinary discussions and potential collaborations.
+    \resumeItemListEnd
+
+\resumeProject
+  {"Enhanced Oyster Detection Using Simulation"}
+  {Maryland Robotics Center}
+  {May 25th - 2023}
+{}
+    \resumeItemListStart
+        \item The symposium brought together researchers, faculty, students, and industry professionals from the Maryland Robotics Center and related fields. The presentation, focused on simulation-based oyster detection for ecological monitoring, received positive feedback for its innovation and interdisciplinary approach, earning the \href{https://www.linkedin.com/in/xiaomin-lin/details/certifications/1711988773423/single-media-viewer/?type=DOCUMENT&profileId=ACoAABIY1FwBxCgG0jmzM3v9ppOxbZU1Puc10VE}{\textit{\textbf{Best Poster Award.}}}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\vspace{-6mm}
+
+\section{\textbf{Mentoring/Advising}}
+\vspace{-0.4mm}
+\textit{\textbf{Students Mentoring}}
+\vspace{-0.4mm}
+\resumeSubHeadingListStart
+% Section for students with published papers
+% \resumeProject
+%   {\href{https://jiayi-wu-leo.github.io/}{Jiayi Wu}, [C.5], [S.1], [P.4]}
+%   {Currently Ph.D. Student at the University of Maryland}
+%   {2023-current}
+
+\resumeProject
+  {\href{https://www.linkedin.com/in/zhenqi-wu-55512122a/}{Zhenqi Wu}}
+  {PhD Student at the University of South Florida}
+  {2025 to present}
+
+\resumeProject
+  {\href{https://www.linkedin.com/in/utkarsh-grover-5561881a8/}{Utkarsh Grover}}
+  {PhD Student at the University of South Florida}
+  {2025 to present}
+
+\resumeProject
+  {\href{https://www.linkedin.com/in/mingyang-mao-061b28197/}{Mingyang Mao}}
+  {PhD Student at the University of South Florida, co-mentor: Prof. Tingting Zhang}
+  {2025 to present}
+
+\resumeProject
+  {\href{https://www.linkedin.com/in/sheimy-paz-serpa-612003165}{Sheimy Paz Serpa}}
+  {PhD Student at the University of South Florida, co-mentor: Dr. Ghulam Rasool}
+  {2026 to present}
+
+\resumeProject
+  {\href{https://www.linkedin.com/in/trungdong28/}{Trung Dong}}
+  {PhD Student at the University of South Florida}
+  {2025 to present}
+
+\resumeProject
+  {\href{https://www.linkedin.com/in/mohammed-ibrahim-m-123aa524b/}{Mohammed Ibrahim M}}
+  {PhD Student at the University of South Florida}
+  {2026 to present}
+
+\resumeProject
+  {\href{https://www.linkedin.com/in/bhargav-rishi-medisetti/}{Bhargav Rishi Medisetti}}
+  {AI engineer at the AI Guardiane Lab, Mentor: Prof. Tingting Zhang}
+  {2025 to present}
+
+\resumeProject
+  {\href{https://www.linkedin.com/in/lara-radovanovic/}{Lara Radovanovic}}
+  {MS Student at the University of South Florida}
+  {2025 to present}
+
+\resumeProject
+  {\href{https://www.linkedin.com/in/urja-panta/}{Urja Panta}}
+  {MS Student at the University of South Florida, Mentor: Prof. Tingting Zhang}
+  {2026 to present}
+
+\resumeProject
+  {\href{https://www.linkedin.com/in/seyoung-kan-75b2212b8/}{Seyoung Kan}}
+  {MS Student at the University of South Florida}
+  {2026 to present}
+
+\resumeProject
+  {\href{https://www.linkedin.com/in/tanvir-ibrahim-t11/}{Tanvir Ibrahim}}
+  {MS Student at the University of South Florida, Mentor: Prof. Tingting Zhang}
+  {2025 to present}
+
+
+\resumeProject
+  {\href{https://www.linkedin.com/in/baodn/}{Bao Dinh}}
+  {Undergraduate Student at the University of South Florida}
+  {2026 to present}
+
+\resumeProject
+  {\href{https://www.linkedin.com/in/sahasra-kondapalli/}{Sahasra Kondapalli}}
+  {Undergraduate Student at the University of South Florida}
+  {2025 to present}
+
+\resumeProject
+  {\href{https://www.linkedin.com/in/minh-duong-nguyen-/}{Minh Duong Nguyen}}
+  {Undergraduate Student at the University of South Florida}
+  {2026 to present}
+
+\resumeProject
+  {\href{https://www.linkedin.com/in/mohamed-fouad9/}{Mohamed Fouad}}
+  {Undergraduate Student at the University of South Florida}
+  {2026 to present}
+
+\resumeProject
+  {\href{https://www.linkedin.com/in/poyan09/}{Poyraz An}}
+  {Undergraduate Student at the University of South Florida}
+  {2025 to present}
+
+\resumeProject
+  {\href{https://www.linkedin.com/in/trung-nhan-ngo-usf/}{Trung Nhan Ngo}}
+  {Undergraduate Student at the University of South Florida}
+  {2025 to present}
+  
+\vspace{4mm}
+\textit{\textbf{Affliated Students Mentoring}}
+\vspace{0.4mm}
+
+\resumeProject
+  {\href{https://www.linkedin.com/in/aadi-palnitkar/}{Aadi Palnitkar}}
+  {PhD Student at University of Maryland- College Park}
+  {2021 to present}
+
+\resumeProject
+  {\href{https://www.linkedin.com/in/rvranjan/}{Ravi Ranjan}}
+  {PhD Student at Florida International University}
+  {2025 to present}
+
+\resumeProject
+  {\href{https://chais.gmu.edu/person/yuanjie-lu/}{Yuanjie Lu}}
+  {PhD Student at George Mason University}
+  {2025 to present}
+
+\resumeProject
+  {\href{https://www.linkedin.com/in/yisheng-zhang-377039329/}{Yisheng Zhang}}
+  {PhD Student at the University of Maryland- College Park}
+  {2025 to present}
+
+\resumeProject
+  {Yangsheng Xu}
+  {PhD Student at the University of Maryland- College Park}
+  {2025 to present}
+
+\vspace{6mm}
+\textit{\textbf{Students Mentored}}
+\vspace{0.4mm}
+
+\resumeProject
+  {\href{https://www.linkedin.com/in/william-chen-01282b146//}{Wei-Yu Chen}}
+  {PhD Student at the University of Maryland- College Park}
+  {2023 to present}
+
+\resumeProject
+{\href{https://www.linkedin.com/in/micaiahbartlett/}{Micaiah Bartlett}}
+  {Undergraduate Student at the University of South Florida}
+  {2025 to 2026}
+
+\resumeProject
+  {\href{https://www.linkedin.com/in/chi-diep/}{Chi Phuong Diep}}
+  {Master Student at the University of South Florida}
+  {2025 to 2026}
+
+\resumeProject
+  {\href{https://www.linkedin.com/in/boxun-hu-xxx4290325/}{Boxun Hu}}
+  {Ph.D. Student at Johns Hopkins University}
+  {2025 to 2026}
+
+\resumeProject
+  {\href{https://www.linkedin.com/in/chang-chang-09791b2b6/}{Chang Chang}}
+  {Ph.D. Student at Johns Hopkins University}
+  {2025 to 2026}
+
+\resumeProject
+  {\href{https://www.linkedin.com/in/edward-humes-830b7217a/}{Edward Humes}}
+  {Ph.D. Student at Johns Hopkins University}
+  {2025 to 2026}
+
+\resumeProject
+  {\href{https://www.linkedin.com/in/yihong-feng-340221143/}{Yihong Feng}}
+  {PhD Student at the University of Arkansas}
+  {2024 to 2026}
+
+\resumeProject
+  {\href{https://www.linkedin.com/in/mahima-beltur/}{Mahima Beltur}}
+  {Master Student at the University of Maryland}
+  {2024 to 2026}
+
+\resumeProject
+  {\href{https://www.linkedin.com/in/kushalkapoor25/}{Kushal Kapoor}}
+  {Currently Ph.D. Student at the University of Maryland}
+  {2024-2026}
+
+\resumeProject
+  {Vakul Raghavan}
+  {Undergraduate Student at Rutgers University}
+  {2023-2025}
+
+\resumeProject
+  {\href{https://www.linkedin.com/in/puneethk26/}{Puneeth Kondamudi}}
+  {Currently Software Engineer at Amazon}
+  {2023-2025}
+
+\resumeProject
+  {\href{https://www.linkedin.com/in/michael-xu-39001b134/}{Michael Xu}}
+  {Currently Ph.D. Student at the University of Maryland}
+  {2022-2025}
+
+\resumeProject
+  {\href{https://www.linkedin.com/in/hiteshkyatham/}{Hitesh Kyatham}}
+  {Currently Controls Systems Engineer at Veeco Precision Surface Processing Inc}
+  {2023-2025}
+
+\resumeProject
+  {\href{https://www.linkedin.com/in/arjun-suresh-4bb96b28a/}{Arjun Suresh}}
+  {Currently PhD Student at the UMASS}
+  {2022-2025}
+
+\resumeProject
+  {\href{https://www.linkedin.com/in/akshajgaur/}{Akshaj Gaur}}
+  {Currently Software Engineer at Databricks}
+  {2021-2024}
+
+\resumeProject
+  {\href{https://www.linkedin.com/in/chengliu2023/}{Cheng Liu}}
+  {Currently Ph.D. Student at George Washington University}
+  {2022-2024}
+
+\resumeProject
+  {\href{https://www.linkedin.com/in/vivek-mange/}{Vivek Mange}}
+  {Currently Robotics Engineer at the University of Maryland}
+  {2024-2025}
+
+\resumeProject
+  {\href{https://www.linkedin.com/in/abhinavmodi16/}{Abhinav Modi}}
+  {Currently Simulation Engineer at Applied Intuition}
+  {2024-2025}
+
+\resumeProject
+  {\href{https://www.linkedin.com/in/yianni-karabatis/}{Yianni Karabatis}}
+  {Currently Ph.D. Student at the University of Maryland}
+  {2022-2024}
+
+\resumeProject
+  {\href{https://www.linkedin.com/in/yashveerjain/}{Yashveer Jain}}
+  {Currently Machine Learning Engineer at Torc Robotics}
+  {2023-2024}
+
+\resumeProject
+  {\href{https://www.linkedin.com/in/adonai-vera/}{Adonai Vera}}
+  {Currently Machine Learning and DevRel at Voxel51}
+  {2023-2024}
+
+\resumeProject
+  {\href{https://www.linkedin.com/in/abhinav-bhamidipati/?originalSubdomain=in}{Abhinav Bhamidipati}}
+  {Currently Humanoid Simulation Engineer at Apptronik}
+  {2023-2024}
+
+\resumeProject
+  {\href{https://www.linkedin.com/in/rashmi-kapu/}{Rashmi Kapu}}
+  {Currently Jr AI Software Engineer at Qcells Georgia Inc}
+  {2023}
+
+\resumeProject
+  {\href{https://www.linkedin.com/in/mjoshi07/}{Mayank Joshi}}
+  {Currently Software Engineer at Caterpillar Inc.}
+  {2021-2022}
+
+\resumeProject
+  {\href{https://www.linkedin.com/in/nitesh-jha08/}{Nitesh Jha}}
+  {Currently Systems Engineer at Qualcomm Inc.}
+  {2021-2022}
+
+\resumeProject
+  {\href{https://www.linkedin.com/in/krithika-govindaraj/}{Krithika Govindaraj}, \href{https://www.proquest.com/pqdtglobal1/dissertations-theses/unblock-interactive-perception-decluttering/docview/2583936235/sem-2?accountid=14696}{Unblock: Interactive Perception for Decluttering}, master thesis}
+  {Currently Computer Vision Software Engineer at Niantic Inc.}
+  {2019-2021}
+
+\resumeProject
+  {\href{https://www.linkedin.com/in/taru-rustagi/}{Taru Rustagi}}
+  {Currently Founding Engineer at Parallax World}
+  {2020-2021}
+
+\resumeProject
+  {\href{https://www.linkedin.com/in/hridoy-r-764680107/}{Hridoy Rozario}}
+  { }
+  {2020-2021}
+  
+% \vspace{6mm}
+% \textit{\textbf{Students Advised}}
+% \vspace{-0.4mm}
+
+
+% \resumeProject
+%   {\href{}{Wei-Yu(Williams) Chen}, perception and control for underwater and surface vehicle}
+%   {Currently Ph.D. Student at University of Maryland}
+%   {2021-now}
+  
+% \resumeProject
+% {\href{https://ieeexplore.ieee.org/author/37089849257}{Yangsheng Xu}, Cross-domain Drone Design}
+%   {Currently Graduate Student at University of Maryland}
+%   {2024-now}
+  
+% \resumeProject
+%   {\href{yiszhang@umd.edu}{Yisheng Zhang}, Active Perception for Manipulator}
+%   {Currently Graduate Student at University of Maryland}
+%   {2024-now}
+  
+% \resumeProject
+%   {\href{https://www.linkedin.com/in/puneethk26/}{Puneeth Sarma Kondamudi}, Multi-modal Perception}
+%   {Currently Graduate Student at University of Maryland}
+%   {2024-now}
+
+% \resumeProject
+%   {\href{https://www.linkedin.com/in/mahima-beltur/}{Mahima Beltur}, Adaptive Sampling for Underwater Environment}
+%   {Currently Graduate Student at University of Maryland}
+%   {2024-now}
+
+% \resumeProject
+%   {\href{https://www.linkedin.com/in/madhav2133/}{Venkata Madhav}, Dynamic Obstacle Avoidance for Surface Vehicle}
+%   {Currently Graduate Student at University of Maryland}
+%   {2024-now}
+  
+% \resumeProject
+%   {\href{https://www.linkedin.com/in/akumar-bitsp/}{Ashlesha Kumar}, Sonar Points Matching}
+%   {Currently Member of Technical Staff at Salesforce Inc.}
+%   {2023}
+  
+% \resumeProject
+%   {\href{https://www.linkedin.com/in/pratikbhujbal/}{Pratik Bhujbal}, Underwater Robot and Simulation}
+%   {Currently Rapyuta Robotics}
+%   {2021-2022}
+
+% \resumeProject
+%   {\href{https://maarufvazifdar.github.io/}{Maaruf Vazifdar}, Underwater Robot and Simulation}
+%   {Currently Robotics Software Intern at Inception Robotics}
+%   {2021-2022}
+
+  
+% % \resumeProject
+% %   {\href{https://www.linkedin.com/in/akathpal/}{Abhishek Kathpal}, underwater robot}
+% %   {Currently Co-founder \& CTO at Inception Robotics}
+% %   {2021-2022}
+
+% \resumeProject
+% {\href{https://www.linkedin.com/in/bharathchandra02/}{Bharath Chandra Irigireddy}, Image 2 Image Translation}
+%   {Currently Machine Learning Engineer at USDA}
+%   {2021-2022}
+
+% \resumeProject
+%   {\href{https://www.linkedin.com/in/akash-srinivasan3/}{Akash Srinivasan}, Underwater Robot Simulation}
+%   {Currently undergraduate student at the University of Maryland}
+%   {2023-2024}
+
+% \resumeProject
+%   {\href{https://www.linkedin.com/in/akhil-chalamcharla/}{Akhil Chalamcharla}, Underwater Image Translation}
+%   {Currently Software Engineer at WorkDay}
+%   {2023-2024}
+
+% \resumeProject
+%   {\href{}{Sanjana Mayenkar}, Electronics for Building Surface Vehicle}
+%   {Currently undergraduate student at the University of Maryland}
+%   {2023-2024}
+
+  
+% \resumeProject
+%   {\href{https://www.linkedin.com/in/bhavana-b-rao/}{Bhavana Rao}, Autonomous Surface Vehicle}
+%   {Currently graduate Student at the University of Maryland}
+%   {2024}
+
+% \resumeProject
+%   {\href{https://www.linkedin.com/in/naveen-anil/}{Naveen Anil}, Autonomous Surface Vehicle}
+%   {Currently Senior Mechanical Engineer at Terrapin Work}
+%   {2022-2023}
+
+% \resumeProject
+%   {Alex Bui, Autonomous Assistive Robot}
+%   {Currently undergraduate at Towson University}
+%   {2021}
+
+% \resumeProject
+%   {Henry Roberts}
+%   {Underwater Manipulator, ENME 472 Capstone Project}
+%   {Fall 2024}
+
+% \resumeProject
+%   {Kelvin Kiki}
+%   {Underwater Manipulator, ENME 472 Capstone Project}
+%   {Fall 2024}
+
+% \resumeProject
+%   {Marcus Diaz}
+%   {Underwater Manipulator, ENME 472 Capstone Project}
+%   {Fall 2024}
+
+% \resumeProject
+%   {Samuel Tiliksew}
+%   {Underwater Manipulator, ENME 472 Capstone Project}
+%   {Fall 2024}
+
+% \resumeProject
+%   {Savera Hunsberger}
+%   {Underwater Manipulator, ENME 472 Capstone Project}
+%   {Fall 2024}
+
+% \resumeProject
+%   {Fara Clarke}
+%   {Autonomous Assisting Robots, ENEE 408I Capstone Project}
+%   {Fall 2019}
+
+% \resumeProject
+%   {Huy Do}
+%   {Autonomous Assisting Robots, ENEE 408I Capstone Project}
+%   {Fall 2019}
+
+% \resumeProject
+%   {Dillon Frank}
+%   {Autonomous Assisting Robots, ENEE 408I Capstone Project}
+%   {Fall 2019}
+
+% \resumeProject
+%   {Nathan Koenigsmark}
+%   {Autonomous Assisting Robots, ENEE 408I Capstone Project}
+%   {Fall 2019}
+
+% \resumeProject
+%   {Kiran Kokilepersaud}
+%   {Autonomous Assisting Robots, ENEE 408I Capstone Project}
+%   {Fall 2019}
+
+% \resumeProject
+%   {Frank Lopez}
+%   {Autonomous Assisting Robots, ENEE 408I Capstone Project}
+%   {Fall 2019}
+
+% \resumeProject
+%   {Mark Purtilo}
+%   {Autonomous Assisting Robots, ENEE 408I Capstone Project}
+%   {Fall 2019}
+
+% \resumeProject
+%   {Samuel Saltwick}
+%   {Autonomous Assisting Robots, ENEE 408I Capstone Project}
+%   {Fall 2019}
+
+% \resumeProject
+%   {Aranje Sripanjalingam}
+%   {Autonomous Assisting Robots, ENEE 408I Capstone Project}
+%   {Fall 2019}
+
+% \resumeProject
+%   {Jack Sturtevant}
+%   {Autonomous Assisting Robots, ENEE 408I Capstone Project}
+%   {Fall 2019}
+
+% \resumeProject
+%   {Timothy Thoresen}
+%   {Autonomous Assisting Robots, ENEE 408I Capstone Project}
+%   {Fall 2019}
+
+% \resumeProject
+%   {Nikhil Uplekar}
+%   {Autonomous Assisting Robots, ENEE 408I Capstone Project}
+%   {Fall 2019}
+
+% \resumeProject
+%   {Shiyu Zhang}
+%   {Autonomous Assisting Robots, ENEE 408I Capstone Project}
+%   {Fall 2019}
+
+% \resumeProject
+%   {Ross Baehr}
+%   {Autonomous Assisting Robots, ENEE 408I Capstone Project}
+%   {Fall 2018}
+
+% \resumeProject
+%   {Anwaar Bastien}
+%   {Autonomous Assisting Robots, ENEE 408I Capstone Project}
+%   {Fall 2018}
+
+% \resumeProject
+%   {Jacob Besteman-Street}
+%   {Autonomous Assisting Robots, ENEE 408I Capstone Project}
+%   {Fall 2018}
+
+% \resumeProject
+%   {Joubel Boco}
+%   {Autonomous Assisting Robots, ENEE 408I Capstone Project}
+%   {Fall 2018}
+
+% \resumeProject
+%   {Alex Danoff}
+%   {Autonomous Assisting Robots, ENEE 408I Capstone Project}
+%   {Fall 2018}
+
+% \resumeProject
+%   {Katrina Gramzinski}
+%   {Autonomous Assisting Robots, ENEE 408I Capstone Project}
+%   {Fall 2018}
+
+% \resumeProject
+%   {Marquel Hendricks}
+%   {Autonomous Assisting Robots, ENEE 408I Capstone Project}
+%   {Fall 2018}
+
+% \resumeProject
+%   {Arvand Homer}
+%   {Autonomous Assisting Robots, ENEE 408I Capstone Project}
+%   {Fall 2018}
+
+% \resumeProject
+%   {Renooka Karmarkar}
+%   {Autonomous Assisting Robots, ENEE 408I Capstone Project}
+%   {Fall 2018}
+
+% \resumeProject
+%   {Erick Medina}
+%   {Autonomous Assisting Robots, ENEE 408I Capstone Project}
+%   {Fall 2018}
+
+% \resumeProject
+%   {Matthew Melhorn}
+%   {Autonomous Assisting Robots, ENEE 408I Capstone Project}
+%   {Fall 2018}
+
+% \resumeProject
+%   {Naseem Pashai}
+%   {Autonomous Assisting Robots, ENEE 408I Capstone Project}
+%   {Fall 2018}
+
+% \resumeProject
+%   {Sydney Pavelik}
+%   {Autonomous Assisting Robots, ENEE 408I Capstone Project}
+%   {Fall 2018}
+
+% \resumeProject
+%   {Timothy Williams}
+%   {Autonomous Assisting Robots, ENEE 408I Capstone Project}
+%   {Fall 2018}
+
+% \resumeProject
+%   {Liwen Zhang}
+%   {Autonomous Assisting Robots, ENEE 408I Capstone Project}
+%   {Fall 2018}
+  
+\resumeSubHeadingListEnd
+
+\section{\textbf{Dissertation Committee Service}}
+\vspace{-0.4mm}
+\resumeSubHeadingListStart
+
+\resumeProject
+  {\hyperlink{https://wenwei-zhao.github.io/}{Wenwei Zhao}}
+  {Ph.D. Dissertation Committee Member, University of South Florida}
+  {March 2026}
+  {Future Software Engineer in Google}
+\resumeSubHeadingListEnd
+\vspace{-6mm}
+
+\section{\textbf{Community Engagements}}
+\vspace{3mm}
+\textit{\textbf{Volunteering Service}}
+\vspace{-0.4mm}
+\resumeSubHeadingListStart
+
+\resumePOR{AI4ALL, University of Maryland summer camp}
+    {, Instructor}
+    {Summer, 2019}
+
+\resumePOR{Robotics Workshop for Zimbabwe High Schoolers at Maryland}
+    {, Instructor}
+    {August 1st, 2023}
+    
+\resumePOR{Inception Robotics}
+    {, Mentor}
+    {2023 - Present}
+    
+\resumePOR{Maryland Robotics Center, University of Maryland}
+    {, Student Ambassador}
+    {2021 - Present}
+    
+\resumePOR{Maryland Day, University of Maryland}
+    {, Volunteer}
+    {2017-2024}
+    
+\resumePOR{Senior Capstone Project, University of Maryland Eastern Shore}
+    {, Mentor/Sponsor}
+    {Spring, 2022}
+    
+\resumePOR{Summer Undergraduate Research Program (SURP), Salisbury University}
+    {, Mentor}
+    {Summer, 2022}
+    
+\resumePOR{Robotics @ Maryland (club of 100+ members)}
+    {, Mentor}
+    {2021 - Present}
+    
+\resumePOR{Mechanical Engineering Capstone Class}
+    {, Mentor/Sponsor, University of Maryland}
+    {2023 - Present}
+    
+\resumePOR{Maryland Department of Natural Resources}
+    {, Collaborator on Oyster Yield Estimation}
+    {2024}
+    
+\resumePOR{NOAA Cooperative Oxford Laboratory}
+    {, Collaborator on Oyster Yield Estimation}
+    {2024}
+    
+\resumePOR{Racing Club at USF}
+    {, Faculty mentor}
+    {2025-present}
+
+\resumePOR{IEEE RAS Student Branch Chapter, University of South Florida}
+    {, Faculty Advisor}
+    {2026 - Present}
+    
+\resumeSubHeadingListEnd
+
+\vspace{3mm}
+\textit{\textbf{Outreach Activities}}
+\vspace{-0.4mm}
+\resumeSubHeadingListStart
+
+\resumePOR{Engineering Expo}
+    {, Univrsity of South Florida}
+    {Aprial 6th, 2026}
+
+\resumePOR{Tour for President Pines}
+    {, IDEA Factory at Maryland}
+    {September 6th, 2023}
+    
+\resumePOR{International SeaPerch Challenge (RoboNation)}
+    {, Neutral Buoyancy Research Facility}
+    {May 13th, 2023}
+    
+\resumePOR{RoboNation Open House}
+    {, Robotics Automation Lab, IDEA Factory}
+    {May 13th, 2023}
+    
+\resumePOR{Tour for Clark Foundation}
+    {, Robotics Automation Lab, IDEA Factory}
+    {April 25th, 2023}   
+    
+\resumePOR{Tour for Congressman Glenn Ivey}
+    {, Robotics Automation Lab, IDEA Factory}
+    {July 24th, 2023}
+    
+\resumePOR{Smart Sustainable Aquaculture Management (S3AM) Summit}
+    {, Maryland}
+    {Summer, 2022-2024}
+
+\resumePOR{Tours for Governor Moore's Cabinet}
+    {, University of Maryland, IDEA Factory}
+    {September 6th, 2024}
+    
+\resumePOR{Korea-U.S. Joint Coordination Panel for Aquaculture Cooperation Tour}
+    {, Maryland}
+    {June 27th, 2024}
+    
+\resumePOR{D.C. Science Writers Association Tour of the School of Engineering}
+    {, UMD}
+    {November, 2024}
+    
+\resumePOR{Tour for Clearview Regional High School FTC Teams led by coach Kyle Gray}
+    {, UMD}
+    {November, 2024}
+
+
+\resumeSubHeadingListEnd
+
+
+
+\section{\textbf{Academic Service}}
+\vspace{-0.4mm}
+\resumeSubHeadingListStart
+\resumePOR{Associate Editor \href{https://2026.ieee-icra.org/}{IEEE International Conference on Robotics \& Automation}}
+    { }
+    {2025-current}
+\resumePOR{Associate Editor \href{https://2026.ieee-iros.org/}{IEEE International Conference on Intelligent
+Robots \& Systems}}
+    { }
+    {2026-current}
+\resumePOR{Organizing Committee \href{https://macvi.org/workshop/macvi27/people}{5th Workshop on Maritime Computer Vision(MaCVi) @ WACV}}
+    { }
+    {2027}
+\resumePOR{Program Committee \href{https://bsaberla.github.io/SENSE-WACV2027/}{Sensing via agEntic reasoNing SystEms(SENSE) @ WACV}}
+    { }
+    {2027}
+\resumePOR{NSF Panel Reviewer \href{https://www.nsf.gov/funding/opportunities/future-core-foundations-core-research-ai-ml-nsf-core}}
+% {NSF RI Future CoRe LLM Panel}}
+    { }
+    {June 2026}
+    
+\resumePOR{Session Chair, Large Language Model Session 1A, 
+\href{https://www.pakdd2026.org/technical-program}{PAKDD 2026}}
+    {}
+    {June, 2026}
+\resumePOR{Session Chair, Imaging and Vision I Session, 
+\href{https://program-sanya26.oceanstechnical.org/glance.cfm}{OCEANS 2026}}
+    {}
+    {May, 2026}
+\resumePOR{Session Chair, Sonar Imaging, 
+\href{https://program-sanya26.oceanstechnical.org/glance.cfm}{OCEANS 2026}}
+    {}
+    {May, 2026}
+\resumePOR{Program Committee \href{https://sites.google.com/view/gen-ai-edge}{AAAI 2025 Spring Symposium Series}}
+    { }
+    {2025}
+\resumePOR{Reviewer of Robotics automation- Letter}
+    { }
+    {2022 - current}
+    
+\resumePOR{Reviewer of IEEE Transactions on Aerospace and Electronic Systems.}
+    { }
+    {2026 - current}
+    
+\resumePOR{Reviewer of ICRA, IROS, RSS, CVPR, ECCV, WACV, AAAI}
+    { }
+    {2022 - current}
+    
+\resumePOR{Organizer for \href{https://prg.cs.umd.edu/seminar}{PRG Seminar} for robotics and computer vision}
+    { }
+    {2022 - 2025}
+    
+\resumePOR{Associate Coordinator for MRC Seminar,}
+    {\href{https://robotics.umd.edu/event/15518/mrc-special-robotics-seminar-underwater-autonomy}{Ioannis Reckletis}, \href{https://robotics.umd.edu/event/19118/mrc-seminar-from-sea-to-space-machine-learning-for-robot-perception-in-the-wild}{Katherina Skinner}, \href{https://robotics.umd.edu/event/19551/mrc-seminar-robot-planning-for-underwater-sensing-and-perception}{Jane Shin}}
+    {2020 - 2024}
+
+\resumePOR{Host for Seminar in AI in University of South Florida,}
+    {\href{https://www.usf.edu/ai-cybersecurity-computing/about/events.aspx}{Yiannis Aloimonos}, \href{https://bit.ly/3ZIM2qE}{Chen Chen}}
+    {2025 - 2026}
+
+    
+\resumePOR{ECE TA Training and Development (TATD) Fellow, University of Maryland, }
+    {}
+    {2020 - 2021}
+    
+\resumePOR{Computer Vision and Language Reading Group, University of Maryland, }
+    {Founder,}
+    {2018 - 2019}
+\resumeSubHeadingListEnd
+    
+\section{\textbf{Professional Memberships}}
+\vspace{-0.4mm}
+\resumeSubHeadingListStart
+\resumePOR{IEEE, member}
+    {}
+    {Octorbor, 2022 - Present}
+\resumePOR{Marine Technology Society}
+    {}
+    {Octorbor,2024 - Present}
+\resumePOR{Society for Marine Mammalogy}
+    {}
+    {Nov,2024 - Present}
+
+
+
+
+\section{\textbf{Software Skills}}
+\vspace{-0.4mm}
+\resumeHeadingSkillStart
+  \resumeSubItem{Programming \& Development:}
+    {Python, C++, JavaScript (React.js), SQL, Docker, Kubernetes, Git, AWS (including SageMaker), and FastAPI}
+  \resumeSubItem{Data Science \& AI/ML:}
+    {PyTorch, TensorFlow, Scikit-learn, Keras, Large Language Models (LLMs), Computer Vision, Robotics, Autonomous Navigation, and Statistical Tools (Pandas, Matlab, PySpark)}
+  \resumeSubItem{Tools \& Platforms:}
+    {Apache Kafka, AWS, Ubuntu, Raspbian, Windows, Blender, Unity, SQL Databases, and Cloud \& DevOps (Docker, Kubernetes)}
+\resumeHeadingSkillEnd
+
+\resumeSubHeadingListEnd
+\vspace{-6mm}
+
+
+\section{\textbf{Robots worked with}}
+\vspace{-0.4mm}
+\resumeSubHeadingListStart
+
+\resumeSubItem
+    {Ground Vehicle}{}{}{}
+    \resumeItemListStart
+        \item \href{https://xiaominlin.github.io/files/ATV.jpg}{Custom-modified Autonomous Terrain Vehicle}
+        \item \href{https://xiaominlin.github.io/files/AGV.jpg}{Custom-built Autonomous Ground Vehicle}  
+        \item \href{https://facilities.robotics.umd.edu/rrl/equipment/robotics.html}{Turtlebot}
+        \item \href{https://www.dji.com/robomaster-ep}{DJI Robomaster}   
+    \resumeItemListEnd
+      
+
+\resumeSubItem
+    {Aerial Vehicle}{}{}{}
+    \resumeItemListStart
+        \item \href{https://xiaominlin.github.io/files/drone_1.jpg}{Custom-built Autonomous Aerial Vehicle}
+        \item \href{https://xiaominlin.github.io/files/drone_float.jpg}{Custom-built Autonomous Drone Capable of Landing on Water.}  
+        \item \href{https://xiaominlin.github.io/files/AAM_SEALS_New.pdf}{Cross-Domain Drone}
+        
+        
+    \resumeItemListEnd
+    
+\resumeSubItem
+    {Underwater Vehicle}{}{}{}
+    \resumeItemListStart
+        \item \href{https://xiaominlin.github.io/files/underwater_robot.png}{4-H underwater robot}
+        \item \href{https://xiaominlin.github.io/files/BlueROV2.png}{BlueROV2 Heavy Configuration.}  
+        \item \href{https://xiaominlin.github.io/files/aqua_robot.pdf}{Aqua Robot}
+    \resumeItemListEnd    
+    
+\resumeSubItem
+    {Water Surface Vehicle}{}{}{}
+    \resumeItemListStart
+        \item \href{https://xiaominlin.github.io/files/ASV.png}{Terpbot (Custom-built Autonomous Surface Vehicle)}
+    \resumeItemListEnd     
+\resumeSubItem
+    {Humanoid}{}{}{}
+    \resumeItemListStart
+        \item \href{https://corporate-internal-prod.aldebaran.com/en/nao}{Nao robot}
+    \resumeItemListEnd
+\resumeSubItem
+    {Manipulators}{}{}{}
+    \resumeItemListStart
+        \item \href{https://robotsguide.com/robots/baxter}{Baxter}
+        \item \href{https://robotsguide.com/robots/sawyer}{Sawyer}
+        \item \href{https://www.universal-robots.com/products/ur10-robot/}{UR10}
+        \item \href{https://www.universal-robots.com/products/ur5-robot/}{UR5}
+        
+    \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+  
+\vspace{-6mm}
+
+
+% \section{\textbf{Certifications}}
+% \vspace{-0.2mm}
+% \resumeSubHeadingListStart
+% \resumePOR{}{\href{https://certification-link-a.com}{
+% \textbf{Certification A}
+% }}{Month Year}
+% \resumePOR{}{
+% \textbf{Certifying Body:} {{\href{https://certification-link-b.com}{Certification B}}}}{Month Year}
+% \resumePOR{}{
+% \textbf{Certifying Body:} {{\href{https://certification-link-c.com}{Certification C}}}}{Month Year}
+% \resumePOR{}{\href{https://certification-link-d.com}{
+% \textbf{Certification D}
+% }}{Month Year}
+
+% \resumeSubHeadingListEnd
+% \vspace{-6mm}
+
+% \section{\textbf{Additional Information}}
+% \vspace{-0.4mm}
+% \small{
+% \textbf{Languages:} Language A (Proficiency level), Language B (Proficiency level), Language C (Proficiency level)
+
+% \textbf{Interests:} Interest 1, Interest 2, Interest 3, Interest 4
+% }
+% \vspace{-4mm}
+
+
+\section{\textbf{References}}
+\vspace{-0.2mm}
+\small{
+\begin{enumerate}
+   \item \textbf{Prof. Yiannis Aloimonos}\\
+      Professor, Department of Computer Science\\
+      University of Maryland - College Park\\
+      Email: jyaloimo@umd.edu\\
+      Phone: +1-301-405-1743\\
+
+   \item \textbf{Prof. Miao Yu}\\
+      Professor, Department of Mechanical Engineering\\
+      University of Maryland - College Park\\
+      Email: mmyu@umd.edu\\
+      Phone: +1-301-405-3591\\
+      
+   \item \textbf{Prof. Ioannis Rekleitis}\\
+      Professor, Department of Mechanical Engineering\\
+      University of Delaware\\
+      Email: yiannisr@udel.edu\\
+      Phone: +1-803-777-5310\\
+      
+    \item \textbf{Prof. Shahriar Negahdaripour}\\
+      Professor, Department of Electrical and Computer Engineering\\
+      University of Miami\\
+      Email: nshahriar@miami.edu\\
+      Phone: +1-305-284-3352\\
+
+\end{enumerate}
 \end{document}
